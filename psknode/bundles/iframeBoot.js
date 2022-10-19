@@ -1,11 +1,11 @@
-iframeBootRequire=(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"/home/runner/work/privatesky/privatesky/builds/tmp/iframeBoot.js":[function(require,module,exports){
+iframeBootRequire=(function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\builds\\tmp\\iframeBoot.js":[function(require,module,exports){
 const or = require('overwrite-require');
 const env = typeof window !== "undefined" ? or.constants.BROWSER_ENVIRONMENT_TYPE : or.constants.WEB_WORKER_ENVIRONMENT_TYPE;
 or.enableForEnvironment(env);
 
 require("./iframeBoot_intermediar");
 
-},{"./iframeBoot_intermediar":"/home/runner/work/privatesky/privatesky/builds/tmp/iframeBoot_intermediar.js","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js"}],"/home/runner/work/privatesky/privatesky/builds/tmp/iframeBoot_intermediar.js":[function(require,module,exports){
+},{"./iframeBoot_intermediar":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\builds\\tmp\\iframeBoot_intermediar.js","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\builds\\tmp\\iframeBoot_intermediar.js":[function(require,module,exports){
 (function (global){(function (){
 global.iframeBootLoadModules = function(){ 
 
@@ -31,7 +31,7 @@ if (typeof $$ !== "undefined") {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"opendsu":"opendsu","pskcrypto":"pskcrypto","swarm-engine/bootScripts/browser/host":"swarm-engine/bootScripts/browser/host"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/admin/index.js":[function(require,module,exports){
+},{"opendsu":"opendsu","pskcrypto":"pskcrypto","swarm-engine/bootScripts/browser/host":"swarm-engine/bootScripts/browser/host"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\admin\\index.js":[function(require,module,exports){
 const DATABASE_NAME = "adminEnclave";
 
 const DOMAINS_TABLE = "domains";
@@ -366,7 +366,7 @@ module.exports = {
     AdminComponentHandler,
     getAdminService
 };
-},{"./../../utils/middlewares/index":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","loki-enclave-facade":"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/index.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/controllers/index.js":[function(require,module,exports){
+},{"./../../utils/middlewares/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","loki-enclave-facade":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\index.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\controllers\\index.js":[function(require,module,exports){
 const {ALIAS_SYNC_ERR_CODE} = require("../utils");
 const utils = require("../utils");
 const anchoringStrategies = require("../strategies");
@@ -509,7 +509,7 @@ module.exports = {
     dumpAnchors
 };
 
-},{"../strategies":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/index.js","../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/utils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/index.js":[function(require,module,exports){
+},{"../strategies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\index.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\utils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\index.js":[function(require,module,exports){
 
 function Anchoring(server) {
     function requestServerMiddleware(request, response, next) {
@@ -552,7 +552,7 @@ function Anchoring(server) {
 
 module.exports = Anchoring;
 
-},{"../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./controllers":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/controllers/index.js","./strategies/oba/ethereumSyncService":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/ethereumSyncService.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/contract/index.js":[function(require,module,exports){
+},{"../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./controllers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\controllers\\index.js","./strategies/oba/ethereumSyncService":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\ethereumSyncService.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\contract\\index.js":[function(require,module,exports){
 const { getDomainFromKeySSI } = require("../../utils");
 
 class Contract {
@@ -647,7 +647,7 @@ class Contract {
 
 module.exports = Contract;
 
-},{"../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/utils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/eth/index.js":[function(require,module,exports){
+},{"../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\utils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\eth\\index.js":[function(require,module,exports){
 const {ALIAS_SYNC_ERR_CODE} = require("../../utils");
 
 function ETH(server, domainConfig, anchorId, newAnchorValue, jsonData) {
@@ -767,7 +767,7 @@ function ETH(server, domainConfig, anchorId, newAnchorValue, jsonData) {
 }
 
 module.exports = ETH;
-},{"../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/utils/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/fs/filePersistence.js":[function(require,module,exports){
+},{"../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\utils\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\fs\\filePersistence.js":[function(require,module,exports){
 function FilePersistenceStrategy(rootFolder, configuredPath) {
     const self = this;
     const fileOperations = new FileOperations();
@@ -968,7 +968,7 @@ module.exports = {
     FilePersistenceStrategy
 }
 
-},{"../utils/AnchorPathResolver":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/utils/AnchorPathResolver.js","../utils/FSLock":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/utils/FSLock.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","os":"/home/runner/work/privatesky/privatesky/node_modules/os-browserify/browser.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/fs/index.js":[function(require,module,exports){
+},{"../utils/AnchorPathResolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\utils\\AnchorPathResolver.js","../utils/FSLock":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\utils\\FSLock.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","os":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\os-browserify\\browser.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\fs\\index.js":[function(require,module,exports){
 
 const openDSU = require("opendsu");
 
@@ -1022,7 +1022,7 @@ class FS{
 
 module.exports = FS;
 
-},{"./filePersistence":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/fs/filePersistence.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/index.js":[function(require,module,exports){
+},{"./filePersistence":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\fs\\filePersistence.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\index.js":[function(require,module,exports){
 module.exports = {
     FS: require("./fs"),
     ETH: require("./eth"),
@@ -1030,7 +1030,7 @@ module.exports = {
     OBA: require("./oba")
 };
 
-},{"./contract":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/contract/index.js","./eth":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/eth/index.js","./fs":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/fs/index.js","./oba":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/ethereumSyncService.js":[function(require,module,exports){
+},{"./contract":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\contract\\index.js","./eth":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\eth\\index.js","./fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\fs\\index.js","./oba":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\ethereumSyncService.js":[function(require,module,exports){
 const {ALIAS_SYNC_ERR_CODE, ANCHOR_ALREADY_EXISTS_ERR_CODE} = require("../../utils");
 const {getLokiEnclaveFacade} = require("./lokiEnclaveFacadeSingleton");
 const {getLogFilePath} = require("./getLogFilePath");
@@ -1199,7 +1199,7 @@ const getEthereumSyncServiceSingleton = (server) => {
 module.exports = {
     getEthereumSyncServiceSingleton
 }
-},{"../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/utils/index.js","../index":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/index.js","./getDBFilePath":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/getDBFilePath.js","./getLogFilePath":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/getLogFilePath.js","./lokiEnclaveFacadeSingleton":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/lokiEnclaveFacadeSingleton.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/getDBFilePath.js":[function(require,module,exports){
+},{"../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\utils\\index.js","../index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\index.js","./getDBFilePath":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\getDBFilePath.js","./getLogFilePath":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\getLogFilePath.js","./lokiEnclaveFacadeSingleton":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\lokiEnclaveFacadeSingleton.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\getDBFilePath.js":[function(require,module,exports){
 const path = require("path");
 
 const getDBFilePath = (server) => {
@@ -1212,7 +1212,7 @@ const getDBFilePath = (server) => {
 module.exports = {
     getDBFilePath
 }
-},{"path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/getLogFilePath.js":[function(require,module,exports){
+},{"path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\getLogFilePath.js":[function(require,module,exports){
 const path = require("path");
 
 const getLogFilePath = (server) => {
@@ -1225,7 +1225,7 @@ const getLogFilePath = (server) => {
 module.exports = {
     getLogFilePath
 }
-},{"path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/index.js":[function(require,module,exports){
+},{"path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\index.js":[function(require,module,exports){
 const {getEthereumSyncServiceSingleton} = require("./ethereumSyncService");
 const {getLogFilePath} = require("./getLogFilePath");
 
@@ -1346,7 +1346,7 @@ function OBA(server, domainConfig, anchorId, anchorValue, ...args) {
 
 module.exports = OBA;
 
-},{"../index":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/index.js","./ethereumSyncService":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/ethereumSyncService.js","./getLogFilePath":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/getLogFilePath.js","os":"/home/runner/work/privatesky/privatesky/node_modules/os-browserify/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/oba/lokiEnclaveFacadeSingleton.js":[function(require,module,exports){
+},{"../index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\index.js","./ethereumSyncService":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\ethereumSyncService.js","./getLogFilePath":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\getLogFilePath.js","os":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\os-browserify\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\oba\\lokiEnclaveFacadeSingleton.js":[function(require,module,exports){
 const fs = require("fs");
 const path = require("path");
 
@@ -1368,7 +1368,7 @@ module.exports = {
     getLokiEnclaveFacade
 }
 
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","loki-enclave-facade":"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/index.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/utils/AnchorPathResolver.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","loki-enclave-facade":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\index.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\utils\\AnchorPathResolver.js":[function(require,module,exports){
 function AnchorPathResolver(rootFolder, configPath) {
     const path = require("path");
     const anchoringFolder = path.resolve(path.join(rootFolder, configPath));
@@ -1379,7 +1379,7 @@ function AnchorPathResolver(rootFolder, configPath) {
 }
 
 module.exports = AnchorPathResolver;
-},{"path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/utils/FSLock.js":[function(require,module,exports){
+},{"path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\utils\\FSLock.js":[function(require,module,exports){
 const fs = require("fs");
 
 function FSLock(filePath, maxTimeMilliSeconds, forcedLockDelay) {
@@ -1473,7 +1473,7 @@ function FSLock(filePath, maxTimeMilliSeconds, forcedLockDelay) {
 }
 
 module.exports = FSLock;
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/utils/index.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\utils\\index.js":[function(require,module,exports){
 const { clone } = require("../../../utils");
 
 const getAnchoringDomainConfig = async (domain) => {
@@ -1519,7 +1519,7 @@ const ANCHOR_ALREADY_EXISTS_ERR_CODE = "anchor-already-exists";
 
 module.exports = { getAnchoringDomainConfig, getDomainFromKeySSI, ALIAS_SYNC_ERR_CODE, ANCHOR_ALREADY_EXISTS_ERR_CODE };
 
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/index.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bdns/index.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\index.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bdns\\index.js":[function(require,module,exports){
 (function (process){(function (){
 function BDNS(server) {
     const logger = $$.getLogger("BDNS", "apihub/bdns");
@@ -1626,7 +1626,7 @@ module.exports = BDNS;
 
 }).call(this)}).call(this,require('_process'))
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./../admin":"/home/runner/work/privatesky/privatesky/modules/apihub/components/admin/index.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/controllers.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./../admin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\admin\\index.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\controllers.js":[function(require,module,exports){
 const { getBrickWithExternalProvidersFallbackAsync } = require("./utils");
 const logger = $$.getLogger("bricking", "apihub/bricking");
 
@@ -1694,7 +1694,7 @@ module.exports = {
     downloadMultipleBricks,
 };
 
-},{"./utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/index.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\index.js":[function(require,module,exports){
 function Bricks(server) {
     function requestServerMiddleware(request, response, next) {
         request.server = server;
@@ -1721,7 +1721,7 @@ function Bricks(server) {
 
 module.exports = Bricks;
 
-},{"../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./controllers":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/controllers.js","./middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/middlewares.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/middlewares.js":[function(require,module,exports){
+},{"../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./controllers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\controllers.js","./middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\middlewares.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\middlewares.js":[function(require,module,exports){
 async function requestFSBrickStorageMiddleware(request, response, next) {
     const { domain: domainName } = request.params;
     const logger = $$.getLogger("requestFSBrickStorageMiddleware", "apihub/bricking");
@@ -1746,7 +1746,7 @@ module.exports = {
     requestFSBrickStorageMiddleware
 };
 
-},{"./utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/utils.js","bricksledger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/utils.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\utils.js","bricksledger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\utils.js":[function(require,module,exports){
 const { clone } = require("../../utils");
 const { getLocalBdnsEntryListExcludingSelfAsync, getHeadersWithExcludedProvidersIncludingSelf } = require("../../utils/request-utils");
 const logger = $$.getLogger("bricking", "apihub/bricking")
@@ -1839,11 +1839,11 @@ module.exports = {
     getBrickWithExternalProvidersFallbackAsync,
 };
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/index.js","../../utils/request-utils":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/request-utils.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/constants.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\index.js","../../utils/request-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\request-utils.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\constants.js":[function(require,module,exports){
 const URL_PREFIX='/bricksFabric';
 
 module.exports = {URL_PREFIX};
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/controllers.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\controllers.js":[function(require,module,exports){
 
 function createHandler(flow, server) {
 
@@ -1862,7 +1862,7 @@ function createHandler(flow, server) {
 
 
 module.exports = createHandler;
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\index.js":[function(require,module,exports){
 (function (global){(function (){
 
 
@@ -1923,7 +1923,7 @@ module.exports = BricksFabric;
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./constants.js":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/constants.js","./controllers":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/controllers.js","./strategies/BrickStorage.js":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/strategies/BrickStorage.js","./utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/utils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/strategies/BrickStorage.js":[function(require,module,exports){
+},{"../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./constants.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\constants.js","./controllers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\controllers.js","./strategies/BrickStorage.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\strategies\\BrickStorage.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\utils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\strategies\\BrickStorage.js":[function(require,module,exports){
 (function (global){(function (){
 const fs = require('fs');
 const path = require('swarmutils').path;
@@ -2055,7 +2055,7 @@ global["BrickStorage"] = BrickStorage;
 module.exports = { BRICKSFABRIC_ERROR_CODE};
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/utils/index.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\utils\\index.js":[function(require,module,exports){
 const { clone } = require("../../../utils");
 
 const getBricksFabricStrategy = () => {
@@ -2093,7 +2093,7 @@ const getRootFolder = () => {
 module.exports.getBricksFabricStrategy = getBricksFabricStrategy;
 module.exports.getRootFolder = getRootFolder;
 
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/cloudWallet/controller.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\cloudWallet\\controller.js":[function(require,module,exports){
 (function (process){(function (){
 const http = require("http");
 const crypto = require("crypto");
@@ -2328,7 +2328,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'))
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js","http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/cloudWallet/index.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js","http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\cloudWallet\\index.js":[function(require,module,exports){
 function Iframe(server) {
     const { init, handleCloudWalletRequest } = require("./controller");
     init(server);
@@ -2343,7 +2343,7 @@ function Iframe(server) {
 
 module.exports = Iframe;
 
-},{"./controller":"/home/runner/work/privatesky/privatesky/modules/apihub/components/cloudWallet/controller.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/config/index.js":[function(require,module,exports){
+},{"./controller":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\cloudWallet\\controller.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\config\\index.js":[function(require,module,exports){
 const config = require("../../config");
 
 function Config(server) {
@@ -2396,7 +2396,7 @@ function Config(server) {
 
 module.exports = Config;
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/contracts/boot.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\contracts\\boot.js":[function(require,module,exports){
 (function (process){(function (){
 async function boot(validatorDID, serverUrl, domain, domainConfig, rootFolder, storageFolder) {
     const logger = $$.getLogger("boot", "apihub/contracts");
@@ -2498,7 +2498,7 @@ module.exports = boot;
 
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","bricksledger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/contracts/index.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","bricksledger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\contracts\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const {
     ensureContractConstitutionIsPresent,
@@ -2695,7 +2695,7 @@ module.exports = Contract;
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./utils":"/home/runner/work/privatesky/privatesky/modules/apihub/components/contracts/utils.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","syndicate":"/home/runner/work/privatesky/privatesky/modules/syndicate/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/contracts/utils.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\contracts\\utils.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","syndicate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\contracts\\utils.js":[function(require,module,exports){
 (function (process,global,__dirname){(function (){
 const logger = $$.getLogger("utils", "contracts");
 
@@ -2786,7 +2786,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},"/modules/apihub/components/contracts")
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","./boot":"/home/runner/work/privatesky/privatesky/modules/apihub/components/contracts/boot.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/debugLogger/controllers.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","./boot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\contracts\\boot.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\debugLogger\\controllers.js":[function(require,module,exports){
 const url = require('url');
 const fs = require('fs');
 const path = require('swarmutils').path;
@@ -2921,7 +2921,7 @@ function createHandlerReadFromLog(server) {
 
 module.exports = { createHandlerAppendToLog, createHandlerReadFromLog };
 
-},{"apihub":"/home/runner/work/privatesky/privatesky/modules/apihub/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/debugLogger/index.js":[function(require,module,exports){
+},{"apihub":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\debugLogger\\index.js":[function(require,module,exports){
 function DebugLogger(server) {
   const { responseModifierMiddleware, requestBodyJSONMiddleware } = require('../../utils/middlewares');
   const { createHandlerAppendToLog, createHandlerReadFromLog } = require('./controllers');
@@ -2938,7 +2938,7 @@ function DebugLogger(server) {
 
 module.exports = DebugLogger;
 
-},{"../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./controllers":"/home/runner/work/privatesky/privatesky/modules/apihub/components/debugLogger/controllers.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/enclave/commands/LokiEnclaveFacade.js":[function(require,module,exports){
+},{"../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./controllers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\debugLogger\\controllers.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\enclave\\commands\\LokiEnclaveFacade.js":[function(require,module,exports){
 const getLokiEnclaveFacade = (storageFolder) => {
     if (!$$.LokiEnclaveFacade) {
         const LokiEnclaveFacade = require("loki-enclave-facade");
@@ -2951,7 +2951,7 @@ const getLokiEnclaveFacade = (storageFolder) => {
 module.exports = {
     getLokiEnclaveFacade
 }
-},{"loki-enclave-facade":"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/enclave/index.js":[function(require,module,exports){
+},{"loki-enclave-facade":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\enclave\\index.js":[function(require,module,exports){
 (function (process){(function (){
 
 const openDSU = require("opendsu");
@@ -3023,7 +3023,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'))
 
-},{"./commands/LokiEnclaveFacade":"/home/runner/work/privatesky/privatesky/modules/apihub/components/enclave/commands/LokiEnclaveFacade.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/fileManager/controllers/downloadFile.js":[function(require,module,exports){
+},{"./commands/LokiEnclaveFacade":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\enclave\\commands\\LokiEnclaveFacade.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\fileManager\\controllers\\downloadFile.js":[function(require,module,exports){
 function sendResult(resHandler, resultStream) {
     resHandler.statusCode = 200;
     resultStream.pipe(resHandler);
@@ -3073,7 +3073,7 @@ function download(req, res, callback) {
 
 module.exports = downloadFile;
 
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/fileManager/controllers/uploadFile.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\fileManager\\controllers\\uploadFile.js":[function(require,module,exports){
 function guid() {
     function s4() {
         return Math.floor((1 + Math.random()) * 0x10000)
@@ -3151,7 +3151,7 @@ function upload(req, callback) {
 
 module.exports =  uploadFile;
 
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/fileManager/index.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\fileManager\\index.js":[function(require,module,exports){
 function filesManager(server) {
 
 	const uploadFile = require('./controllers/uploadFile');
@@ -3162,7 +3162,7 @@ function filesManager(server) {
 }
 
 module.exports = filesManager;
-},{"./controllers/downloadFile":"/home/runner/work/privatesky/privatesky/modules/apihub/components/fileManager/controllers/downloadFile.js","./controllers/uploadFile":"/home/runner/work/privatesky/privatesky/modules/apihub/components/fileManager/controllers/uploadFile.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/installation-details/index.js":[function(require,module,exports){
+},{"./controllers/downloadFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\fileManager\\controllers\\downloadFile.js","./controllers/uploadFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\fileManager\\controllers\\uploadFile.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\installation-details\\index.js":[function(require,module,exports){
 function InstallationDetails(server){
 
 	function getLog(targetPath, callback){
@@ -3217,11 +3217,11 @@ function InstallationDetails(server){
 }
 
 module.exports = InstallationDetails;
-},{"child_process":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/keySsiNotifications/constants.js":[function(require,module,exports){
+},{"child_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\keySsiNotifications\\constants.js":[function(require,module,exports){
 const URL_PREFIX = '/notifications';
 
 module.exports = { URL_PREFIX };
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/keySsiNotifications/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\keySsiNotifications\\index.js":[function(require,module,exports){
 function KeySSINotifications(server) {
 	const logger = $$.getLogger("KeySSINotifications", "apihub/keySsiNotifications");
 	let notificationManager;
@@ -3323,7 +3323,7 @@ function KeySSINotifications(server) {
 
 module.exports = KeySSINotifications;
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/index.js","./../../libs/Notifications":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/Notifications.js","./../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./constants":"/home/runner/work/privatesky/privatesky/modules/apihub/components/keySsiNotifications/constants.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/mainDSU/controller.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\index.js","./../../libs/Notifications":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\Notifications.js","./../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\keySsiNotifications\\constants.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mainDSU\\controller.js":[function(require,module,exports){
 const config = require("../../config");
 const logger = $$.getLogger("controller", "apihub/mainDSU");
 
@@ -3395,7 +3395,7 @@ module.exports = {
     handleDefaultMainDSURequest,
 };
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/mainDSU/index.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mainDSU\\index.js":[function(require,module,exports){
 function MainDSU(server) {
     const { init, handleDefaultMainDSURequest } = require("./controller");
     init(server);
@@ -3407,7 +3407,7 @@ function MainDSU(server) {
 
 module.exports = MainDSU;
 
-},{"./controller":"/home/runner/work/privatesky/privatesky/modules/apihub/components/mainDSU/controller.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/adapters/localMQAdapter.js":[function(require,module,exports){
+},{"./controller":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mainDSU\\controller.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\adapters\\localMQAdapter.js":[function(require,module,exports){
 (function (Buffer){(function (){
 function LocalMQAdapter(server, prefix, domain, configuration) {
 	const logger = $$.getLogger("LocalMQAdapter", "apihub/mqHub");
@@ -3778,13 +3778,13 @@ function LocalMQAdapter(server, prefix, domain, configuration) {
 module.exports = LocalMQAdapter;
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","./../../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/index.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/adapters/solaceMQAdapter.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","./../../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\index.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\adapters\\solaceMQAdapter.js":[function(require,module,exports){
 function SolaceMQAdapter(configuration){
 	throw new Error("Not Implemented!!!");
 }
 
 module.exports = SolaceMQAdapter;
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/auth/JWTIssuer.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\auth\\JWTIssuer.js":[function(require,module,exports){
 const DOMAIN_NAME = "MQ_DOMAIN";
 const SEEDER_FILE_NAME = "mq_JWT_Auth_Seeder";
 
@@ -3921,7 +3921,7 @@ function JWTIssuer(workingDir) {
 }
 
 module.exports = JWTIssuer;
-},{"./../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/index.js":[function(require,module,exports){
+},{"./../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\index.js":[function(require,module,exports){
 const config = require("../../config");
 const URL_PREFIX = "/mq";
 //known implementations for the MQ adapters
@@ -4134,7 +4134,7 @@ module.exports = {
 	MQHub
 };
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","./../../components/admin":"/home/runner/work/privatesky/privatesky/modules/apihub/components/admin/index.js","./../../config/index":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","./adapters/localMQAdapter.js":"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/adapters/localMQAdapter.js","./adapters/solaceMQAdapter.js":"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/adapters/solaceMQAdapter.js","./auth/JWTIssuer":"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/auth/JWTIssuer.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/requestForwarder/index.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","./../../components/admin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\admin\\index.js","./../../config/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","./adapters/localMQAdapter.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\adapters\\localMQAdapter.js","./adapters/solaceMQAdapter.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\adapters\\solaceMQAdapter.js","./auth/JWTIssuer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\auth\\JWTIssuer.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\requestForwarder\\index.js":[function(require,module,exports){
 const registeredUrl = "/forwardRequestForAuthenticatedClient";
 const logger = $$.getLogger("requestForwarder", "apihub/requestForwarder");
 module.exports = function(server){
@@ -4183,7 +4183,7 @@ module.exports = function(server){
     });
 }
 
-},{"./../../utils/middlewares/index":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","https":"/home/runner/work/privatesky/privatesky/node_modules/https-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/secrets/index.js":[function(require,module,exports){
+},{"./../../utils/middlewares/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","https":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\https-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\secrets\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const fs = require("fs");
 const path = require("path");
@@ -4333,7 +4333,7 @@ module.exports = secrets;
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/staticServer/index.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\staticServer\\index.js":[function(require,module,exports){
 function StaticServer(server) {
     const fs = require("fs");
     const path = require('swarmutils').path;
@@ -4630,7 +4630,7 @@ function StaticServer(server) {
 
 module.exports = StaticServer;
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../utils":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/index.js","./../admin":"/home/runner/work/privatesky/privatesky/modules/apihub/components/admin/index.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/stream/controller.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\index.js","./../admin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\admin\\index.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\stream\\controller.js":[function(require,module,exports){
 (function (global){(function (){
 const syndicate = require("syndicate");
 const logger = $$.getLogger("stream", "apihub/stream");
@@ -4766,7 +4766,7 @@ module.exports = {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./worker-script":"/home/runner/work/privatesky/privatesky/modules/apihub/components/stream/worker-script.js","opendsu":"opendsu","pskcrypto":"pskcrypto","syndicate":"/home/runner/work/privatesky/privatesky/modules/syndicate/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/stream/index.js":[function(require,module,exports){
+},{"./worker-script":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\stream\\worker-script.js","opendsu":"opendsu","pskcrypto":"pskcrypto","syndicate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\stream\\index.js":[function(require,module,exports){
 function Iframe(server) {
     const { handleCreateWallet, handleStreamRequest } = require("./controller");
     server.put(`/stream/:domain/create-wallet/:userId`, handleCreateWallet);
@@ -4775,7 +4775,7 @@ function Iframe(server) {
 
 module.exports = Iframe;
 
-},{"./controller":"/home/runner/work/privatesky/privatesky/modules/apihub/components/stream/controller.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/components/stream/worker-script.js":[function(require,module,exports){
+},{"./controller":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\stream\\controller.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\stream\\worker-script.js":[function(require,module,exports){
 (function (process,Buffer){(function (){
 module.exports = async () => {
     const logger = $$.getLogger("worker-script", "apihub/stream");
@@ -4854,7 +4854,7 @@ module.exports = async () => {
 
 }).call(this)}).call(this,require('_process'),require("buffer").Buffer)
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/apihub/config/config-migrator.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\config-migrator.js":[function(require,module,exports){
 const logger = $$.getLogger("config-migrator", "apihub/config");
 
 function removeConfigComponent(config) {
@@ -5025,7 +5025,7 @@ module.exports = {
     migrate,
 };
 
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/config/default.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\default.js":[function(require,module,exports){
 (function (process){(function (){
 
 const defaultConfig = {
@@ -5156,7 +5156,7 @@ module.exports = Object.freeze(defaultConfig);
 
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js":[function(require,module,exports){
 (function (process){(function (){
 let apihubConfig;
 let tokenIssuers;
@@ -5429,7 +5429,7 @@ module.exports = {getConfig, getTokenIssuers, getConfiguredDomains, getDomainCon
 
 }).call(this)}).call(this,require('_process'))
 
-},{"./../components/admin":"/home/runner/work/privatesky/privatesky/modules/apihub/components/admin/index.js","./config-migrator":"/home/runner/work/privatesky/privatesky/modules/apihub/config/config-migrator.js","./default":"/home/runner/work/privatesky/privatesky/modules/apihub/config/default.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/index.js":[function(require,module,exports){
+},{"./../components/admin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\admin\\index.js","./config-migrator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\config-migrator.js","./default":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\default.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\index.js":[function(require,module,exports){
 (function (process){(function (){
 const logger = $$.getLogger("HttpServer", "apihub");
 
@@ -5786,7 +5786,7 @@ module.exports.anchoringStrategies = require("./components/anchoring/strategies"
 
 }).call(this)}).call(this,require('_process'))
 
-},{"./components/admin":"/home/runner/work/privatesky/privatesky/modules/apihub/components/admin/index.js","./components/anchoring":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/index.js","./components/anchoring/strategies":"/home/runner/work/privatesky/privatesky/modules/apihub/components/anchoring/strategies/index.js","./components/bdns":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bdns/index.js","./components/bricking":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricking/index.js","./components/bricksFabric":"/home/runner/work/privatesky/privatesky/modules/apihub/components/bricksFabric/index.js","./components/cloudWallet":"/home/runner/work/privatesky/privatesky/modules/apihub/components/cloudWallet/index.js","./components/config":"/home/runner/work/privatesky/privatesky/modules/apihub/components/config/index.js","./components/contracts":"/home/runner/work/privatesky/privatesky/modules/apihub/components/contracts/index.js","./components/debugLogger":"/home/runner/work/privatesky/privatesky/modules/apihub/components/debugLogger/index.js","./components/enclave":"/home/runner/work/privatesky/privatesky/modules/apihub/components/enclave/index.js","./components/fileManager":"/home/runner/work/privatesky/privatesky/modules/apihub/components/fileManager/index.js","./components/installation-details":"/home/runner/work/privatesky/privatesky/modules/apihub/components/installation-details/index.js","./components/keySsiNotifications":"/home/runner/work/privatesky/privatesky/modules/apihub/components/keySsiNotifications/index.js","./components/mainDSU":"/home/runner/work/privatesky/privatesky/modules/apihub/components/mainDSU/index.js","./components/mqHub":"/home/runner/work/privatesky/privatesky/modules/apihub/components/mqHub/index.js","./components/requestForwarder":"/home/runner/work/privatesky/privatesky/modules/apihub/components/requestForwarder/index.js","./components/secrets":"/home/runner/work/privatesky/privatesky/modules/apihub/components/secrets/index.js","./components/staticServer":"/home/runner/work/privatesky/privatesky/modules/apihub/components/staticServer/index.js","./components/stream":"/home/runner/work/privatesky/privatesky/modules/apihub/components/stream/index.js","./config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","./libs/TokenBucket":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/TokenBucket.js","./libs/http-wrapper":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/index.js","./middlewares/authorisation":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/authorisation/index.js","./middlewares/genericErrorMiddleware":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/genericErrorMiddleware/index.js","./middlewares/logger":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/logger/index.js","./middlewares/oauth":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/index.js","./middlewares/requestEnhancements":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/requestEnhancements/index.js","./middlewares/responseHeader":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/responseHeader/index.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/Notifications.js":[function(require,module,exports){
+},{"./components/admin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\admin\\index.js","./components/anchoring":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\index.js","./components/anchoring/strategies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\anchoring\\strategies\\index.js","./components/bdns":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bdns\\index.js","./components/bricking":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricking\\index.js","./components/bricksFabric":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\bricksFabric\\index.js","./components/cloudWallet":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\cloudWallet\\index.js","./components/config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\config\\index.js","./components/contracts":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\contracts\\index.js","./components/debugLogger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\debugLogger\\index.js","./components/enclave":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\enclave\\index.js","./components/fileManager":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\fileManager\\index.js","./components/installation-details":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\installation-details\\index.js","./components/keySsiNotifications":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\keySsiNotifications\\index.js","./components/mainDSU":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mainDSU\\index.js","./components/mqHub":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\mqHub\\index.js","./components/requestForwarder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\requestForwarder\\index.js","./components/secrets":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\secrets\\index.js","./components/staticServer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\staticServer\\index.js","./components/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\components\\stream\\index.js","./config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","./libs/TokenBucket":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\TokenBucket.js","./libs/http-wrapper":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\index.js","./middlewares/authorisation":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\authorisation\\index.js","./middlewares/genericErrorMiddleware":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\genericErrorMiddleware\\index.js","./middlewares/logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\logger\\index.js","./middlewares/oauth":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\index.js","./middlewares/requestEnhancements":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\requestEnhancements\\index.js","./middlewares/responseHeader":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\responseHeader\\index.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\Notifications.js":[function(require,module,exports){
 const stateStorageFileName = 'queues.json';
 
 function NotificationsManager(workingFolderPath, storageFolderPath) {
@@ -6103,7 +6103,7 @@ module.exports = {
 	}
 };
 
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/TokenBucket.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\TokenBucket.js":[function(require,module,exports){
 /**
  * An implementation of the Token bucket algorithm
  * @param startTokens - maximum number of tokens possible to obtain and the default starting value
@@ -6222,7 +6222,7 @@ function TokenBucket(startTokens = config.getConfig('tokenBucket', 'startTokens'
 
 module.exports = TokenBucket;
 
-},{"./../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/Client.js":[function(require,module,exports){
+},{"./../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\Client.js":[function(require,module,exports){
 const http = require('http');
 const url = require('url');
 const stream = require('stream');
@@ -6435,7 +6435,7 @@ const handler = {
 module.exports = function () {
     return new Proxy(new Client(), handler);
 };
-},{"http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/MiddlewareRegistry.js":[function(require,module,exports){
+},{"http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\MiddlewareRegistry.js":[function(require,module,exports){
 const querystring = require('querystring');
 const logger = $$.getLogger("http-wrapper", "apihub/libs");
 
@@ -6617,7 +6617,7 @@ function MiddlewareRegistry() {
 
 module.exports = MiddlewareRegistry;
 
-},{"querystring":"/home/runner/work/privatesky/privatesky/node_modules/querystring-es3/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/Router.js":[function(require,module,exports){
+},{"querystring":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\querystring-es3\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\Router.js":[function(require,module,exports){
 function Router(server) {
     this.use = function use(url, callback) {
         callback(serverWrapper(url, server));
@@ -6653,7 +6653,7 @@ function serverWrapper(baseUrl, server) {
 
 module.exports = Router;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/Server.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\Server.js":[function(require,module,exports){
 const MiddlewareRegistry = require('./MiddlewareRegistry');
 const http = require('http');
 const https = require('https');
@@ -6803,7 +6803,7 @@ function Server(sslOptions) {
 }
 
 module.exports = Server;
-},{"./MiddlewareRegistry":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/MiddlewareRegistry.js","http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","https":"/home/runner/work/privatesky/privatesky/node_modules/https-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/httpUtils.js":[function(require,module,exports){
+},{"./MiddlewareRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\MiddlewareRegistry.js","http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","https":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\https-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\httpUtils.js":[function(require,module,exports){
 const logger = $$.getLogger("http-wrapper", "apihub/libs");
 
 function setDataHandler(request, callback) {
@@ -6885,7 +6885,7 @@ function serveStaticFile(baseFolder, ignorePath) {
 
 module.exports = {setDataHandler, setDataHandlerMiddleware, sendErrorResponse, bodyParser, serveStaticFile};
 
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/index.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\index.js":[function(require,module,exports){
 const Client = require('./classes/Client');
 const Server = require('./classes/Server');
 const httpUtils = require('./httpUtils');
@@ -6894,7 +6894,7 @@ const Router = require('./classes/Router');
 module.exports = {Server, Client, httpUtils, Router};
 
 
-},{"./classes/Client":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/Client.js","./classes/Router":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/Router.js","./classes/Server":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/classes/Server.js","./httpUtils":"/home/runner/work/privatesky/privatesky/modules/apihub/libs/http-wrapper/src/httpUtils.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/authorisation/index.js":[function(require,module,exports){
+},{"./classes/Client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\Client.js","./classes/Router":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\Router.js","./classes/Server":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\classes\\Server.js","./httpUtils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\libs\\http-wrapper\\src\\httpUtils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\authorisation\\index.js":[function(require,module,exports){
 const openDSU = require("opendsu");
 const crypto = openDSU.loadApi("crypto");
 
@@ -6948,7 +6948,7 @@ function Authorisation(server) {
 
 module.exports = Authorisation;
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/genericErrorMiddleware/index.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\genericErrorMiddleware\\index.js":[function(require,module,exports){
 function setupGenericErrorMiddleware(server) {
     const constants = require("./../../moduleConstants");
     const logger = $$.getLogger("setupGenericErrorMiddleware", "apihub/genericErrorMiddleware");
@@ -6996,7 +6996,7 @@ function setupGenericErrorMiddleware(server) {
 
 module.exports = setupGenericErrorMiddleware;
 
-},{"./../../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/apihub/moduleConstants.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/logger/index.js":[function(require,module,exports){
+},{"./../../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\moduleConstants.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\logger\\index.js":[function(require,module,exports){
 (function (process){(function (){
 function Logger(server) {
     const logger = $$.getLogger("Logger", "apihub/logger");
@@ -7051,7 +7051,7 @@ module.exports = Logger;
 
 }).call(this)}).call(this,require('_process'))
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/index.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\index.js":[function(require,module,exports){
 const config = require("../../config");
 
 const serverAuthentication = config.getConfig("serverAuthentication")
@@ -7062,7 +7062,7 @@ if (serverAuthentication) {
 }
 
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","./lib/AccessTokenValidator":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/AccessTokenValidator.js","./lib/OauthMiddleware":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/OauthMiddleware.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/AccessTokenValidator.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","./lib/AccessTokenValidator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\AccessTokenValidator.js","./lib/OauthMiddleware":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\OauthMiddleware.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\AccessTokenValidator.js":[function(require,module,exports){
 const {sendUnauthorizedResponse} = require("../../../utils/middlewares");
 const util = require("./util");
 const config = require("../../../config");
@@ -7106,7 +7106,7 @@ function AccessTokenValidator(server) {
 }
 
 module.exports = AccessTokenValidator;
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./util":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/util.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/OauthMiddleware.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\OauthMiddleware.js":[function(require,module,exports){
 const {sendUnauthorizedResponse} = require("../../../utils/middlewares");
 const util = require("./util");
 const urlModule = require("url");
@@ -7346,7 +7346,7 @@ function OAuthMiddleware(server) {
 
 module.exports = OAuthMiddleware;
 
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","../../../utils/middlewares":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js","./WebClient":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/WebClient.js","./errorMessages":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/errorMessages.js","./util":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/util.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/WebClient.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","../../../utils/middlewares":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js","./WebClient":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\WebClient.js","./errorMessages":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\errorMessages.js","./util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\util.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\WebClient.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const url = require('url');
 const util = require("./util");
@@ -7466,14 +7466,14 @@ function WebClient(oauthConfig) {
 module.exports = WebClient;
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"./errorMessages":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/errorMessages.js","./util":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/util.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/errorMessages.js":[function(require,module,exports){
+},{"./errorMessages":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\errorMessages.js","./util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\util.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\errorMessages.js":[function(require,module,exports){
 module.exports = {
     ACCESS_TOKEN_DECRYPTION_FAILED: "Failed to decrypt accessTokenCookie",
     REFRESH_TOKEN_DECRYPTION_FAILED: "Failed to decrypt refreshTokenCookie",
     REFRESH_TOKEN_UNDEFINED: "refreshTokenCookie is undefined",
     SESSION_EXPIRED:"Session expired"
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/util.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\util.js":[function(require,module,exports){
 const openDSU = require("opendsu");
 const crypto = openDSU.loadAPI("crypto");
 const http = openDSU.loadAPI("http");
@@ -7923,7 +7923,7 @@ module.exports = {
     updateAccessTokenExpiration
 }
 
-},{"../../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js","./errorMessages":"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/oauth/lib/errorMessages.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/requestEnhancements/index.js":[function(require,module,exports){
+},{"../../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js","./errorMessages":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\oauth\\lib\\errorMessages.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\requestEnhancements\\index.js":[function(require,module,exports){
 function setupRequestEnhancements(server) {
     const logger = $$.getLogger("setupRequestEnhancements", "apihub/requestEnhancements");
 
@@ -7947,7 +7947,7 @@ function setupRequestEnhancements(server) {
 
 module.exports = setupRequestEnhancements;
 
-},{"./../../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/apihub/moduleConstants.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/middlewares/responseHeader/index.js":[function(require,module,exports){
+},{"./../../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\moduleConstants.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\middlewares\\responseHeader\\index.js":[function(require,module,exports){
 function ResponseHeaders(server) {
     const logger = $$.getLogger("ResponseHeaders", "apihub/responseHeaders");
 
@@ -7970,11 +7970,11 @@ function ResponseHeaders(server) {
 
 module.exports = ResponseHeaders;
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/moduleConstants.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\moduleConstants.js":[function(require,module,exports){
 module.exports = {
 	LOG_IDENTIFIER: "[API-HUB]"
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/utils/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\index.js":[function(require,module,exports){
 module.exports.clone = function(data) {
     return JSON.parse(JSON.stringify(data));
 }
@@ -7983,7 +7983,7 @@ module.exports.streams = require("./streams");
 module.exports.requests = require("./requests");
 module.exports.responseWrapper = require("./responseWrapper");
 module.exports.getMimeTypeFromExtension = require("./mimeType");
-},{"./mimeType":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/mimeType.js","./requests":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/requests.js","./responseWrapper":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/responseWrapper.js","./streams":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/streams.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/utils/middlewares/index.js":[function(require,module,exports){
+},{"./mimeType":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\mimeType.js","./requests":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\requests.js","./responseWrapper":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\responseWrapper.js","./streams":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\streams.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\middlewares\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const responseWrapper = require('../responseWrapper');
 const logger = $$.getLogger("middlewares", "apihub/utils");
@@ -8070,7 +8070,7 @@ module.exports = { requestBodyJSONMiddleware, responseModifierMiddleware, header
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../responseWrapper":"/home/runner/work/privatesky/privatesky/modules/apihub/utils/responseWrapper.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/utils/mimeType.js":[function(require,module,exports){
+},{"../responseWrapper":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\responseWrapper.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\mimeType.js":[function(require,module,exports){
 const extensionsMimeTypes = {
     "aac": {
         name: "audio/aac",
@@ -8341,7 +8341,7 @@ module.exports = function (extension) {
     }
     return defaultMimeType;
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/utils/request-utils.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\request-utils.js":[function(require,module,exports){
 const logger = $$.getLogger("request-utils", "apihub/utils");
 
 function getCurrentApiHubUrl(server) {
@@ -8420,7 +8420,7 @@ module.exports = {
     getHeadersWithExcludedProvidersIncludingSelf,
 };
 
-},{"../config":"/home/runner/work/privatesky/privatesky/modules/apihub/config/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/utils/requests.js":[function(require,module,exports){
+},{"../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\config\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\requests.js":[function(require,module,exports){
 
 const http = require("http");
 const https = require("https");
@@ -8485,7 +8485,7 @@ function getHeaders(data, headers) {
 
 module.exports = makeRequest;
 
-},{"http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","https":"/home/runner/work/privatesky/privatesky/node_modules/https-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/apihub/utils/responseWrapper.js":[function(require,module,exports){
+},{"http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","https":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\https-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\responseWrapper.js":[function(require,module,exports){
 
 function responseWrapper(body) {
     if (typeof body === 'string') {
@@ -8497,7 +8497,7 @@ function responseWrapper(body) {
 
 module.exports = responseWrapper;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/apihub/utils/streams.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\utils\\streams.js":[function(require,module,exports){
 function readStringFromStream(stream, callback){
     let data = "";
     stream.on("data", (messagePart)=>{
@@ -8571,12 +8571,12 @@ module.exports = {
     readMessageBufferFromHTTPStream
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bar-fs-adapter/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar-fs-adapter\\index.js":[function(require,module,exports){
 module.exports.createFsAdapter = () => {
     const FsAdapter = require("./lib/FsAdapter");
     return new FsAdapter();
 };
-},{"./lib/FsAdapter":"/home/runner/work/privatesky/privatesky/modules/bar-fs-adapter/lib/FsAdapter.js"}],"/home/runner/work/privatesky/privatesky/modules/bar-fs-adapter/lib/FsAdapter.js":[function(require,module,exports){
+},{"./lib/FsAdapter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar-fs-adapter\\lib\\FsAdapter.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar-fs-adapter\\lib\\FsAdapter.js":[function(require,module,exports){
 function FsAdapter() {
     const fsModule = "fs";
     const fs = require(fsModule);
@@ -8637,7 +8637,7 @@ function FsAdapter() {
 }
 
 module.exports = FsAdapter;
-},{"./PathAsyncIterator":"/home/runner/work/privatesky/privatesky/modules/bar-fs-adapter/lib/PathAsyncIterator.js"}],"/home/runner/work/privatesky/privatesky/modules/bar-fs-adapter/lib/PathAsyncIterator.js":[function(require,module,exports){
+},{"./PathAsyncIterator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar-fs-adapter\\lib\\PathAsyncIterator.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar-fs-adapter\\lib\\PathAsyncIterator.js":[function(require,module,exports){
 function PathAsyncIterator(inputPath) {
     const fsModule = "fs";
     const fs = require(fsModule);
@@ -8762,7 +8762,7 @@ function PathAsyncIterator(inputPath) {
 }
 
 module.exports = PathAsyncIterator;
-},{"swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/index.js":[function(require,module,exports){
+},{"swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\index.js":[function(require,module,exports){
 
 const ArchiveConfigurator = require("./lib/ArchiveConfigurator");
 const createFolderBrickStorage = require("./lib/obsolete/FolderBrickStorage").createFolderBrickStorage;
@@ -8843,7 +8843,7 @@ module.exports.createBrickStorageService = (archiveConfigurator, keySSI) => {
 
     return brickStorageService;
 };
-},{"./lib/Archive":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Archive.js","./lib/ArchiveConfigurator":"/home/runner/work/privatesky/privatesky/modules/bar/lib/ArchiveConfigurator.js","./lib/Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","./lib/BrickMap":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMap.js","./lib/BrickMapController":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapController.js","./lib/BrickMapDiff":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapDiff.js","./lib/BrickMapStrategy":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/index.js","./lib/BrickMapStrategy/BrickMapStrategyMixin":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/BrickMapStrategyMixin.js","./lib/BrickStorageService":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickStorageService/index.js","./lib/obsolete/FileBrickStorage":"/home/runner/work/privatesky/privatesky/modules/bar/lib/obsolete/FileBrickStorage.js","./lib/obsolete/FolderBrickStorage":"/home/runner/work/privatesky/privatesky/modules/bar/lib/obsolete/FolderBrickStorage.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/AnchorValidator.js":[function(require,module,exports){
+},{"./lib/Archive":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Archive.js","./lib/ArchiveConfigurator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\ArchiveConfigurator.js","./lib/Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","./lib/BrickMap":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMap.js","./lib/BrickMapController":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapController.js","./lib/BrickMapDiff":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapDiff.js","./lib/BrickMapStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\index.js","./lib/BrickMapStrategy/BrickMapStrategyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\BrickMapStrategyMixin.js","./lib/BrickStorageService":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickStorageService\\index.js","./lib/obsolete/FileBrickStorage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\obsolete\\FileBrickStorage.js","./lib/obsolete/FolderBrickStorage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\obsolete\\FolderBrickStorage.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\AnchorValidator.js":[function(require,module,exports){
 'use strict'
 
 /**
@@ -8890,7 +8890,7 @@ function AnchorValidator(options) {
 }
 
 module.exports = AnchorValidator;
-},{}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/Archive.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Archive.js":[function(require,module,exports){
 const Brick = require('./Brick');
 const stream = require('stream');
 const BrickStorageService = require('./BrickStorageService').Service;
@@ -11135,7 +11135,7 @@ function Archive(archiveConfigurator) {
 
 module.exports = Archive;
 
-},{"./Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","./BrickMapController":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapController.js","./BrickStorageService":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickStorageService/index.js","./Manifest":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Manifest.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/ArchiveConfigurator.js":[function(require,module,exports){
+},{"./Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","./BrickMapController":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapController.js","./BrickStorageService":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickStorageService\\index.js","./Manifest":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Manifest.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\ArchiveConfigurator.js":[function(require,module,exports){
 const storageProviders = {};
 const fsAdapters = {};
 
@@ -11335,7 +11335,7 @@ ArchiveConfigurator.prototype.registerFsAdapter = (fsAdapterName, factory) => {
 
 module.exports = ArchiveConfigurator;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js":[function(require,module,exports){
 const openDSU = require("opendsu");
 const crypto = openDSU.loadApi("crypto");
 const keySSISpace = openDSU.loadApi("keyssi");
@@ -11536,7 +11536,7 @@ function Brick(options) {
 
 module.exports = Brick;
 
-},{"./brick-transforms":"/home/runner/work/privatesky/privatesky/modules/bar/lib/brick-transforms/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMap.js":[function(require,module,exports){
+},{"./brick-transforms":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\brick-transforms\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMap.js":[function(require,module,exports){
 const BrickMapMixin = require('./BrickMapMixin');
 
 /**
@@ -11910,7 +11910,7 @@ function BrickMap(header) {
 }
 module.exports = BrickMap;
 
-},{"./BrickMapMixin":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapController.js":[function(require,module,exports){
+},{"./BrickMapMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapController.js":[function(require,module,exports){
 'use strict';
 
 // HTTP error code returned by the anchoring middleware
@@ -13072,7 +13072,7 @@ function BrickMapController(options) {
 
 module.exports = BrickMapController;
 
-},{"./AnchorValidator":"/home/runner/work/privatesky/privatesky/modules/bar/lib/AnchorValidator.js","./Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","./BrickMap":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMap.js","./BrickMapDiff":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapDiff.js","./BrickMapStrategy":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/index.js","./constants":"/home/runner/work/privatesky/privatesky/modules/bar/lib/constants.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapDiff.js":[function(require,module,exports){
+},{"./AnchorValidator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\AnchorValidator.js","./Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","./BrickMap":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMap.js","./BrickMapDiff":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapDiff.js","./BrickMapStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\index.js","./constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\constants.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapDiff.js":[function(require,module,exports){
 'use strict';
 
 const BrickMapMixin = require('./BrickMapMixin');
@@ -13229,7 +13229,7 @@ function BrickMapDiff(header) {
 }
 module.exports = BrickMapDiff;
 
-},{"./BrickMapMixin":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapMixin.js":[function(require,module,exports){
+},{"./BrickMapMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapMixin.js":[function(require,module,exports){
 'use strict';
 
 const Brick = require("./Brick");
@@ -14015,7 +14015,7 @@ const BrickMapMixin = {
 
 module.exports = BrickMapMixin;
 
-},{"./Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/BrickMapStrategyMixin.js":[function(require,module,exports){
+},{"./Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\BrickMapStrategyMixin.js":[function(require,module,exports){
 const BrickMapStrategyMixin = {
     brickMapController: null,
     brickMapState: null,
@@ -14347,7 +14347,7 @@ const BrickMapStrategyMixin = {
 
 module.exports = BrickMapStrategyMixin;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/DiffStrategy.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\DiffStrategy.js":[function(require,module,exports){
 'use strict';
 
 const BrickMapDiff = require('../../lib/BrickMapDiff');
@@ -14662,7 +14662,7 @@ function DiffStrategy(options) {
 
 module.exports = DiffStrategy;
 
-},{"../../lib/Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","../../lib/BrickMapDiff":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapDiff.js","../BrickMap":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMap.js","./BrickMapStrategyMixin":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/BrickMapStrategyMixin.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/LatestVersionStrategy.js":[function(require,module,exports){
+},{"../../lib/Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","../../lib/BrickMapDiff":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapDiff.js","../BrickMap":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMap.js","./BrickMapStrategyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\BrickMapStrategyMixin.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\LatestVersionStrategy.js":[function(require,module,exports){
 'use strict';
 
 const BrickMapDiff = require('../BrickMapDiff');
@@ -14968,7 +14968,7 @@ function LatestVersionStrategy(options) {
 
 module.exports = LatestVersionStrategy;
 
-},{"../../lib/Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","../BrickMap":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMap.js","../BrickMapDiff":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapDiff.js","./BrickMapStrategyMixin":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/BrickMapStrategyMixin.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/builtinBrickMapStrategies.js":[function(require,module,exports){
+},{"../../lib/Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","../BrickMap":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMap.js","../BrickMapDiff":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapDiff.js","./BrickMapStrategyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\BrickMapStrategyMixin.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\builtinBrickMapStrategies.js":[function(require,module,exports){
 module.exports = {
     DIFF: 'Diff',
     LATEST_VERSION: 'LatestVersion',
@@ -14976,7 +14976,7 @@ module.exports = {
     //DEFAULT_BRICK_MAP_STRATEGY: 'Diff'
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\index.js":[function(require,module,exports){
 /**
  * @param {object} options
  */
@@ -15045,7 +15045,7 @@ function BrickMapStrategyFactory(options) {
 
 module.exports = BrickMapStrategyFactory;
 
-},{"./DiffStrategy":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/DiffStrategy.js","./LatestVersionStrategy":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/LatestVersionStrategy.js","./builtinBrickMapStrategies":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMapStrategy/builtinBrickMapStrategies.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickStorageService/Service.js":[function(require,module,exports){
+},{"./DiffStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\DiffStrategy.js","./LatestVersionStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\LatestVersionStrategy.js","./builtinBrickMapStrategies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMapStrategy\\builtinBrickMapStrategies.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickStorageService\\Service.js":[function(require,module,exports){
 'use strict';
 
 
@@ -16164,14 +16164,14 @@ function Service(options) {
 
 module.exports = Service;
 
-},{"../../utils/isStream":"/home/runner/work/privatesky/privatesky/modules/bar/utils/isStream.js","../Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","opendsu":"opendsu","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickStorageService/index.js":[function(require,module,exports){
+},{"../../utils/isStream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\utils\\isStream.js","../Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","opendsu":"opendsu","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickStorageService\\index.js":[function(require,module,exports){
 'use strict'
 
 module.exports = {
     Service: require('./Service')
 };
 
-},{"./Service":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickStorageService/Service.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/Manifest.js":[function(require,module,exports){
+},{"./Service":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickStorageService\\Service.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Manifest.js":[function(require,module,exports){
 const MANIFEST_PATH = "/manifest";
 
 function Manifest(archive, options, callback) {
@@ -16350,7 +16350,7 @@ module.exports.getManifest = function getManifest(archive, options, callback) {
 };
 
 
-},{"opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/brick-transforms/CompressionTransformation.js":[function(require,module,exports){
+},{"opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\brick-transforms\\CompressionTransformation.js":[function(require,module,exports){
 const zlib = require("zlib");
 
 function CompressionTransformation(config) {
@@ -16404,7 +16404,7 @@ function CompressionTransformation(config) {
 module.exports = CompressionTransformation;
 
 
-},{"zlib":"/home/runner/work/privatesky/privatesky/node_modules/browserify-zlib/lib/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/brick-transforms/EncryptionTransformation.js":[function(require,module,exports){
+},{"zlib":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-zlib\\lib\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\brick-transforms\\EncryptionTransformation.js":[function(require,module,exports){
 const openDSU = require("opendsu");
 const crypto = openDSU.loadApi("crypto");
 
@@ -16443,7 +16443,7 @@ function EncryptionTransformation() {
 }
 
 module.exports = EncryptionTransformation;
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/brick-transforms/index.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\brick-transforms\\index.js":[function(require,module,exports){
 const CompressionTransformation = require("./CompressionTransformation");
 const EncryptionTransformation = require("./EncryptionTransformation");
 
@@ -16458,7 +16458,7 @@ module.exports = {
 };
 
 
-},{"./CompressionTransformation":"/home/runner/work/privatesky/privatesky/modules/bar/lib/brick-transforms/CompressionTransformation.js","./EncryptionTransformation":"/home/runner/work/privatesky/privatesky/modules/bar/lib/brick-transforms/EncryptionTransformation.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/constants.js":[function(require,module,exports){
+},{"./CompressionTransformation":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\brick-transforms\\CompressionTransformation.js","./EncryptionTransformation":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\brick-transforms\\EncryptionTransformation.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\constants.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -16473,7 +16473,7 @@ module.exports = {
     }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/obsolete/FileBrickMap.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\obsolete\\FileBrickMap.js":[function(require,module,exports){
 const Brick = require("../Brick");
 const util = require("../../utils/utilities");
 const pathModule = "path";
@@ -16608,7 +16608,7 @@ function FileBrickMap(header) {
 
 module.exports = FileBrickMap;
 
-},{"../../utils/utilities":"/home/runner/work/privatesky/privatesky/modules/bar/utils/utilities.js","../Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/obsolete/FileBrickStorage.js":[function(require,module,exports){
+},{"../../utils/utilities":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\utils\\utilities.js","../Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\obsolete\\FileBrickStorage.js":[function(require,module,exports){
 function FileBrickStorage(filePath) {
     const fsModuleName = "fs";
     const fs = require(fsModuleName);
@@ -16827,7 +16827,7 @@ module.exports = {
     }
 };
 
-},{"../../utils/utilities":"/home/runner/work/privatesky/privatesky/modules/bar/utils/utilities.js","../Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","./FileBrickMap":"/home/runner/work/privatesky/privatesky/modules/bar/lib/obsolete/FileBrickMap.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/lib/obsolete/FolderBrickStorage.js":[function(require,module,exports){
+},{"../../utils/utilities":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\utils\\utilities.js","../Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","./FileBrickMap":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\obsolete\\FileBrickMap.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\obsolete\\FolderBrickStorage.js":[function(require,module,exports){
 const BrickMap = require("../BrickMap");
 const Brick = require("../Brick");
 
@@ -16927,7 +16927,7 @@ module.exports = {
     }
 };
 
-},{"../Brick":"/home/runner/work/privatesky/privatesky/modules/bar/lib/Brick.js","../BrickMap":"/home/runner/work/privatesky/privatesky/modules/bar/lib/BrickMap.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bar/utils/isStream.js":[function(require,module,exports){
+},{"../Brick":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\Brick.js","../BrickMap":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\lib\\BrickMap.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\utils\\isStream.js":[function(require,module,exports){
 function isStream(stream){
     return stream !== null && typeof stream === 'object' && typeof stream.pipe === 'function';
 }
@@ -16959,7 +16959,7 @@ module.exports = {
     isDuplex
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bar/utils/utilities.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\utils\\utilities.js":[function(require,module,exports){
 const OFFSET_SIZE = 8;
 
 function getBrickMapOffsetSize() {
@@ -16978,7 +16978,7 @@ function ensureFileDoesNotExist(filePath, callback) {
 }
 
 module.exports = {getBrickMapOffsetSize, ensureFileDoesNotExist};
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/index.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\index.js":[function(require,module,exports){
 const Command = require("./src/Command");
 const Logger = require("./src/Logger");
 const PBlockAddedMessage = require("./src/Broadcaster/PBlockAddedMessage");
@@ -17244,7 +17244,7 @@ module.exports = {
     createFSBrickStorage,
 };
 
-},{"./src/Broadcaster":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/index.js","./src/Broadcaster/PBlockAddedMessage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/PBlockAddedMessage.js","./src/Broadcaster/ValidatorNonInclusionMessage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/ValidatorNonInclusionMessage.js","./src/Command":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Command.js","./src/CommandHistoryStorage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/CommandHistoryStorage.js","./src/ConsensusCore":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/index.js","./src/ExecutionEngine":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ExecutionEngine/index.js","./src/FSBrickStorage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSBrickStorage/index.js","./src/FSKeyValueStorage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSKeyValueStorage/index.js","./src/Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","./src/Notifier":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Notifier.js","./src/PBlocksFactory":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/PBlocksFactory.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Block.js":[function(require,module,exports){
+},{"./src/Broadcaster":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\index.js","./src/Broadcaster/PBlockAddedMessage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\PBlockAddedMessage.js","./src/Broadcaster/ValidatorNonInclusionMessage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\ValidatorNonInclusionMessage.js","./src/Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Command.js","./src/CommandHistoryStorage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\CommandHistoryStorage.js","./src/ConsensusCore":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\index.js","./src/ExecutionEngine":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ExecutionEngine\\index.js","./src/FSBrickStorage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSBrickStorage\\index.js","./src/FSKeyValueStorage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSKeyValueStorage\\index.js","./src/Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","./src/Notifier":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Notifier.js","./src/PBlocksFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\PBlocksFactory.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Block.js":[function(require,module,exports){
 class Block {
     constructor(block) {
         if (!block) {
@@ -17266,7 +17266,7 @@ class Block {
 
 module.exports = Block;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/PBlockAddedMessage.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\PBlockAddedMessage.js":[function(require,module,exports){
 (function (Buffer){(function (){
 class PBlockAddedMessage {
     constructor(body) {
@@ -17342,7 +17342,7 @@ module.exports = PBlockAddedMessage;
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/ValidatorNonInclusionMessage.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\ValidatorNonInclusionMessage.js":[function(require,module,exports){
 class ValidatorNonInclusionMessage {
     constructor(body) {
         if (!body) {
@@ -17408,7 +17408,7 @@ class ValidatorNonInclusionMessage {
 
 module.exports = ValidatorNonInclusionMessage;
 
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/index.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\index.js":[function(require,module,exports){
 const Logger = require("../Logger");
 const PBlockAddedMessage = require("./PBlockAddedMessage");
 const ValidatorNonInclusionMessage = require("./ValidatorNonInclusionMessage");
@@ -17489,7 +17489,7 @@ module.exports = {
     create,
 };
 
-},{"../Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","../utils/bdns-utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/bdns-utils.js","./PBlockAddedMessage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/PBlockAddedMessage.js","./ValidatorNonInclusionMessage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/ValidatorNonInclusionMessage.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Command.js":[function(require,module,exports){
+},{"../Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","../utils/bdns-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\bdns-utils.js","./PBlockAddedMessage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\PBlockAddedMessage.js","./ValidatorNonInclusionMessage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\ValidatorNonInclusionMessage.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Command.js":[function(require,module,exports){
 (function (Buffer){(function (){
 class Command {
     constructor(command) {
@@ -17561,7 +17561,7 @@ module.exports = Command;
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/CommandHistoryStorage.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\CommandHistoryStorage.js":[function(require,module,exports){
 const { ensurePathExists } = require("./utils/fs-utils");
 
 class CommandHistoryStorage {
@@ -17654,7 +17654,7 @@ module.exports = {
     create,
 };
 
-},{"./utils/fs-utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/fs-utils.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","os":"/home/runner/work/privatesky/privatesky/node_modules/os-browserify/browser.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/PendingBlock.js":[function(require,module,exports){
+},{"./utils/fs-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\fs-utils.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","os":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\os-browserify\\browser.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\PendingBlock.js":[function(require,module,exports){
 const { CONSENSUS_PHASES, areNonInclusionListsEqual } = require("./utils");
 const Logger = require("../Logger");
 const Block = require("../Block");
@@ -18021,7 +18021,7 @@ class PendingBlock {
 
 module.exports = PendingBlock;
 
-},{"../Block":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Block.js","../Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","./utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/ValidatorContractExecutor.js":[function(require,module,exports){
+},{"../Block":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Block.js","../Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\ValidatorContractExecutor.js":[function(require,module,exports){
 const Block = require("../Block");
 const Command = require("../Command");
 const Logger = require("../Logger");
@@ -18120,7 +18120,7 @@ class ValidatorContractExecutor {
 
 module.exports = ValidatorContractExecutor;
 
-},{"../Block":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Block.js","../Command":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Command.js","../Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","../PBlock":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/PBlock.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/ValidatorContractExecutorFactory.js":[function(require,module,exports){
+},{"../Block":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Block.js","../Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Command.js","../Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","../PBlock":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\PBlock.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\ValidatorContractExecutorFactory.js":[function(require,module,exports){
 const ValidatorContractExecutor = require("./ValidatorContractExecutor");
 
 function create(...params) {
@@ -18130,7 +18130,7 @@ function create(...params) {
 module.exports = {
     create
 }
-},{"./ValidatorContractExecutor":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/ValidatorContractExecutor.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/ValidatorSynchronizer.js":[function(require,module,exports){
+},{"./ValidatorContractExecutor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\ValidatorContractExecutor.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\ValidatorSynchronizer.js":[function(require,module,exports){
 const Logger = require("../Logger");
 const Block = require("../Block");
 function getHashFromHashLinkSSI(hashLinkSSI) {
@@ -18349,7 +18349,7 @@ class ValidatorSynchronizer {
 
 module.exports = ValidatorSynchronizer;
 
-},{"../Block":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Block.js","../Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/index.js":[function(require,module,exports){
+},{"../Block":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Block.js","../Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\index.js":[function(require,module,exports){
 /*
 A configurable consensus core that can have 3 consensus strategies
  - SVBC - Single Validator BrickLedger Consensus:  Only one node is accepting commands and propose BrickBlocks. A block has only one BrickBlock.
@@ -18921,7 +18921,7 @@ module.exports = {
     create,
 };
 
-},{"../Broadcaster/PBlockAddedMessage":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Broadcaster/PBlockAddedMessage.js","../Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","../PBlock":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/PBlock.js","../utils/object-utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/object-utils.js","./PendingBlock":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/PendingBlock.js","./ValidatorContractExecutorFactory":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/ValidatorContractExecutorFactory.js","./ValidatorSynchronizer":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/ValidatorSynchronizer.js","./utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ConsensusCore/utils.js":[function(require,module,exports){
+},{"../Broadcaster/PBlockAddedMessage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Broadcaster\\PBlockAddedMessage.js","../Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","../PBlock":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\PBlock.js","../utils/object-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\object-utils.js","./PendingBlock":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\PendingBlock.js","./ValidatorContractExecutorFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\ValidatorContractExecutorFactory.js","./ValidatorSynchronizer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\ValidatorSynchronizer.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ConsensusCore\\utils.js":[function(require,module,exports){
 const { checkIfPathExists, ensurePathExists } = require("../utils/fs-utils");
 const { getValidatorsForCurrentDomain } = require("../utils/bdns-utils");
 
@@ -19070,7 +19070,7 @@ module.exports = {
     areNonInclusionListsEqual,
 };
 
-},{"../utils/bdns-utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/bdns-utils.js","../utils/fs-utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/fs-utils.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","os":"/home/runner/work/privatesky/privatesky/node_modules/os-browserify/browser.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ExecutionEngine/index.js":[function(require,module,exports){
+},{"../utils/bdns-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\bdns-utils.js","../utils/fs-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\fs-utils.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","os":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\os-browserify\\browser.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ExecutionEngine\\index.js":[function(require,module,exports){
 const Logger = require("../Logger");
 const {
     getContractMethodExecutionPromise,
@@ -19229,7 +19229,7 @@ module.exports = {
     create,
 };
 
-},{"../Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","./utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ExecutionEngine/utils.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/ExecutionEngine/utils.js":[function(require,module,exports){
+},{"../Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ExecutionEngine\\utils.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\ExecutionEngine\\utils.js":[function(require,module,exports){
 async function validateNoncedCommandExecution(command, commandHistoryStorage, isValidatedMode) {
     // check if this nonced command has already been executed
     const commandHash = command.getHash();
@@ -19465,7 +19465,7 @@ module.exports = {
     validateNoncedCommandExecution,
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSBrickStorage/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSBrickStorage\\index.js":[function(require,module,exports){
 class FSBrickPathsManager {
     constructor() {
         this.brickPaths = {};
@@ -19579,7 +19579,7 @@ function create(...params) {
 module.exports = {
     create
 };
-},{"./utils":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSBrickStorage/utils.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSBrickStorage/utils.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSBrickStorage\\utils.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSBrickStorage\\utils.js":[function(require,module,exports){
 (function (process){(function (){
 /** @deprecated */
 process.env.FOLDER_NAME_SIZE;
@@ -19602,7 +19602,7 @@ module.exports = {
 }
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSKeyValueStorage/StorageValue.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSKeyValueStorage\\StorageValue.js":[function(require,module,exports){
 class StorageValue {
     constructor(stringValue) {
         this.value = stringValue
@@ -19651,7 +19651,7 @@ class StorageValue {
 
 module.exports = StorageValue;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSKeyValueStorage/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSKeyValueStorage\\index.js":[function(require,module,exports){
 const StorageValue = require("./StorageValue");
 
 class FSKeyValueStorage {
@@ -19755,7 +19755,7 @@ module.exports = {
     create,
 };
 
-},{"./StorageValue":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/FSKeyValueStorage/StorageValue.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js":[function(require,module,exports){
+},{"./StorageValue":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\FSKeyValueStorage\\StorageValue.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js":[function(require,module,exports){
 const ENABLE_DEBUG = false;
 
 class Logger {
@@ -19788,7 +19788,7 @@ class Logger {
 
 module.exports = Logger;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Notifier.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Notifier.js":[function(require,module,exports){
 const Logger = require("./Logger");
 
 class Notifier {
@@ -19832,7 +19832,7 @@ module.exports = {
     create,
 };
 
-},{"./Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/PBlock.js":[function(require,module,exports){
+},{"./Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\PBlock.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const Command = require("./Command");
 
@@ -19932,7 +19932,7 @@ module.exports = PBlock;
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Command.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/PBlocksFactory.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Command.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\PBlocksFactory.js":[function(require,module,exports){
 const Logger = require("./Logger");
 const PBlock = require("./PBlock");
 
@@ -20317,7 +20317,7 @@ module.exports = {
     create,
 };
 
-},{"./Logger":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/Logger.js","./PBlock":"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/PBlock.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/bdns-utils.js":[function(require,module,exports){
+},{"./Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\Logger.js","./PBlock":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\PBlock.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\bdns-utils.js":[function(require,module,exports){
 async function getValidatorsForCurrentDomain(executionEngine) {
     const { contracts } = executionEngine;
     const domainInfo = await $$.promisify(contracts.bdns.getDomainInfo.bind(contracts.bdns))();
@@ -20328,7 +20328,7 @@ module.exports = {
     getValidatorsForCurrentDomain,
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/fs-utils.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\fs-utils.js":[function(require,module,exports){
 async function checkIfPathExists(path) {
     try {
         const fs = require("fs");
@@ -20352,7 +20352,7 @@ module.exports = {
     ensurePathExists,
 };
 
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js"}],"/home/runner/work/privatesky/privatesky/modules/bricksledger/src/utils/object-utils.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bricksledger\\src\\utils\\object-utils.js":[function(require,module,exports){
 function clone(obj) {
     return JSON.parse(JSON.stringify(obj));
 }
@@ -20361,7 +20361,7 @@ module.exports = {
     clone,
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/callflow/constants.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\constants.js":[function(require,module,exports){
 $$.CONSTANTS = {
     SWARM_FOR_EXECUTION:"swarm_for_execution",//TODO: remove
     INBOUND:"inbound",//TODO: remove
@@ -20383,7 +20383,7 @@ $$.CONSTANTS.mixIn = function(otherConstants){
     }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/callflow/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\index.js":[function(require,module,exports){
 (function (global){(function (){
 function initialise() {
     if($$.callflow){
@@ -20471,7 +20471,7 @@ module.exports = {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./constants":"/home/runner/work/privatesky/privatesky/modules/callflow/constants.js","./lib/InterceptorRegistry":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/InterceptorRegistry.js","./lib/loadLibrary":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/loadLibrary.js","./lib/parallelJoinPoint":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/parallelJoinPoint.js","./lib/serialJoinPoint":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/serialJoinPoint.js","./lib/swarmDescription":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/swarmDescription.js","./lib/utilityFunctions/base":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/utilityFunctions/base.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","soundpubsub":"/home/runner/work/privatesky/privatesky/modules/soundpubsub/index.js"}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/InterceptorRegistry.js":[function(require,module,exports){
+},{"./constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\constants.js","./lib/InterceptorRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\InterceptorRegistry.js","./lib/loadLibrary":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\loadLibrary.js","./lib/parallelJoinPoint":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\parallelJoinPoint.js","./lib/serialJoinPoint":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\serialJoinPoint.js","./lib/swarmDescription":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\swarmDescription.js","./lib/utilityFunctions/base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\utilityFunctions\\base.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","soundpubsub":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\soundpubsub\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\InterceptorRegistry.js":[function(require,module,exports){
 (function (global){(function (){
 // related to: SwarmSpace.SwarmDescription.createPhase()
 
@@ -20666,7 +20666,7 @@ exports.createInterceptorRegistry = function () {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/loadLibrary.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\loadLibrary.js":[function(require,module,exports){
 /*
 Initial License: (c) Axiologic Research & Alboaie Sînică.
 Contributors: Axiologic Research , PrivateSky project
@@ -20770,7 +20770,7 @@ exports.loadLibrary = function(prefixName, folder){
 }
 
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/parallelJoinPoint.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\parallelJoinPoint.js":[function(require,module,exports){
 (function (process){(function (){
 
 var globalJoinCounter = 0;
@@ -20910,7 +20910,7 @@ exports.createJoinPoint = function(swarm, callback, args){
 };
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/serialJoinPoint.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\serialJoinPoint.js":[function(require,module,exports){
 
 var joinCounter = 0;
 
@@ -21035,7 +21035,7 @@ exports.createSerialJoinPoint = function(swarm, callback, args){
     jp.setProxyObject(p);
     return p;
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/swarmDescription.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\swarmDescription.js":[function(require,module,exports){
 const swarmDescriptionsRegistry = {};
 let currentInlineCounter = 0;
 
@@ -21400,7 +21400,7 @@ exports.createSwarmEngine = function(swarmType, utils){
 };
 
 
-},{"./utilityFunctions/callflow":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/utilityFunctions/callflow.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/utilityFunctions/SwarmDebug.js":[function(require,module,exports){
+},{"./utilityFunctions/callflow":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\utilityFunctions\\callflow.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\utilityFunctions\\SwarmDebug.js":[function(require,module,exports){
 (function (process,global){(function (){
 /*
  Initial License: (c) Axiologic Research & Alboaie Sînică.
@@ -21599,7 +21599,7 @@ function localLog (logType, message, err) {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/utilityFunctions/base.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\utilityFunctions\\base.js":[function(require,module,exports){
 exports.createForObject = function(valueObject, thisObject, localId){
 	var swarmDebug = require("./SwarmDebug");
 	let ret = {};
@@ -21728,12 +21728,12 @@ exports.createForObject = function(valueObject, thisObject, localId){
 
 };
 
-},{"../parallelJoinPoint":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/parallelJoinPoint.js","../serialJoinPoint":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/serialJoinPoint.js","./SwarmDebug":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/utilityFunctions/SwarmDebug.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/callflow/lib/utilityFunctions/callflow.js":[function(require,module,exports){
+},{"../parallelJoinPoint":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\parallelJoinPoint.js","../serialJoinPoint":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\serialJoinPoint.js","./SwarmDebug":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\utilityFunctions\\SwarmDebug.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\utilityFunctions\\callflow.js":[function(require,module,exports){
 exports.createForObject = function(valueObject, thisObject, localId){
 	var ret = require("./base").createForObject(valueObject, thisObject, localId);
 	return ret;
 };
-},{"./base":"/home/runner/work/privatesky/privatesky/modules/callflow/lib/utilityFunctions/base.js"}],"/home/runner/work/privatesky/privatesky/modules/dossier/index.js":[function(require,module,exports){
+},{"./base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\lib\\utilityFunctions\\base.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\dossier\\index.js":[function(require,module,exports){
 (function (process){(function (){
 function envSetup(powerCord, seed, identity, callback){
     let cord_identity;
@@ -21793,14 +21793,14 @@ module.exports.load = function(seed, identity, callback){
 module.exports.RawDossier = require("./lib/RawDossier");
 }).call(this)}).call(this,require('_process'))
 
-},{"./lib/RawDossier":"/home/runner/work/privatesky/privatesky/modules/dossier/lib/RawDossier.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js","pskcrypto":"pskcrypto","swarm-engine":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/index.js"}],"/home/runner/work/privatesky/privatesky/modules/dossier/lib/RawDossier.js":[function(require,module,exports){
+},{"./lib/RawDossier":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\dossier\\lib\\RawDossier.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js","pskcrypto":"pskcrypto","swarm-engine":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\dossier\\lib\\RawDossier.js":[function(require,module,exports){
 function RawDossier(bar) {
     Object.assign(this, bar);
 }
 
 module.exports = RawDossier;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js":[function(require,module,exports){
 const KeySSIResolver = require('./lib/KeySSIResolver');
 const DSUFactory = require("./lib/DSUFactoryRegistry");
 
@@ -21840,7 +21840,7 @@ module.exports = {
     CryptoAlgorithmsMixin: require('./lib/CryptoAlgorithms/CryptoAlgorithmsMixin')
 };
 
-},{"./lib/CryptoAlgorithms/CryptoAlgorithmsMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsMixin.js","./lib/CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","./lib/CryptoAlgorithms/CryptoFunctionTypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoFunctionTypes.js","./lib/DSUFactoryRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/index.js","./lib/KeySSIResolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIResolver.js","./lib/KeySSIs/KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","./lib/KeySSIs/KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","./lib/KeySSIs/SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","bar":"/home/runner/work/privatesky/privatesky/modules/bar/index.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsMixin.js":[function(require,module,exports){
+},{"./lib/CryptoAlgorithms/CryptoAlgorithmsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsMixin.js","./lib/CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","./lib/CryptoAlgorithms/CryptoFunctionTypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoFunctionTypes.js","./lib/DSUFactoryRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\index.js","./lib/KeySSIResolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIResolver.js","./lib/KeySSIs/KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","./lib/KeySSIs/KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","./lib/KeySSIs/SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","bar":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsMixin.js":[function(require,module,exports){
 function CryptoAlgorithmsMixin(target) {
     target = target || {};
     const crypto = require("pskcrypto");
@@ -21954,7 +21954,7 @@ function CryptoAlgorithmsMixin(target) {
 
 module.exports = CryptoAlgorithmsMixin;
 
-},{"pskcrypto":"pskcrypto","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js":[function(require,module,exports){
+},{"pskcrypto":"pskcrypto","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js":[function(require,module,exports){
 const SSITypes = require("../KeySSIs/SSITypes");
 const CryptoFunctionTypes = require("./CryptoFunctionTypes");
 const CryptoAlgorithmsMixin = require("./CryptoAlgorithmsMixin");
@@ -22072,7 +22072,7 @@ CryptoAlgorithmsRegistry.prototype.registerCryptoInterface(SSITypes.CONSENSUS_SS
 CryptoAlgorithmsRegistry.prototype.registerCryptoInterface(SSITypes.PUBLIC_KEY_SSI, 'v0',  new CryptoAlgorithmsMixin());
 
 
-},{"../KeySSIs/SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./CryptoAlgorithmsMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsMixin.js","./CryptoFunctionTypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoFunctionTypes.js","./SeedSSICryptoAlgorithms":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/SeedSSICryptoAlgorithms.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoFunctionTypes.js":[function(require,module,exports){
+},{"../KeySSIs/SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./CryptoAlgorithmsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsMixin.js","./CryptoFunctionTypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoFunctionTypes.js","./SeedSSICryptoAlgorithms":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\SeedSSICryptoAlgorithms.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoFunctionTypes.js":[function(require,module,exports){
 module.exports = {
     HASH: "hash",
     ENCRYPTION: "encryption",
@@ -22098,7 +22098,7 @@ module.exports = {
     SET_IES_CONFIG: "setConfigForIES",
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/SeedSSICryptoAlgorithms.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\SeedSSICryptoAlgorithms.js":[function(require,module,exports){
 function SeedSSICryptoAlgorithms() {
     const crypto = require("pskcrypto");
     const CryptoAlgorithmsMixin = require("./CryptoAlgorithmsMixin");
@@ -22128,7 +22128,7 @@ function SeedSSICryptoAlgorithms() {
 
 module.exports = SeedSSICryptoAlgorithms;
 
-},{"./CryptoAlgorithmsMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsMixin.js","pskcrypto":"pskcrypto"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/ConsensusDSUFactory.js":[function(require,module,exports){
+},{"./CryptoAlgorithmsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsMixin.js","pskcrypto":"pskcrypto"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\ConsensusDSUFactory.js":[function(require,module,exports){
 /**
  * @param {object} options
  * @param {KeySSIFactory} options.keySSIFactory
@@ -22198,7 +22198,7 @@ function ConsensusDSUFactory(options) {
 
 module.exports = ConsensusDSUFactory;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/ConstDSUFactory.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\ConstDSUFactory.js":[function(require,module,exports){
 /**
  * @param {object} options
  * @param {KeySSIFactory} options.keySSIFactory
@@ -22270,7 +22270,7 @@ function ConstDSUFactory(options) {
 
 module.exports = ConstDSUFactory;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/DSUFactory.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\DSUFactory.js":[function(require,module,exports){
 /**
  * @param {object} options
  * @param {KeySSIFactory} options.keySSIFactory
@@ -22478,7 +22478,7 @@ function DSUFactory(options) {
 
 module.exports = DSUFactory;
 
-},{"../KeySSIs/KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","./mixins/DSUBase":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/mixins/DSUBase.js","bar":"/home/runner/work/privatesky/privatesky/modules/bar/index.js","bar-fs-adapter":"/home/runner/work/privatesky/privatesky/modules/bar-fs-adapter/index.js","opendsu":"opendsu","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js","psk-cache":"/home/runner/work/privatesky/privatesky/modules/psk-cache/index.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/OwnershipDSUFactory.js":[function(require,module,exports){
+},{"../KeySSIs/KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","./mixins/DSUBase":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\mixins\\DSUBase.js","bar":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\index.js","bar-fs-adapter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar-fs-adapter\\index.js","opendsu":"opendsu","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js","psk-cache":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-cache\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\OwnershipDSUFactory.js":[function(require,module,exports){
 /**
  * @param {object} options
  * @param {KeySSIFactory} options.keySSIFactory
@@ -22548,7 +22548,7 @@ function OwnershipDSUFactory(options) {
 
 module.exports = OwnershipDSUFactory;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/WalletFactory.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\WalletFactory.js":[function(require,module,exports){
 /**
  * @param {object} options
  * @param {KeySSIFactory} options.keySSIFactory
@@ -22721,7 +22721,7 @@ function WalletFactory(options) {
 
 module.exports = WalletFactory;
 
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/index.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\index.js":[function(require,module,exports){
 const BarFactory = require('./DSUFactory');
 const SSITypes = require("../KeySSIs/SSITypes");
 /**
@@ -22857,7 +22857,7 @@ Registry.prototype.getDSUFactory = (dsuType) => {
 
 module.exports = Registry;
 
-},{"../KeySSIs/SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./ConsensusDSUFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/ConsensusDSUFactory.js","./ConstDSUFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/ConstDSUFactory.js","./DSUFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/DSUFactory.js","./OwnershipDSUFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/OwnershipDSUFactory.js","./WalletFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/WalletFactory.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/DSUFactoryRegistry/mixins/DSUBase.js":[function(require,module,exports){
+},{"../KeySSIs/SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./ConsensusDSUFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\ConsensusDSUFactory.js","./ConstDSUFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\ConstDSUFactory.js","./DSUFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\DSUFactory.js","./OwnershipDSUFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\OwnershipDSUFactory.js","./WalletFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\WalletFactory.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\DSUFactoryRegistry\\mixins\\DSUBase.js":[function(require,module,exports){
 module.exports = function(archive){
 	archive.call = (functionName, ...args) => {
 		if(args.length === 0){
@@ -22918,7 +22918,7 @@ module.exports = function(archive){
 	return archive;
 }
 
-},{"overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIResolver.js":[function(require,module,exports){
+},{"overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIResolver.js":[function(require,module,exports){
 /**
  * @param {BrickMapStrategyFactory} options.brickMapStrategyFactory
  * @param {DSUFactory} options.dsuFactory
@@ -23008,7 +23008,7 @@ function KeySSIResolver(options) {
 
 module.exports = KeySSIResolver;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/ArraySSI.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\ArraySSI.js":[function(require,module,exports){
 function ArraySSI(enclave, identifier) {
     if (typeof enclave === "string") {
         identifier = enclave;
@@ -23078,7 +23078,7 @@ module.exports = {
     createArraySSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./ConstSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/ConstSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/CZaSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./ConstSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\ConstSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\CZaSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 
@@ -23118,7 +23118,7 @@ module.exports = {
     createCZaSSI
 };
 
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/ConstSSI.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\ConstSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const CZaSSI = require("./CZaSSI");
 const SSITypes = require("../SSITypes");
@@ -23185,7 +23185,7 @@ module.exports = {
     createConstSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./CZaSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/CZaSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/PasswordSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./CZaSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\CZaSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\PasswordSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const ConstSSI = require("./ConstSSI");
 const SSITypes = require("../SSITypes");
@@ -23233,7 +23233,7 @@ module.exports = {
     createPasswordSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./ConstSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/ConstSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ContractSSIs/ConsensusSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./ConstSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\ConstSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ContractSSIs\\ConsensusSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 
@@ -23258,13 +23258,13 @@ module.exports = {
     createConsensusSSI,
 };
 
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/DSURepresentationNames.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\DSURepresentationNames.js":[function(require,module,exports){
 const DSURepresentationNames = {
     "seed": "RawDossier"
 }
 
 module.exports = DSURepresentationNames;
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/HashLinkSSIs/SignedHashLinkSSI.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\HashLinkSSIs\\SignedHashLinkSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const {createHashLinkSSI} = require("../OtherKeySSIs/HashLinkSSI");
 const SSITypes = require("../SSITypes");
@@ -23357,7 +23357,7 @@ module.exports = {
     createSignedHashLinkSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../OtherKeySSIs/HashLinkSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/HashLinkSSI.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../OtherKeySSIs/HashLinkSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\HashLinkSSI.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js":[function(require,module,exports){
 const createSecretSSI = require("./SecretSSIs/SecretSSI").createSecretSSI;
 const createAnchorSSI = require("./SecretSSIs/AnchorSSI").createAnchorSSI;
 const createReadSSI = require("./SecretSSIs/ReadSSI").createReadSSI;
@@ -23577,7 +23577,7 @@ KeySSIFactory.prototype.registerFactory(SSITypes.SIZE_SSI, 'v0', undefined, crea
 
 module.exports = new KeySSIFactory();
 
-},{"./ConstSSIs/ArraySSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/ArraySSI.js","./ConstSSIs/CZaSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/CZaSSI.js","./ConstSSIs/ConstSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/ConstSSI.js","./ConstSSIs/PasswordSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/PasswordSSI.js","./ContractSSIs/ConsensusSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ContractSSIs/ConsensusSSI.js","./HashLinkSSIs/SignedHashLinkSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/HashLinkSSIs/SignedHashLinkSSI.js","./KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","./OtherKeySSIs/AliasSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/AliasSSI.js","./OtherKeySSIs/HashLinkSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/HashLinkSSI.js","./OtherKeySSIs/PublicKeySSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/PublicKeySSI.js","./OtherKeySSIs/SizeSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/SizeSSI.js","./OtherKeySSIs/SymmetricalEncryptionSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/SymmetricalEncryptionSSI.js","./OtherKeySSIs/WalletSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/WalletSSI.js","./OwnershipSSIs/OReadSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/OReadSSI.js","./OwnershipSSIs/OwnershipSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/OwnershipSSI.js","./OwnershipSSIs/ZATSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/ZATSSI.js","./SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./SecretSSIs/AnchorSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/AnchorSSI.js","./SecretSSIs/PublicSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/PublicSSI.js","./SecretSSIs/ReadSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/ReadSSI.js","./SecretSSIs/SecretSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/SecretSSI.js","./SecretSSIs/ZaSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/ZaSSI.js","./SeedSSIs/PathKeySSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/PathKeySSI.js","./SeedSSIs/SReadSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SReadSSI.js","./SeedSSIs/SZaSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SZaSSI.js","./SeedSSIs/SeedSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SeedSSI.js","./TokenSSIs/TokenSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/TokenSSIs/TokenSSI.js","./TransferSSIs/TransferSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/TransferSSIs/TransferSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js":[function(require,module,exports){
+},{"./ConstSSIs/ArraySSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\ArraySSI.js","./ConstSSIs/CZaSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\CZaSSI.js","./ConstSSIs/ConstSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\ConstSSI.js","./ConstSSIs/PasswordSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\PasswordSSI.js","./ContractSSIs/ConsensusSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ContractSSIs\\ConsensusSSI.js","./HashLinkSSIs/SignedHashLinkSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\HashLinkSSIs\\SignedHashLinkSSI.js","./KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","./OtherKeySSIs/AliasSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\AliasSSI.js","./OtherKeySSIs/HashLinkSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\HashLinkSSI.js","./OtherKeySSIs/PublicKeySSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\PublicKeySSI.js","./OtherKeySSIs/SizeSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\SizeSSI.js","./OtherKeySSIs/SymmetricalEncryptionSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\SymmetricalEncryptionSSI.js","./OtherKeySSIs/WalletSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\WalletSSI.js","./OwnershipSSIs/OReadSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\OReadSSI.js","./OwnershipSSIs/OwnershipSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\OwnershipSSI.js","./OwnershipSSIs/ZATSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\ZATSSI.js","./SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./SecretSSIs/AnchorSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\AnchorSSI.js","./SecretSSIs/PublicSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\PublicSSI.js","./SecretSSIs/ReadSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\ReadSSI.js","./SecretSSIs/SecretSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\SecretSSI.js","./SecretSSIs/ZaSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\ZaSSI.js","./SeedSSIs/PathKeySSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\PathKeySSI.js","./SeedSSIs/SReadSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SReadSSI.js","./SeedSSIs/SZaSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SZaSSI.js","./SeedSSIs/SeedSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SeedSSI.js","./TokenSSIs/TokenSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\TokenSSIs\\TokenSSI.js","./TransferSSIs/TransferSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\TransferSSIs\\TransferSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js":[function(require,module,exports){
 (function (process){(function (){
 const cryptoRegistry = require("../CryptoAlgorithms/CryptoAlgorithmsRegistry");
 const {BRICKS_DOMAIN_KEY} = require('opendsu').constants
@@ -23884,7 +23884,7 @@ module.exports = keySSIMixin;
 
 }).call(this)}).call(this,require('_process'))
 
-},{"../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","./DSURepresentationNames":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/DSURepresentationNames.js","./KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","./SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu","pskcrypto":"pskcrypto"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/AliasSSI.js":[function(require,module,exports){
+},{"../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","./DSURepresentationNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\DSURepresentationNames.js","./KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","./SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu","pskcrypto":"pskcrypto"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\AliasSSI.js":[function(require,module,exports){
 (function (process){(function (){
 const SSITypes = require("../SSITypes");
 
@@ -23954,7 +23954,7 @@ module.exports = {
 };
 }).call(this)}).call(this,require('_process'))
 
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/HashLinkSSI.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\HashLinkSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 
@@ -23999,7 +23999,7 @@ module.exports = {
     createHashLinkSSI
 };
 
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/PublicKeySSI.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\PublicKeySSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 const cryptoRegistry = require("../../CryptoAlgorithms/CryptoAlgorithmsRegistry");
@@ -24052,7 +24052,7 @@ module.exports = {
     createPublicKeySSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/SizeSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\SizeSSI.js":[function(require,module,exports){
 const SSITypes = require("../SSITypes");
 const KeySSIMixin = require("../KeySSIMixin");
 
@@ -24112,7 +24112,7 @@ module.exports = {
     createSizeSSI,
 };
 
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/SymmetricalEncryptionSSI.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\SymmetricalEncryptionSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 const cryptoRegistry = require("../../CryptoAlgorithms/CryptoAlgorithmsRegistry");
@@ -24163,7 +24163,7 @@ module.exports = {
     createSymmetricalEncryptionSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OtherKeySSIs/WalletSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OtherKeySSIs\\WalletSSI.js":[function(require,module,exports){
 const ArraySSI = require("./../ConstSSIs/ArraySSI");
 const SSITypes = require("../SSITypes");
 
@@ -24186,7 +24186,7 @@ module.exports = {
     createWalletSSI
 }
 
-},{"../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./../ConstSSIs/ArraySSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/ConstSSIs/ArraySSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/OReadSSI.js":[function(require,module,exports){
+},{"../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./../ConstSSIs/ArraySSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\ConstSSIs\\ArraySSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\OReadSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const ZATSSI = require("./ZATSSI");
 const SSITypes = require("../SSITypes");
@@ -24260,7 +24260,7 @@ module.exports = {
     createOReadSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./ZATSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/ZATSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/OwnershipSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./ZATSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\ZATSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\OwnershipSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const OReadSSI = require("./OReadSSI");
 const SSITypes = require("../SSITypes");
@@ -24427,7 +24427,7 @@ module.exports = {
     createOwnershipSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./OReadSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/OReadSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/OwnershipSSIs/ZATSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./OReadSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\OReadSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\OwnershipSSIs\\ZATSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 
@@ -24460,7 +24460,7 @@ module.exports = {
     createZATSSI
 };
 
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js":[function(require,module,exports){
 module.exports = {
     DEFAULT: "default",
     SECRET_SSI: "secret",
@@ -24491,7 +24491,7 @@ module.exports = {
     SIZE_SSI: "size",
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/AnchorSSI.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\AnchorSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const ReadSSI = require("./ReadSSI");
 const SSITypes = require("../SSITypes");
@@ -24526,7 +24526,7 @@ module.exports = {
     createAnchorSSI
 }
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./ReadSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/ReadSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/PublicSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./ReadSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\ReadSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\PublicSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const ZaSSI = require("./ZaSSI");
 const SSITypes = require("../SSITypes");
@@ -24555,7 +24555,7 @@ module.exports = {
     createPublicSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./ZaSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/ZaSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/ReadSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./ZaSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\ZaSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\ReadSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const PublicSSI = require("./PublicSSI");
 const SSITypes = require("../SSITypes");
@@ -24584,7 +24584,7 @@ module.exports = {
     createReadSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./PublicSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/PublicSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/SecretSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./PublicSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\PublicSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\SecretSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const AnchorSSI = require("./AnchorSSI");
 const SSITypes = require("../SSITypes");
@@ -24612,7 +24612,7 @@ module.exports = {
     createSecretSSI
 }
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./AnchorSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/AnchorSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SecretSSIs/ZaSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./AnchorSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\AnchorSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SecretSSIs\\ZaSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 function ZaSSI(identifier) {
     KeySSIMixin(this);
@@ -24633,7 +24633,7 @@ function createZaSSI(identifier) {
 module.exports = {
     createZaSSI
 };
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/PathKeySSI.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\PathKeySSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SeedSSI = require("./SeedSSI");
 const SSITypes = require("../SSITypes");
@@ -24767,7 +24767,7 @@ module.exports = {
     createPathKeySSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./SeedSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SeedSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SReadSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./SeedSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SeedSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SReadSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SZaSSI = require("./SZaSSI");
 const SSITypes = require("../SSITypes");
@@ -24820,7 +24820,7 @@ module.exports = {
     createSReadSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./SZaSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SZaSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SZaSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./SZaSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SZaSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SZaSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 const cryptoRegistry = require("../../CryptoAlgorithms/CryptoAlgorithmsRegistry");
@@ -24863,7 +24863,7 @@ module.exports = {
     createSZaSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SeedSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SeedSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SReadSSI = require("./SReadSSI");
 const SSITypes = require("../SSITypes");
@@ -24993,7 +24993,7 @@ module.exports = {
     createSeedSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js","./SReadSSI":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SeedSSIs/SReadSSI.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/TokenSSIs/TokenSSI.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js","./SReadSSI":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SeedSSIs\\SReadSSI.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\TokenSSIs\\TokenSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 
@@ -25061,7 +25061,7 @@ module.exports = {
     createTokenSSI
 };
 
-},{"../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/TransferSSIs/TransferSSI.js":[function(require,module,exports){
+},{"../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\TransferSSIs\\TransferSSI.js":[function(require,module,exports){
 const KeySSIMixin = require("../KeySSIMixin");
 const SSITypes = require("../SSITypes");
 const cryptoRegistry = require("../../CryptoAlgorithms/CryptoAlgorithmsRegistry");
@@ -25161,7 +25161,7 @@ module.exports = {
     createTransferSSI
 };
 
-},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/CryptoAlgorithms/CryptoAlgorithmsRegistry.js","../KeySSIFactory":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIFactory.js","../KeySSIMixin":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/KeySSIMixin.js","../SSITypes":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/lib/KeySSIs/SSITypes.js"}],"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/index.js":[function(require,module,exports){
+},{"../../CryptoAlgorithms/CryptoAlgorithmsRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\CryptoAlgorithms\\CryptoAlgorithmsRegistry.js","../KeySSIFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIFactory.js","../KeySSIMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\KeySSIMixin.js","../SSITypes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\lib\\KeySSIs\\SSITypes.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const loki = require("./lib/lokijs/src/lokijs.js");
 const lfsa = require("./lib/lokijs/src/loki-fs-sync-adapter.js");
@@ -25689,7 +25689,7 @@ function initialized() {
 module.exports = LokiEnclaveFacade;
 }).call(this)}).call(this,{"isBuffer":require("../../node_modules/is-buffer/index.js")})
 
-},{"../../node_modules/is-buffer/index.js":"/home/runner/work/privatesky/privatesky/node_modules/is-buffer/index.js","./lib/lokijs/src/loki-fs-sync-adapter.js":"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/lib/lokijs/src/loki-fs-sync-adapter.js","./lib/lokijs/src/lokijs.js":"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/lib/lokijs/src/lokijs.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/lib/lokijs/src/loki-fs-sync-adapter.js":[function(require,module,exports){
+},{"../../node_modules/is-buffer/index.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\is-buffer\\index.js","./lib/lokijs/src/loki-fs-sync-adapter.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\lib\\lokijs\\src\\loki-fs-sync-adapter.js","./lib/lokijs/src/lokijs.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\lib\\lokijs\\src\\lokijs.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\lib\\lokijs\\src\\loki-fs-sync-adapter.js":[function(require,module,exports){
 /*
   A synchronous version of the Loki Filesystem adapter for node.js
 
@@ -25796,7 +25796,7 @@ module.exports = LokiEnclaveFacade;
   }());
 }));
 
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js"}],"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/lib/lokijs/src/loki-indexed-adapter.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\lib\\lokijs\\src\\loki-indexed-adapter.js":[function(require,module,exports){
 /*
   Loki IndexedDb Adapter (need to include this script to use it)
 
@@ -26430,7 +26430,7 @@ module.exports = LokiEnclaveFacade;
   }());
 }));
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/lib/lokijs/src/lokijs.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\lib\\lokijs\\src\\lokijs.js":[function(require,module,exports){
 (function (process,global){(function (){
 /**
  * LokiJS
@@ -34176,7 +34176,7 @@ module.exports = LokiEnclaveFacade;
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./loki-indexed-adapter.js":"/home/runner/work/privatesky/privatesky/modules/loki-enclave-facade/lib/lokijs/src/loki-indexed-adapter.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/RemotePersistence.js":[function(require,module,exports){
+},{"./loki-indexed-adapter.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\loki-enclave-facade\\lib\\lokijs\\src\\loki-indexed-adapter.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\RemotePersistence.js":[function(require,module,exports){
 function RemotePersistence() {
     const openDSU = require("opendsu");
     const keySSISpace = openDSU.loadAPI("keyssi");
@@ -34334,7 +34334,7 @@ function RemotePersistence() {
 }
 
 module.exports = RemotePersistence;
-},{"../utils/promise-runner":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/promise-runner.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/anchoring-utils.js":[function(require,module,exports){
+},{"../utils/promise-runner":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\promise-runner.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\anchoring-utils.js":[function(require,module,exports){
 const constants = require("../moduleConstants");
 
 function validateHashLinks(keySSI, hashLinks, callback) {
@@ -34428,7 +34428,7 @@ module.exports = {
     verifySignature
 };
 
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/anchoringAbstractBehaviour.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\anchoringAbstractBehaviour.js":[function(require,module,exports){
 const {createOpenDSUErrorWrapper} = require("../error");
 
 function AnchoringAbstractBehaviour(persistenceStrategy) {
@@ -34632,7 +34632,7 @@ module.exports = {
     AnchoringAbstractBehaviour
 }
 
-},{"../error":"/home/runner/work/privatesky/privatesky/modules/opendsu/error/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/index.js":[function(require,module,exports){
+},{"../error":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\error\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\index.js":[function(require,module,exports){
 const keyssi = require("../keyssi");
 const {fetch, doPut} = require("../http");
 const constants = require("../moduleConstants");
@@ -34912,7 +34912,7 @@ module.exports = {
     getAnchoringX
 }
 
-},{"../bdns":"/home/runner/work/privatesky/privatesky/modules/opendsu/bdns/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/opendsu/config/index.js","../http":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/index.js","../keyssi":"/home/runner/work/privatesky/privatesky/modules/opendsu/keyssi/index.js","../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../utils/promise-runner":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/promise-runner.js","./RemotePersistence":"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/RemotePersistence.js","./anchoring-utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/anchoring-utils.js","./anchoringAbstractBehaviour":"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/anchoringAbstractBehaviour.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/bdns/index.js":[function(require,module,exports){
+},{"../bdns":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bdns\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\index.js","../http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\index.js","../keyssi":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\keyssi\\index.js","../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../utils/promise-runner":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\promise-runner.js","./RemotePersistence":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\RemotePersistence.js","./anchoring-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\anchoring-utils.js","./anchoringAbstractBehaviour":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\anchoringAbstractBehaviour.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bdns\\index.js":[function(require,module,exports){
 const constants = require("../moduleConstants");
 const PendingCallMixin = require("../utils/PendingCallMixin");
 const getBaseURL = require("../utils/getBaseURL");
@@ -35025,7 +35025,7 @@ function BDNS() {
 
 module.exports = new BDNS();
 
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../utils/PendingCallMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/PendingCallMixin.js","../utils/getBaseURL":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/getBaseURL.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/BootEngine.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../utils/PendingCallMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\PendingCallMixin.js","../utils/getBaseURL":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\getBaseURL.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\BootEngine.js":[function(require,module,exports){
 (function (global){(function (){
 function BootEngine(getKeySSI) {
     if (typeof getKeySSI !== "function") {
@@ -35157,7 +35157,7 @@ module.exports = BootEngine;
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/NodeBootScript.js":[function(require,module,exports){
+},{"opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\NodeBootScript.js":[function(require,module,exports){
 (function (process){(function (){
 function boot(keySSI) {
     const worker_threads = "worker_threads";
@@ -35202,7 +35202,7 @@ module.exports = boot;
 
 }).call(this)}).call(this,require('_process'))
 
-},{"./BootEngine.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/BootEngine.js","./boot-utils.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/boot-utils.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/WorkerBootScript.js":[function(require,module,exports){
+},{"./BootEngine.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\BootEngine.js","./boot-utils.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\boot-utils.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\WorkerBootScript.js":[function(require,module,exports){
 function boot(keySSI) {
     const { handleMessage } = require("./boot-utils.js");
 
@@ -35235,7 +35235,7 @@ function boot(keySSI) {
 
 module.exports = boot;
 
-},{"./BootEngine.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/BootEngine.js","./boot-utils.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/boot-utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/boot-utils.js":[function(require,module,exports){
+},{"./BootEngine.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\BootEngine.js","./boot-utils.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\boot-utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\boot-utils.js":[function(require,module,exports){
 function handleMessage(message, onHandleMessage) {
     // console.log("[worker] Received message", message);
 
@@ -35274,7 +35274,7 @@ module.exports = {
     handleMessage,
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\index.js":[function(require,module,exports){
 let { ENVIRONMENT_TYPES } = require("../moduleConstants.js");
 
 function getBootScript() {
@@ -35290,7 +35290,7 @@ function getBootScript() {
 
 module.exports = getBootScript();
 
-},{"../moduleConstants.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./NodeBootScript":"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/NodeBootScript.js","./WorkerBootScript":"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/WorkerBootScript.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/bricking/cachedBricking.js":[function(require,module,exports){
+},{"../moduleConstants.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./NodeBootScript":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\NodeBootScript.js","./WorkerBootScript":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\WorkerBootScript.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bricking\\cachedBricking.js":[function(require,module,exports){
 const openDSU = require("opendsu");
 const crypto = openDSU.loadApi("crypto");
 const keySSISpace = openDSU.loadApi("keyssi");
@@ -35349,7 +35349,7 @@ module.exports = {
     getMultipleBricks
 }
 
-},{"../cache/":"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/bricking/index.js":[function(require,module,exports){
+},{"../cache/":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bricking\\index.js":[function(require,module,exports){
 const openDSU = require("opendsu");
 const {fetch, doPut} = openDSU.loadApi("http");
 const constants = require("../moduleConstants");
@@ -35591,7 +35591,7 @@ const constructBricksFromData = (keySSI, data, options, callback) => {
 
 module.exports = {getBrick, putBrick, getMultipleBricks, constructBricksFromData};
 
-},{"../cache/":"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/opendsu/config/index.js","../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../utils/promise-runner":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/promise-runner.js","./cachedBricking":"/home/runner/work/privatesky/privatesky/modules/opendsu/bricking/cachedBricking.js","bar":"/home/runner/work/privatesky/privatesky/modules/bar/index.js","bar-fs-adapter":"/home/runner/work/privatesky/privatesky/modules/bar-fs-adapter/index.js","opendsu":"opendsu","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/FSCache.js":[function(require,module,exports){
+},{"../cache/":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\index.js","../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../utils/promise-runner":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\promise-runner.js","./cachedBricking":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bricking\\cachedBricking.js","bar":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar\\index.js","bar-fs-adapter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\bar-fs-adapter\\index.js","opendsu":"opendsu","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\FSCache.js":[function(require,module,exports){
 (function (process){(function (){
 let stores = {};
 const config = require("opendsu").loadApi("config");
@@ -35674,7 +35674,7 @@ function FSCache(folderName) {
 module.exports.FSCache = FSCache;
 }).call(this)}).call(this,require('_process'))
 
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../utils/PendingCallMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/PendingCallMixin.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/IndexeDBCache.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../utils/PendingCallMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\PendingCallMixin.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\IndexeDBCache.js":[function(require,module,exports){
 let stores = {};
 const config = require("opendsu").loadApi("config");
 const CacheMixin = require("../utils/PendingCallMixin");
@@ -35795,7 +35795,7 @@ function IndexedDBCache(storeName, lifetime) {
 
 
 module.exports.IndexedDBCache  = IndexedDBCache;
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../utils/PendingCallMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/PendingCallMixin.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/MemoryCache.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../utils/PendingCallMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\PendingCallMixin.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\MemoryCache.js":[function(require,module,exports){
 
 const constants = require("../moduleConstants");
 
@@ -35828,7 +35828,7 @@ function MemoryCache() {
 
 
 module.exports.MemoryCache = MemoryCache;
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/index.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\index.js":[function(require,module,exports){
 let stores = {};
 const config = require("opendsu").loadApi("config");
 const CacheMixin = require("../utils/PendingCallMixin");
@@ -35868,7 +35868,7 @@ module.exports = {
     getCacheForVault,
     getMemoryCache
 }
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../utils/PendingCallMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/PendingCallMixin.js","./FSCache":"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/FSCache.js","./IndexeDBCache":"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/IndexeDBCache.js","./MemoryCache":"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/MemoryCache.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/config/autoConfig.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../utils/PendingCallMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\PendingCallMixin.js","./FSCache":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\FSCache.js","./IndexeDBCache":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\IndexeDBCache.js","./MemoryCache":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\MemoryCache.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\autoConfig.js":[function(require,module,exports){
 const config = require("./index");
 const constants = require("../moduleConstants");
 const system = require("../system");
@@ -35905,7 +35905,7 @@ setGlobalVariable("printOpenDSUError", errorModule.printOpenDSUError);
 
 
 
-},{"../error":"/home/runner/work/privatesky/privatesky/modules/opendsu/error/index.js","../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../system":"/home/runner/work/privatesky/privatesky/modules/opendsu/system/index.js","../utils/getBaseURL":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/getBaseURL.js","./index":"/home/runner/work/privatesky/privatesky/modules/opendsu/config/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/config/autoConfigFromEnvironment.js":[function(require,module,exports){
+},{"../error":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\error\\index.js","../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../system":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\system\\index.js","../utils/getBaseURL":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\getBaseURL.js","./index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\autoConfigFromEnvironment.js":[function(require,module,exports){
 
 module.exports = function(environment){
         const config = require("./index.js");
@@ -35922,7 +35922,7 @@ module.exports = function(environment){
         }
         console.log("Environment for vault", environment.appName,  config.get(constants.CACHE.VAULT_TYPE))
 }
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./index.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/config/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/config/index.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./index.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\index.js":[function(require,module,exports){
 const constants = require("../moduleConstants");
 const config = {};
 
@@ -36011,7 +36011,7 @@ module.exports = {
 };
 
 
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./autoConfigFromEnvironment":"/home/runner/work/privatesky/privatesky/modules/opendsu/config/autoConfigFromEnvironment.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/contracts/index.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./autoConfigFromEnvironment":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\autoConfigFromEnvironment.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\contracts\\index.js":[function(require,module,exports){
 const getBaseURL = require("../utils/getBaseURL");
 
 const {
@@ -36158,7 +36158,7 @@ module.exports = {
     generateNoncedCommandForSpecificServer,
 };
 
-},{"../utils/getBaseURL":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/getBaseURL.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/contracts/utils.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/contracts/utils.js":[function(require,module,exports){
+},{"../utils/getBaseURL":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\getBaseURL.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\contracts\\utils.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\contracts\\utils.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const { fetch, doPost } = require("../http");
 const promiseRunner = require("../utils/promise-runner");
@@ -36319,7 +36319,7 @@ module.exports = {
 
 }).call(this)}).call(this,{"isBuffer":require("../../../node_modules/is-buffer/index.js")})
 
-},{"../../../node_modules/is-buffer/index.js":"/home/runner/work/privatesky/privatesky/node_modules/is-buffer/index.js","../http":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/index.js","../utils/promise-runner":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/promise-runner.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/InstanceReadyMixin.js":[function(require,module,exports){
+},{"../../../node_modules/is-buffer/index.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\is-buffer\\index.js","../http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\index.js","../utils/promise-runner":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\promise-runner.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\InstanceReadyMixin.js":[function(require,module,exports){
 function InstanceReadyMixin(target) {
 
 	target.isInstanceReady = false;
@@ -36348,7 +36348,7 @@ function InstanceReadyMixin(target) {
 }
 
 module.exports = InstanceReadyMixin;
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js":[function(require,module,exports){
 const JWT_ERRORS = {
 	EMPTY_JWT_PROVIDED: 'EMPTY_JWT_PROVIDED',
 	INVALID_JWT_FORMAT: 'INVALID_JWT_FORMAT',
@@ -36417,7 +36417,7 @@ module.exports = {
 	getDefaultJWTOptions: getDefaultJWTOptions,
 	VALIDATION_STRATEGIES
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\index.js":[function(require,module,exports){
 const {createJWTVc, loadJWTVc} = require('./vc/jwtVc');
 const {createJWTVp, loadJWTVp} = require('./vp/jwtVp');
 const validationStrategies = require("./validationStrategies");
@@ -36504,7 +36504,7 @@ module.exports = {
     validationStrategies,
     JWT_ERRORS: require('./constants').JWT_ERRORS
 };
-},{"./constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","./validationStrategies":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/validationStrategies/index.js","./vc/jwtVc":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vc/jwtVc.js","./vp/jwtVp":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vp/jwtVp.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/index.js":[function(require,module,exports){
+},{"./constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","./validationStrategies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\validationStrategies\\index.js","./vc/jwtVc":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vc\\jwtVc.js","./vp/jwtVp":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vp\\jwtVp.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\index.js":[function(require,module,exports){
 const { JWT_ERRORS, IMMUTABLE_PUBLIC_CLAIMS } = require('../constants');
 const { base64UrlEncode } = require('../utils');
 const { signJWT } = require('./sign');
@@ -36588,7 +36588,7 @@ class JWT {
 }
 
 module.exports = JWT;
-},{"../InstanceReadyMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/InstanceReadyMixin.js","../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js","./sign":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/sign.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/model.js":[function(require,module,exports){
+},{"../InstanceReadyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\InstanceReadyMixin.js","../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js","./sign":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\sign.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\model.js":[function(require,module,exports){
 const { JWT_DEFAULTS, JWT_ERRORS, getDefaultJWTOptions } = require('../constants');
 const utils = require('../utils');
 
@@ -36668,7 +36668,7 @@ function defaultJWTParser(encodedJWT, callback) {
 module.exports = {
 	defaultJWTBuilder, defaultJWTParser
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/sign.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\sign.js":[function(require,module,exports){
 const openDSU = require('opendsu');
 const w3cDID = openDSU.loadAPI('w3cdid');
 const crypto = openDSU.loadAPI('crypto');
@@ -36762,7 +36762,7 @@ function signUsingDID(issuer, dataToSign, callback) {
 module.exports = {
     signJWT
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/verify.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\verify.js":[function(require,module,exports){
 const opendsu = require('opendsu');
 const w3cDID = opendsu.loadAPI('w3cdid');
 const crypto = opendsu.loadAPI('crypto');
@@ -36954,7 +36954,7 @@ module.exports = {
     verifyRootsOfTrust,
     verifyEncryptedCredential
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js":[function(require,module,exports){
 const opendsu = require('opendsu');
 const w3cDID = opendsu.loadAPI('w3cdid');
 const scAPI = opendsu.loadAPI('sc');
@@ -37276,7 +37276,7 @@ module.exports = {
     asymmetricalEncryption,
     asymmetricalDecryption
 };
-},{"./constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/validationStrategies/defaultValidationStrategy.js":[function(require,module,exports){
+},{"./constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\validationStrategies\\defaultValidationStrategy.js":[function(require,module,exports){
 const {JWT_ERRORS} = require("../constants");
 const utils = require("../utils");
 
@@ -37345,7 +37345,7 @@ class DefaultValidationStrategy {
 }
 
 module.exports = DefaultValidationStrategy;
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/validationStrategies/index.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\validationStrategies\\index.js":[function(require,module,exports){
 const VALIDATION_STRATEGIES = require('../constants').VALIDATION_STRATEGIES;
 const DefaultValidationStrategy = require("./defaultValidationStrategy");
 const RootOfTrustValidationStrategy = require("./rootOfTrustValidationStrategy");
@@ -37454,7 +37454,7 @@ module.exports = {
 
     VALIDATION_STRATEGIES
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","./defaultValidationStrategy":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/validationStrategies/defaultValidationStrategy.js","./rootOfTrustValidationStrategy":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/validationStrategies/rootOfTrustValidationStrategy.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/validationStrategies/rootOfTrustValidationStrategy.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","./defaultValidationStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\validationStrategies\\defaultValidationStrategy.js","./rootOfTrustValidationStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\validationStrategies\\rootOfTrustValidationStrategy.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\validationStrategies\\rootOfTrustValidationStrategy.js":[function(require,module,exports){
 const {JWT_ERRORS, LABELS} = require("../constants");
 const utils = require("../utils");
 
@@ -37524,7 +37524,7 @@ class RootOfTrustValidationStrategy {
 }
 
 module.exports = RootOfTrustValidationStrategy;
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vc/jwtVc.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vc\\jwtVc.js":[function(require,module,exports){
 const JWT = require('../jwt');
 const JWT_ERRORS = require('../constants').JWT_ERRORS;
 const { dateTimeFormatter, isValidURL } = require('../utils');
@@ -37694,7 +37694,7 @@ function loadJWTVc(encodedJWTVc) {
 module.exports = {
 	createJWTVc, loadJWTVc
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../jwt":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/index.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js","./model":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vc/model.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vc/model.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../jwt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\index.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js","./model":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vc\\model.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vc\\model.js":[function(require,module,exports){
 const {JWT_DEFAULTS, JWT_ERRORS} = require('../constants');
 const {defaultJWTParser, defaultJWTBuilder} = require('../jwt/model');
 const utils = require('../utils');
@@ -37774,7 +37774,7 @@ function jwtVcVerifier(decodedJWT, rootsOfTrust, callback) {
 module.exports = {
     jwtVcBuilder, jwtVcParser, jwtVcVerifier
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../jwt/model":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/model.js","../jwt/verify":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/verify.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vp/jwtVp.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../jwt/model":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\model.js","../jwt/verify":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\verify.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vp\\jwtVp.js":[function(require,module,exports){
 const JWT = require('../jwt');
 const JWT_ERRORS = require('../constants').JWT_ERRORS;
 const { jwtVpBuilder, jwtVpParser, jwtVpVerifier } = require('./model');
@@ -37898,7 +37898,7 @@ function loadJWTVp(encodedJWTVp) {
 module.exports = {
 	createJWTVp, loadJWTVp
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../jwt":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/index.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js","./model":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vp/model.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/vp/model.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../jwt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\index.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js","./model":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vp\\model.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\vp\\model.js":[function(require,module,exports){
 const {JWT_DEFAULTS, JWT_ERRORS} = require('../constants');
 const {defaultJWTParser, defaultJWTBuilder} = require('../jwt/model');
 const utils = require('../utils');
@@ -37972,7 +37972,7 @@ function jwtVpVerifier(decodedJWT, rootsOfTrust, callback) {
 module.exports = {
     jwtVpBuilder, jwtVpParser, jwtVpVerifier
 };
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/constants.js","../jwt/model":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/model.js","../jwt/verify":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/jwt/verify.js","../utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/index.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\constants.js","../jwt/model":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\model.js","../jwt/verify":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\jwt\\verify.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\index.js":[function(require,module,exports){
 const keySSIResolver = require("key-ssi-resolver");
 const crypto = require("pskcrypto");
 const cryptoRegistry = keySSIResolver.CryptoAlgorithmsRegistry;
@@ -38333,7 +38333,7 @@ module.exports = {
     convertMnemonicToKeySSIIdentifier
 };
 
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./index":"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/index.js","./jwt":"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/jwt.js","./mnemonic":"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/mnemonic.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js","psk-dbf":"/home/runner/work/privatesky/privatesky/modules/psk-dbf/index.js","pskcrypto":"pskcrypto"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/jwt.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\index.js","./jwt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\jwt.js","./mnemonic":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\mnemonic.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js","psk-dbf":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\index.js","pskcrypto":"pskcrypto"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\jwt.js":[function(require,module,exports){
 const keySSIResolver = require("key-ssi-resolver");
 const cryptoRegistry = keySSIResolver.CryptoAlgorithmsRegistry;
 const SSITypes = keySSIResolver.SSITypes;
@@ -38685,7 +38685,7 @@ module.exports = {
     verifyDID_JWT
 };
 
-},{"../crypto":"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/index.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/mnemonic.js":[function(require,module,exports){
+},{"../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\index.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\mnemonic.js":[function(require,module,exports){
 let WORDLISTS = {};
 WORDLISTS["english"] = [
     "abandon", "ability", "able", "about", "above", "absent", "absorb", "abstract", "absurd", "abuse",
@@ -39065,11 +39065,11 @@ module.exports = {
     Mnemonic
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/conflictSolvingStrategies/timestampMergingStrategy.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\conflictSolvingStrategies\\timestampMergingStrategy.js":[function(require,module,exports){
 module.exports.TimestampMergingStrategy = function(){
 
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/impl/BasicDB.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\impl\\BasicDB.js":[function(require,module,exports){
 /*
     An OpenDSU  BasicDB is a simple noSQL database
     The DB is used with a concept of "table" and rows (records) that have multiple versions
@@ -39317,7 +39317,7 @@ function BasicDB(storageStrategy, conflictSolvingStrategy, options) {
 
 module.exports = BasicDB;
 
-},{"../../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/impl/DSUDBUtil.js":[function(require,module,exports){
+},{"../../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\impl\\DSUDBUtil.js":[function(require,module,exports){
 module.exports = {
     ensure_WalletDB_DSU_Initialisation: function (keySSI, dbName, callback) {
         let resolver = require("../../resolver");
@@ -39484,7 +39484,7 @@ module.exports = {
     }
 }
 
-},{"../../keyssi":"/home/runner/work/privatesky/privatesky/modules/opendsu/keyssi/index.js","../../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../../resolver":"/home/runner/work/privatesky/privatesky/modules/opendsu/resolver/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/index.js":[function(require,module,exports){
+},{"../../keyssi":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\keyssi\\index.js","../../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../../resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\resolver\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\index.js":[function(require,module,exports){
 let util = require("./impl/DSUDBUtil")
 
 function getBasicDB(storageStrategy, conflictSolvingStrategy, options) {
@@ -39579,7 +39579,7 @@ module.exports = {
     getSharedEnclaveDB
 }
 
-},{"./conflictSolvingStrategies/timestampMergingStrategy":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/conflictSolvingStrategies/timestampMergingStrategy.js","./impl/BasicDB":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/impl/BasicDB.js","./impl/DSUDBUtil":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/impl/DSUDBUtil.js","./storageStrategies/MemoryStorageStrategy":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/MemoryStorageStrategy.js","./storageStrategies/SingleDSUStorageStrategy":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/SingleDSUStorageStrategy.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/MemoryStorageStrategy.js":[function(require,module,exports){
+},{"./conflictSolvingStrategies/timestampMergingStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\conflictSolvingStrategies\\timestampMergingStrategy.js","./impl/BasicDB":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\impl\\BasicDB.js","./impl/DSUDBUtil":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\impl\\DSUDBUtil.js","./storageStrategies/MemoryStorageStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\MemoryStorageStrategy.js","./storageStrategies/SingleDSUStorageStrategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\SingleDSUStorageStrategy.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\MemoryStorageStrategy.js":[function(require,module,exports){
 (function (Buffer){(function (){
 function MemoryStorageStrategy() {
     const ObservableMixin = require("../../utils/ObservableMixin");
@@ -39842,7 +39842,7 @@ function MemoryStorageStrategy() {
 module.exports = MemoryStorageStrategy;
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","./Query":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/Query.js","./operators":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/operators.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/Query.js":[function(require,module,exports){
+},{"../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","./Query":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\Query.js","./operators":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\operators.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\Query.js":[function(require,module,exports){
 function Query(queryArray) {
     let conditions = [];
     const operators = require("./operators");
@@ -39946,7 +39946,7 @@ function Query(queryArray) {
 }
 
 module.exports = Query;
-},{"./operators":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/operators.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/SingleDSUStorageStrategy.js":[function(require,module,exports){
+},{"./operators":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\operators.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\SingleDSUStorageStrategy.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const ObservableMixin = require("../../utils/ObservableMixin");
 const Query = require("./Query");
@@ -40606,7 +40606,7 @@ function SingleDSUStorageStrategy() {
 module.exports.SingleDSUStorageStrategy = SingleDSUStorageStrategy;
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","./Query":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/Query.js","./operators":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/operators.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/utils.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/operators.js":[function(require,module,exports){
+},{"../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","./Query":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\Query.js","./operators":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\operators.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\utils.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\operators.js":[function(require,module,exports){
 module.exports = {
     "<": function (x, y) {
         return x < y
@@ -40649,7 +40649,7 @@ module.exports = {
     }
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/db/storageStrategies/utils.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\storageStrategies\\utils.js":[function(require,module,exports){
 function getCompareFunction(sortOrder) {
     if (sortOrder === "asc" || sortOrder === "ascending") {
         return function (a, b) {
@@ -40694,11 +40694,11 @@ module.exports = {
     getCompareFunction,
     getCompareFunctionForObjects
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dc/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dc\\index.js":[function(require,module,exports){
 /*
 html API space
 */
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/AppBuilderService.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\AppBuilderService.js":[function(require,module,exports){
 (function (process){(function (){
 /**
  * @module dt
@@ -41256,7 +41256,7 @@ function AppBuilderService(environment, opts) {
 module.exports = AppBuilderService;
 }).call(this)}).call(this,require('_process'))
 
-},{"./DossierBuilder":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/DossierBuilder.js","./FileService":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/FileService.js","./commands/utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/BuildWallet.js":[function(require,module,exports){
+},{"./DossierBuilder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\DossierBuilder.js","./FileService":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\FileService.js","./commands/utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\BuildWallet.js":[function(require,module,exports){
 (function (process){(function (){
 const openDSU = require("opendsu");
 const resolver = openDSU.loadAPI("resolver");
@@ -41393,7 +41393,7 @@ module.exports = {
 };
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/DossierBuilder.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\DossierBuilder.js":[function(require,module,exports){
 /**
  * @module dt
  */
@@ -41626,7 +41626,7 @@ const DossierBuilder = function (sourceDSU, varStore) {
 
 module.exports = DossierBuilder;
 
-},{"./commands":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/index.js","./commands/VarStore":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/VarStore.js","./commands/utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js","./index":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/FileService.js":[function(require,module,exports){
+},{"./commands":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\index.js","./commands/VarStore":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\VarStore.js","./commands/utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js","./index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\FileService.js":[function(require,module,exports){
 /**
  * @module dt
  */
@@ -41747,7 +41747,7 @@ function FileService(options) {
 }
 
 module.exports = FileService;
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -41852,7 +41852,7 @@ class Command {
 }
 
 module.exports = Command;
-},{"./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Registry.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Registry.js":[function(require,module,exports){
 /**
  * List of all available commands to the Dossier Builder
  * Without being here, they can't be used
@@ -41886,7 +41886,7 @@ const _getByName = function(cmdName){
 }
 
 module.exports = _getByName;
-},{"./addFile":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/addFile.js","./addFolder":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/addFolder.js","./createDSU":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/createDSU.js","./createFile":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/createFile.js","./define":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/define.js","./delete":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/delete.js","./derive":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/derive.js","./endWith":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/endWith.js","./genKey":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/genKey.js","./getIndentifier":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/getIndentifier.js","./mount":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/mount.js","./objToArray":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/objToArray.js","./readFile":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/readFile.js","./with":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/with.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/VarStore.js":[function(require,module,exports){
+},{"./addFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\addFile.js","./addFolder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\addFolder.js","./createDSU":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\createDSU.js","./createFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\createFile.js","./define":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\define.js","./delete":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\delete.js","./derive":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\derive.js","./endWith":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\endWith.js","./genKey":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\genKey.js","./getIndentifier":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\getIndentifier.js","./mount":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\mount.js","./objToArray":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\objToArray.js","./readFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\readFile.js","./with":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\with.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\VarStore.js":[function(require,module,exports){
 /**
  * @module commands
  * A simple variable store
@@ -41931,7 +41931,7 @@ const VarStore = function(){
 }
 
 module.exports = VarStore;
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/addFile.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\addFile.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42019,7 +42019,7 @@ class AddFileCommand extends Command{
 }
 
 module.exports = AddFileCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/addFolder.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\addFolder.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42090,7 +42090,7 @@ class AddFolderCommand extends Command {
 }
 
 module.exports = AddFolderCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/createDSU.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\createDSU.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42281,7 +42281,7 @@ class CreateDSUCommand extends Command{
 }
 
 module.exports = CreateDSUCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./genKey":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/genKey.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/createFile.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./genKey":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\genKey.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\createFile.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42347,7 +42347,7 @@ class CreateFileCommand extends Command{
 }
 
 module.exports = CreateFileCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/define.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\define.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42429,7 +42429,7 @@ class DefineCommand extends Command {
 }
 
 module.exports = DefineCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./Registry":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Registry.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/delete.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./Registry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Registry.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\delete.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42484,7 +42484,7 @@ class DeleteCommand extends Command {
 
 module.exports = DeleteCommand;
 
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/derive.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\derive.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42545,7 +42545,7 @@ class DeriveCommand extends Command{
 }
 
 module.exports = DeriveCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/endWith.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\endWith.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42597,7 +42597,7 @@ class EndWithCommand extends Command{
 }
 
 module.exports = EndWithCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/genKey.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\genKey.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42746,7 +42746,7 @@ class GenKeyCommand extends Command {
 }
 
 module.exports = GenKeyCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/getIndentifier.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\getIndentifier.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42818,7 +42818,7 @@ class GetIdentifierCommand extends Command{
 }
 
 module.exports = GetIdentifierCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/index.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\index.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42841,7 +42841,7 @@ module.exports = {
     WithCommand: require('./with'),
     _getByName: require('./Registry')
 }
-},{"./Registry":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Registry.js","./addFile":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/addFile.js","./addFolder":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/addFolder.js","./createDSU":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/createDSU.js","./createFile":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/createFile.js","./define":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/define.js","./delete":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/delete.js","./derive":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/derive.js","./endWith":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/endWith.js","./genKey":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/genKey.js","./getIndentifier":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/getIndentifier.js","./mount":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/mount.js","./objToArray":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/objToArray.js","./readFile":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/readFile.js","./with":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/with.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/mount.js":[function(require,module,exports){
+},{"./Registry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Registry.js","./addFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\addFile.js","./addFolder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\addFolder.js","./createDSU":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\createDSU.js","./createFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\createFile.js","./define":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\define.js","./delete":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\delete.js","./derive":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\derive.js","./endWith":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\endWith.js","./genKey":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\genKey.js","./getIndentifier":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\getIndentifier.js","./mount":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\mount.js","./objToArray":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\objToArray.js","./readFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\readFile.js","./with":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\with.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\mount.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -42976,7 +42976,7 @@ class MountCommand extends Command {
 }
 
 module.exports = MountCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./readFile":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/readFile.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/objToArray.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./readFile":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\readFile.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\objToArray.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -43033,7 +43033,7 @@ class ObjToArrayCommand extends Command{
 }
 
 module.exports = ObjToArrayCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/readFile.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\readFile.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -43095,7 +43095,7 @@ class ReadFileCommand extends Command{
 }
 
 module.exports = ReadFileCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js":[function(require,module,exports){
 /**
  * @module Commands
  */
@@ -43206,7 +43206,7 @@ module.exports = {
     KEY_TYPE,
     DSU_TYPE
 };
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/with.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\with.js":[function(require,module,exports){
 /**
  * @module Commands
  * @memberOf dt
@@ -43333,7 +43333,7 @@ class WithCommand extends Command {
 }
 
 module.exports = WithCommand;
-},{"./Command":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Command.js","./Registry":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/Registry.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/utils.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/index.js":[function(require,module,exports){
+},{"./Command":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Command.js","./Registry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\Registry.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\index.js":[function(require,module,exports){
 /**
  * @module dt
  */
@@ -43367,7 +43367,7 @@ module.exports = {
     AppBuilderService: require('./AppBuilderService')
 }
 
-},{"./AppBuilderService":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/AppBuilderService.js","./BuildWallet":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/BuildWallet.js","./DossierBuilder":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/DossierBuilder.js","./commands":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/commands/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/APIHUBProxy.js":[function(require,module,exports){
+},{"./AppBuilderService":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\AppBuilderService.js","./BuildWallet":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\BuildWallet.js","./DossierBuilder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\DossierBuilder.js","./commands":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\commands\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\APIHUBProxy.js":[function(require,module,exports){
 const {createCommandObject} = require("./lib/createCommandObject");
 
 function APIHUBProxy(domain, did) {
@@ -43419,7 +43419,7 @@ function APIHUBProxy(domain, did) {
 }
 
 module.exports = APIHUBProxy;
-},{".././../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","./ProxyMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/ProxyMixin.js","./lib/createCommandObject":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/lib/createCommandObject.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/Enclave_Mixin.js":[function(require,module,exports){
+},{".././../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","./ProxyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\ProxyMixin.js","./lib/createCommandObject":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\lib\\createCommandObject.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\Enclave_Mixin.js":[function(require,module,exports){
 const constants = require("./constants");
 const path = require("path");
 
@@ -44053,7 +44053,7 @@ function Enclave_Mixin(target, did) {
 }
 
 module.exports = Enclave_Mixin;
-},{"../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","./constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/constants.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/HighSecurityProxy.js":[function(require,module,exports){
+},{"../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","./constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\constants.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\HighSecurityProxy.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const {createCommandObject} = require("./lib/createCommandObject");
 
@@ -44115,7 +44115,7 @@ function HighSecurityProxy(domain, did) {
 module.exports = HighSecurityProxy;
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{".././../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","./ProxyMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/ProxyMixin.js","./lib/createCommandObject":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/lib/createCommandObject.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/MemoryEnclave.js":[function(require,module,exports){
+},{".././../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","./ProxyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\ProxyMixin.js","./lib/createCommandObject":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\lib\\createCommandObject.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\MemoryEnclave.js":[function(require,module,exports){
 function MemoryEnclave() {
     const EnclaveMixin = require("./Enclave_Mixin");
     EnclaveMixin(this);
@@ -44142,7 +44142,7 @@ function MemoryEnclave() {
 }
 
 module.exports = MemoryEnclave;
-},{"./Enclave_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/Enclave_Mixin.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/ProxyMixin.js":[function(require,module,exports){
+},{"./Enclave_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\Enclave_Mixin.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\ProxyMixin.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const {createOpenDSUErrorWrapper} = require("../../error");
 
@@ -44352,7 +44352,7 @@ function ProxyMixin(target) {
 module.exports = ProxyMixin;
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../error":"/home/runner/work/privatesky/privatesky/modules/opendsu/error/index.js","../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","./lib/commandsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/lib/commandsNames.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/RemoteEnclave.js":[function(require,module,exports){
+},{"../../error":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\error\\index.js","../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","./lib/commandsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\lib\\commandsNames.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\RemoteEnclave.js":[function(require,module,exports){
 const { createCommandObject } = require("./lib/createCommandObject");
 const ProxyMixin = require("./ProxyMixin");
 const openDSU = require('../../index');
@@ -44453,7 +44453,7 @@ function RemoteEnclave(clientDID, remoteDID, requestTimeout) {
 }
 
 module.exports = RemoteEnclave;
-},{"../../index":"/home/runner/work/privatesky/privatesky/modules/opendsu/index.js","./ProxyMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/ProxyMixin.js","./lib/createCommandObject":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/lib/createCommandObject.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/WalletDBEnclave.js":[function(require,module,exports){
+},{"../../index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\index.js","./ProxyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\ProxyMixin.js","./lib/createCommandObject":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\lib\\createCommandObject.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\WalletDBEnclave.js":[function(require,module,exports){
 function WalletDBEnclave(keySSI, did) {
     const openDSU = require("opendsu");
     const db = openDSU.loadAPI("db")
@@ -44531,7 +44531,7 @@ function WalletDBEnclave(keySSI, did) {
 }
 
 module.exports = WalletDBEnclave;
-},{"../../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","./Enclave_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/Enclave_Mixin.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/constants.js":[function(require,module,exports){
+},{"../../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","./Enclave_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\Enclave_Mixin.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\constants.js":[function(require,module,exports){
 module.exports = {
     TABLE_NAMES: {
         KEY_SSIS: "keyssis",
@@ -44544,7 +44544,7 @@ module.exports = {
         COMPACTED_PATH_KEYS: "/paths/compactedPathKeys"
     }
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/lib/commandsNames.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\lib\\commandsNames.js":[function(require,module,exports){
 module.exports = {
     INSERT_RECORD: "insertRecord",
     UPDATE_RECORD: "updateRecord",
@@ -44572,7 +44572,7 @@ module.exports = {
     DECRYPT_MESSAGE: "decryptMessage",
     GET_PRIVATE_INFO_FOR_DID:"getPrivateInfoForDID"
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/lib/createCommandObject.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\lib\\createCommandObject.js":[function(require,module,exports){
 const createCommandObject = (commandName, ...args) => {
     const commandID = require('crypto').randomBytes(32).toString("base64")
 
@@ -44588,7 +44588,7 @@ const createCommandObject = (commandName, ...args) => {
 module.exports = {
     createCommandObject
 }
-},{"crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/index.js":[function(require,module,exports){
+},{"crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\index.js":[function(require,module,exports){
 const constants = require("../moduleConstants");
 
 function initialiseWalletDBEnclave(keySSI, did) {
@@ -44653,7 +44653,7 @@ module.exports = {
     ProxyMixin: require("./impl/ProxyMixin")
 }
 
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./impl/APIHUBProxy":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/APIHUBProxy.js","./impl/Enclave_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/Enclave_Mixin.js","./impl/HighSecurityProxy":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/HighSecurityProxy.js","./impl/MemoryEnclave":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/MemoryEnclave.js","./impl/ProxyMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/ProxyMixin.js","./impl/RemoteEnclave":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/RemoteEnclave.js","./impl/WalletDBEnclave":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/impl/WalletDBEnclave.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/error/index.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./impl/APIHUBProxy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\APIHUBProxy.js","./impl/Enclave_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\Enclave_Mixin.js","./impl/HighSecurityProxy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\HighSecurityProxy.js","./impl/MemoryEnclave":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\MemoryEnclave.js","./impl/ProxyMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\ProxyMixin.js","./impl/RemoteEnclave":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\RemoteEnclave.js","./impl/WalletDBEnclave":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\impl\\WalletDBEnclave.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\error\\index.js":[function(require,module,exports){
 function ErrorWrapper(message, err, otherErrors){
     let newErr = {};
 
@@ -44841,7 +44841,7 @@ module.exports = {
     DB_INSERT_EXISTING_RECORD_ERROR
 }
 
-},{"./../utils/observable":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/observable.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/browser/index.js":[function(require,module,exports){
+},{"./../utils/observable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\observable.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\browser\\index.js":[function(require,module,exports){
 function generateMethodForRequestWithData(httpMethod) {
 	return function (url, data, options, callback) {
 		if(typeof options === "function"){
@@ -44922,7 +44922,7 @@ module.exports = {
 	doPut: generateMethodForRequestWithData('PUT'),
 	doGet
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\index.js":[function(require,module,exports){
 /**
  * http API space
  */
@@ -44957,7 +44957,7 @@ module.exports.unpoll = function(request){
 	rm.cancelRequest(request);
 }
 
-},{"./browser":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/browser/index.js","./node":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/node/index.js","./serviceWorker":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/serviceWorker/index.js","./utils/PollRequestManager":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/utils/PollRequestManager.js","./utils/interceptors":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/utils/interceptors.js","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/node/common.js":[function(require,module,exports){
+},{"./browser":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\browser\\index.js","./node":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\node\\index.js","./serviceWorker":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\serviceWorker\\index.js","./utils/PollRequestManager":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\utils\\PollRequestManager.js","./utils/interceptors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\utils\\interceptors.js","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\node\\common.js":[function(require,module,exports){
 (function (process){(function (){
 const userAgent = 'PSK NodeAgent/0.0.1';
 const signatureHeaderName = process.env.vmq_signature_header_name || "x-signature";
@@ -45050,7 +45050,7 @@ module.exports = {
 }
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/node/fetch.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\node\\fetch.js":[function(require,module,exports){
 const http = require("http");
 const https = require("https");
 const URL = require("url");
@@ -45284,7 +45284,7 @@ module.exports = {
 	fetch
 }
 
-},{"http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","https":"/home/runner/work/privatesky/privatesky/node_modules/https-browserify/index.js","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/node/index.js":[function(require,module,exports){
+},{"http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","https":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\https-browserify\\index.js","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\node\\index.js":[function(require,module,exports){
 
 const {setContentTypeByData,buildOptions,getNetworkForOptions} = require("./common.js");
 
@@ -45372,7 +45372,7 @@ module.exports = {
 	doPut: generateMethodForRequestWithData('PUT')
 }
 
-},{"./common.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/node/common.js","./fetch":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/node/fetch.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/serviceWorker/index.js":[function(require,module,exports){
+},{"./common.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\node\\common.js","./fetch":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\node\\fetch.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\serviceWorker\\index.js":[function(require,module,exports){
 function generateMethodForRequestWithData(httpMethod) {
 	return function (url, data, options, callback) {
 		if(typeof options === "function"){
@@ -45420,7 +45420,7 @@ module.exports = {
 	doGet: require("./../browser").doGet
 }
 
-},{"./../browser":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/browser/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/utils/PollRequestManager.js":[function(require,module,exports){
+},{"./../browser":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\browser\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\utils\\PollRequestManager.js":[function(require,module,exports){
 function PollRequestManager(fetchFunction,  connectionTimeout = 10000, pollingTimeout = 1000){
 
 	const requests = new Map();
@@ -45616,7 +45616,7 @@ function PollRequestManager(fetchFunction,  connectionTimeout = 10000, pollingTi
 
 module.exports = PollRequestManager;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/http/utils/interceptors.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\utils\\interceptors.js":[function(require,module,exports){
 let interceptors = [];
 
 function registerInterceptor(interceptor){
@@ -45722,7 +45722,7 @@ function enable(handler){
 }
 
 module.exports = {enable};
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/keyssi/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\keyssi\\index.js":[function(require,module,exports){
 const keySSIResolver = require("key-ssi-resolver");
 const keySSIFactory = keySSIResolver.KeySSIFactory;
 const SSITypes = keySSIResolver.SSITypes;
@@ -46009,7 +46009,7 @@ module.exports = {
     createSizeSSI
 };
 
-},{"../anchoring":"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/index.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/apisRegistry.js":[function(require,module,exports){
+},{"../anchoring":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\index.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\apisRegistry.js":[function(require,module,exports){
 const apis = {};
 function defineApi(name, implementation){
 	if(typeof implementation !== "function"){
@@ -46023,7 +46023,7 @@ function getApis(){
 }
 
 module.exports = {defineApi, getApis}
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/defaultApis/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\defaultApis\\index.js":[function(require,module,exports){
 const registry = require("../apisRegistry");
 
 /*
@@ -46224,7 +46224,7 @@ registry.defineApi("getResolver", function (domain, ssiType, options) {
 });
 
 
-},{"../apisRegistry":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/apisRegistry.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/defaultMappings/index.js":[function(require,module,exports){
+},{"../apisRegistry":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\apisRegistry.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\defaultMappings\\index.js":[function(require,module,exports){
 const mappingRegistry = require("./../mappingRegistry.js");
 
 async function validateMessage(message){
@@ -46236,7 +46236,7 @@ async function digestMessage(message){
 }
 
 mappingRegistry.defineMapping(validateMessage, digestMessage);
-},{"./../mappingRegistry.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/mappingRegistry.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/errorsMap.js":[function(require,module,exports){
+},{"./../mappingRegistry.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\mappingRegistry.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\errorsMap.js":[function(require,module,exports){
 errorTypes = {
   "UNKNOWN": {
     errorCode: 0,
@@ -46401,7 +46401,7 @@ module.exports = {
   addNewErrorType
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\index.js":[function(require,module,exports){
 const mappingRegistry = require("./mappingRegistry.js");
 const apisRegistry = require("./apisRegistry.js");
 const errMap = require("./errorsMap.js")
@@ -46666,7 +46666,7 @@ module.exports = {
   defineApi: apisRegistry.defineApi
 }
 
-},{"./apisRegistry.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/apisRegistry.js","./defaultApis":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/defaultApis/index.js","./defaultMappings":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/defaultMappings/index.js","./errorsMap.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/errorsMap.js","./mappingRegistry.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/mappingRegistry.js","./messagesPipe":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/messagesPipe/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/mappingRegistry.js":[function(require,module,exports){
+},{"./apisRegistry.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\apisRegistry.js","./defaultApis":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\defaultApis\\index.js","./defaultMappings":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\defaultMappings\\index.js","./errorsMap.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\errorsMap.js","./mappingRegistry.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\mappingRegistry.js","./messagesPipe":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\messagesPipe\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\mappingRegistry.js":[function(require,module,exports){
 const mappingRegistry = [];
 function defineMapping(matchFunction, mappingFunction){
 	mappingRegistry.push({matchFunction, mappingFunction});
@@ -46680,7 +46680,7 @@ module.exports = {
 	defineMapping,
 	getMappings
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/messagesPipe/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\messagesPipe\\index.js":[function(require,module,exports){
 module.exports = function (maxGroupSize, maxQueuingTime, groupingFunction) {
 
     this.queue = [];
@@ -46741,7 +46741,7 @@ module.exports = function (maxGroupSize, maxQueuingTime, groupingFunction) {
     startWaitingMessages();
 
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js":[function(require,module,exports){
 const ENVIRONMENT_TYPES = require("../overwrite-require/moduleConstants");
 
 let cachedKeySSIResolver = undefined;
@@ -46824,7 +46824,7 @@ module.exports = {
 
 
 
-},{"../overwrite-require/moduleConstants":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/moduleConstants.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/mq/mqClient.js":[function(require,module,exports){
+},{"../overwrite-require/moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\moduleConstants.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\mq\\mqClient.js":[function(require,module,exports){
 /*
 Message Queues API space
 */
@@ -47187,7 +47187,7 @@ module.exports = {
     unsubscribe,
     getMQHandlerForDID
 }
-},{"../bdns":"/home/runner/work/privatesky/privatesky/modules/opendsu/bdns/index.js","../http":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/index.js","../utils/observable":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/observable.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/notifications/index.js":[function(require,module,exports){
+},{"../bdns":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bdns\\index.js","../http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\index.js","../utils/observable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\observable.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\notifications\\index.js":[function(require,module,exports){
 /*
 KeySSI Notification API space
 */
@@ -47299,7 +47299,7 @@ module.exports = {
     isSubscribed
 }
 
-},{"../bdns":"/home/runner/work/privatesky/privatesky/modules/opendsu/bdns/index.js","../http":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/index.js","../utils/observable":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/observable.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/index.js":[function(require,module,exports){
+},{"../bdns":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bdns\\index.js","../http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\index.js","../utils/observable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\observable.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\index.js":[function(require,module,exports){
 const createOIDC = (options) => {
     const OIDC = require("./src/oidc/OIDC");
     return new OIDC(options);
@@ -47311,7 +47311,7 @@ module.exports = {
     constants: require("./src/oidc/constants"),
 
 }
-},{"./src/oidc/OIDC":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/OIDC.js","./src/oidc/constants":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/constants.js","./src/util/Storage":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Storage.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/Client.js":[function(require,module,exports){
+},{"./src/oidc/OIDC":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\OIDC.js","./src/oidc/constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\constants.js","./src/util/Storage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Storage.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\Client.js":[function(require,module,exports){
 class Client {
     constructor(options) {
         this.options = options;
@@ -47340,7 +47340,7 @@ class Client {
 
 
 module.exports = Client;
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/Issuer.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\Issuer.js":[function(require,module,exports){
 class Issuer {
     constructor(options) {
         this.options = options;
@@ -47364,7 +47364,7 @@ class Issuer {
 
 
 module.exports = Issuer;
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/OIDC.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\OIDC.js":[function(require,module,exports){
 const RedirectInteraction = require('./interactions/Redirect');
 const IFrameInteraction = require('./interactions/IFrame');
 const PopupInteraction = require('./interactions/Popup');
@@ -47695,7 +47695,7 @@ class OIDC {
 
 OIDC.utils = {Browser};
 module.exports = OIDC;
-},{"../util/Browser":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Browser.js","../util/Crypto":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Crypto.js","../util/Storage":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Storage.js","./Client":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/Client.js","./Issuer":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/Issuer.js","./grants/AuthorizationCode":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/grants/AuthorizationCode.js","./grants/RefreshToken":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/grants/RefreshToken.js","./interactions/IFrame":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/IFrame.js","./interactions/Popup":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Popup.js","./interactions/Redirect":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Redirect.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/constants.js":[function(require,module,exports){
+},{"../util/Browser":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Browser.js","../util/Crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Crypto.js","../util/Storage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Storage.js","./Client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\Client.js","./Issuer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\Issuer.js","./grants/AuthorizationCode":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\grants\\AuthorizationCode.js","./grants/RefreshToken":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\grants\\RefreshToken.js","./interactions/IFrame":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\IFrame.js","./interactions/Popup":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Popup.js","./interactions/Redirect":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Redirect.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\constants.js":[function(require,module,exports){
 module.exports = {
     ID_TOKEN: 'session.idToken',
     ACCESS_TOKEN: 'session.accessToken',
@@ -47712,7 +47712,7 @@ module.exports = {
     TOKEN_CHECK_INTERVAL: 1000 * 30,
     TOKEN_EXPIRATION_THRESHOLD: 1000 * 60,
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/grants/AuthorizationCode.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\grants\\AuthorizationCode.js":[function(require,module,exports){
 const Crypto = require('../../util/Crypto');
 
 
@@ -47763,7 +47763,7 @@ class AuthorizationCode {
 
 
 module.exports = AuthorizationCode;
-},{"../../util/Crypto":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Crypto.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/grants/RefreshToken.js":[function(require,module,exports){
+},{"../../util/Crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Crypto.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\grants\\RefreshToken.js":[function(require,module,exports){
 class RefreshToken {
     static refreshToken(issuer, client, options) {
         const params = new URLSearchParams();
@@ -47784,7 +47784,7 @@ class RefreshToken {
 
 
 module.exports = RefreshToken;
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/IFrame.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\IFrame.js":[function(require,module,exports){
 const Promises = require('../../util/Promises');
 const Interaction = require('./Interaction');
 
@@ -47858,7 +47858,7 @@ class IFrame extends Interaction {
 
 
 module.exports = IFrame;
-},{"../../util/Promises":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Promises.js","./Interaction":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Interaction.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Interaction.js":[function(require,module,exports){
+},{"../../util/Promises":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Promises.js","./Interaction":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Interaction.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Interaction.js":[function(require,module,exports){
 const Browser = require('../../util/Browser');
 
 
@@ -47890,7 +47890,7 @@ class Interaction {
 
 
 module.exports = Interaction;
-},{"../../util/Browser":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Browser.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Popup.js":[function(require,module,exports){
+},{"../../util/Browser":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Popup.js":[function(require,module,exports){
 const Interaction = require('./Interaction');
 const Promises = require('../../util/Promises');
 
@@ -47945,7 +47945,7 @@ class Popup extends Interaction {
 
 
 module.exports = Popup;
-},{"../../util/Promises":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Promises.js","./Interaction":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Interaction.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Redirect.js":[function(require,module,exports){
+},{"../../util/Promises":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Promises.js","./Interaction":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Interaction.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Redirect.js":[function(require,module,exports){
 const Interaction = require('./Interaction');
 const Promises = require('../../util/Promises');
 
@@ -47970,7 +47970,7 @@ class Redirect extends Interaction {
 
 
 module.exports = Redirect;
-},{"../../util/Promises":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Promises.js","./Interaction":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/oidc/interactions/Interaction.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Browser.js":[function(require,module,exports){
+},{"../../util/Promises":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Promises.js","./Interaction":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\oidc\\interactions\\Interaction.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Browser.js":[function(require,module,exports){
 function parseUrlHash(hash) {
     return parseUrlParams(hash.substring(1));
 }
@@ -48030,7 +48030,7 @@ module.exports = {
     getCurrentLocation,
     isItMe
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Crypto.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Crypto.js":[function(require,module,exports){
 const openDSU = require("opendsu");
 const crypto = openDSU.loadAPI("crypto");
 
@@ -48062,7 +48062,7 @@ module.exports = {
     generateCodeChallenge,
     decodeBase64EncodedData
 }
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Promises.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Promises.js":[function(require,module,exports){
 function flatPromise() {
     let resolve, reject;
     let promise = new Promise((_resolve, _reject) => {
@@ -48077,7 +48077,7 @@ function flatPromise() {
 module.exports = {
     flatPromise
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/src/util/Storage.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\src\\util\\Storage.js":[function(require,module,exports){
 const {prettyByte} = require("@msgpack/msgpack/dist/utils/prettyByte");
 
 class Storage {
@@ -48117,7 +48117,7 @@ const getStorage = () => {
 module.exports = {
     getStorage
 };
-},{"@msgpack/msgpack/dist/utils/prettyByte":"/home/runner/work/privatesky/privatesky/node_modules/@msgpack/msgpack/dist/utils/prettyByte.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/resolver/index.js":[function(require,module,exports){
+},{"@msgpack/msgpack/dist/utils/prettyByte":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\@msgpack\\msgpack\\dist\\utils\\prettyByte.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\resolver\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const KeySSIResolver = require("key-ssi-resolver");
 const keySSISpace = require("opendsu").loadApi("keyssi");
@@ -48279,36 +48279,37 @@ const loadDSU = (keySSI, options, callback) => {
         }
     }
 
-    let cachingEnabled = true;
-    if (typeof options === 'object' && options !== null && options.skipCache) {
-        cachingEnabled = false;
-    }
+    const loadDSU = (addInCache) => {
 
-    if (cachingEnabled) {
-        keySSI.getAnchorId((err, cacheKey) => {
+        const keySSIResolver = initializeResolver(options);
+        keySSIResolver.loadDSU(keySSI, options, (err, dsuInstance) => {
             if (err) {
-                return callback(err);
-            }
-            const cachedDSU = dsuCache.get(cacheKey);
-            if (cachedDSU) {
-                return getLatestDSUVersion(cachedDSU, callback);
+                return OpenDSUSafeCallback(callback)(createOpenDSUErrorWrapper(`Failed to load DSU`, err));
             }
 
+            if (addInCache) {
+                return addDSUInstanceInCache(dsuInstance, callback);
+            }
 
-            const keySSIResolver = initializeResolver(options);
-            keySSIResolver.loadDSU(keySSI, options, (err, dsuInstance) => {
-                if (err) {
-                    return OpenDSUSafeCallback(callback)(createOpenDSUErrorWrapper(`Failed to load DSU`, err));
-                }
-
-                if (cachingEnabled) {
-                    return addDSUInstanceInCache(dsuInstance, callback);
-                }
-
-                callback(undefined, dsuInstance);
-            });
-        })
+            callback(undefined, dsuInstance);
+        });
     }
+
+    if (typeof options === 'object' && options !== null && options.skipCache) {
+        return loadDSU(false);
+    }
+
+    keySSI.getAnchorId((err, cacheKey) => {
+        if (err) {
+            return callback(err);
+        }
+        const cachedDSU = dsuCache.get(cacheKey);
+        if (cachedDSU) {
+            return getLatestDSUVersion(cachedDSU, callback);
+        }
+        loadDSU(true);
+    })
+
 };
 
 /*
@@ -48505,7 +48506,7 @@ module.exports = {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../cache":"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/index.js","../moduleConstants.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./resolver-utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/resolver/resolver-utils.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","key-ssi-resolver":"/home/runner/work/privatesky/privatesky/modules/key-ssi-resolver/index.js","opendsu":"opendsu","syndicate":"/home/runner/work/privatesky/privatesky/modules/syndicate/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/resolver/resolver-utils.js":[function(require,module,exports){
+},{"../cache":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\index.js","../moduleConstants.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./resolver-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\resolver\\resolver-utils.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","key-ssi-resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\key-ssi-resolver\\index.js","opendsu":"opendsu","syndicate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\resolver\\resolver-utils.js":[function(require,module,exports){
 (function (global){(function (){
 function getWebWorkerBootScript(dsuKeySSI) {
     const scriptLocation = document.currentScript
@@ -48540,7 +48541,7 @@ module.exports = {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\index.js":[function(require,module,exports){
 /*
     Security Context related functionalities
 
@@ -48751,7 +48752,7 @@ module.exports = {
         isPINNeeded
     };
     
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./lib/MainDSU":"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/lib/MainDSU.js","./lib/SecurityContext":"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/lib/SecurityContext.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/lib/InMemoryMainDSU.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./lib/MainDSU":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\lib\\MainDSU.js","./lib/SecurityContext":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\lib\\SecurityContext.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\lib\\InMemoryMainDSU.js":[function(require,module,exports){
 (function (Buffer){(function (){
 function InMemoryMainDSU() {
     const obj = {};
@@ -48785,7 +48786,7 @@ function InMemoryMainDSU() {
 module.exports = InMemoryMainDSU;
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/lib/MainDSU.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\lib\\MainDSU.js":[function(require,module,exports){
 (function (process){(function (){
 const constants = require("../../moduleConstants");
 const {getURLForSsappContext} = require("../../utils/getURLForSsappContext");
@@ -48881,7 +48882,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'))
 
-},{"../../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../../utils/getURLForSsappContext":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/getURLForSsappContext.js","./InMemoryMainDSU":"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/lib/InMemoryMainDSU.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/lib/SecurityContext.js":[function(require,module,exports){
+},{"../../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../../utils/getURLForSsappContext":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\getURLForSsappContext.js","./InMemoryMainDSU":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\lib\\InMemoryMainDSU.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\lib\\SecurityContext.js":[function(require,module,exports){
 const constants = require("../../moduleConstants");
 
 function SecurityContext(target, PIN) {
@@ -49221,7 +49222,7 @@ function SecurityContext(target, PIN) {
 
 module.exports = SecurityContext;
 
-},{"../../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/storage/DSUStorage.js":[function(require,module,exports){
+},{"../../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\storage\\DSUStorage.js":[function(require,module,exports){
 const { fetch } = require("./utils");
 
 // helpers
@@ -49531,12 +49532,12 @@ function getDSUStorage() {
 
 module.exports = getDSUStorage;
 
-},{"./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/storage/utils.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/storage/index.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\storage\\utils.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\storage\\index.js":[function(require,module,exports){
 module.exports = {
   getDSUStorage: require("./DSUStorage")
 };
 
-},{"./DSUStorage":"/home/runner/work/privatesky/privatesky/modules/opendsu/storage/DSUStorage.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/storage/utils.js":[function(require,module,exports){
+},{"./DSUStorage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\storage\\DSUStorage.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\storage\\utils.js":[function(require,module,exports){
 function promisify(fun) {
   return function (...args) {
     return new Promise((resolve, reject) => {
@@ -49579,7 +49580,7 @@ module.exports = {
   fetch: executeFetch,
 };
 
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/system/index.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\system\\index.js":[function(require,module,exports){
 (function (process){(function (){
 const envVariables = {};
 function getEnvironmentVariable(name){
@@ -49615,7 +49616,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'))
 
-},{"../utils/getBaseURL":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/getBaseURL.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js":[function(require,module,exports){
+},{"../utils/getBaseURL":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\getBaseURL.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js":[function(require,module,exports){
 const PendingCallMixin = require("./PendingCallMixin");
 /*
     Utility to make classes that depend on some initialisation easier to use.
@@ -49667,7 +49668,7 @@ module.exports.bindAutoPendingFunctions = function(obj, exceptionList){
     return obj;
 };
 
-},{"./PendingCallMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/PendingCallMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js":[function(require,module,exports){
+},{"./PendingCallMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\PendingCallMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js":[function(require,module,exports){
 function ObservableMixin(target) {
     let observers = {};
 
@@ -49725,7 +49726,7 @@ function ObservableMixin(target) {
 
 module.exports = ObservableMixin;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/PendingCallMixin.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\PendingCallMixin.js":[function(require,module,exports){
 function PendingCallMixin(target) {
     let pendingCalls = [];
     let serialPendingCalls = [];
@@ -49774,7 +49775,7 @@ function PendingCallMixin(target) {
 }
 
 module.exports = PendingCallMixin;
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/array.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\array.js":[function(require,module,exports){
 function shuffle(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -49784,7 +49785,7 @@ function shuffle(array) {
 
 module.exports.shuffle = shuffle;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/getBaseURL.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\getBaseURL.js":[function(require,module,exports){
 const constants = require("../moduleConstants");
 const system = require("../system");
 function getBaseURL(){
@@ -49823,7 +49824,7 @@ function getBaseURL(){
 }
 
 module.exports = getBaseURL;
-},{"../moduleConstants":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","../system":"/home/runner/work/privatesky/privatesky/modules/opendsu/system/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/getURLForSsappContext.js":[function(require,module,exports){
+},{"../moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","../system":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\system\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\getURLForSsappContext.js":[function(require,module,exports){
 function getURLForSsappContext(relativePath) {
     if (window["$$"] && $$.SSAPP_CONTEXT && $$.SSAPP_CONTEXT.BASE_URL && $$.SSAPP_CONTEXT.SEED) {
         // if we have a BASE_URL then we prefix the fetch url with BASE_URL
@@ -49838,13 +49839,13 @@ module.exports = {
     getURLForSsappContext
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\index.js":[function(require,module,exports){
 module.exports = {
     bindAutoPendingFunctions: require("./BindAutoPendingFunctions").bindAutoPendingFunctions,
     ObservableMixin: require("./ObservableMixin"),
     PendingCallMixin: require('./PendingCallMixin')
 }
-},{"./BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","./ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","./PendingCallMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/PendingCallMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/observable.js":[function(require,module,exports){
+},{"./BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","./ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","./PendingCallMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\PendingCallMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\observable.js":[function(require,module,exports){
 module.exports.createObservable = function(){
 	let observableMixin = require("./ObservableMixin");
 	let obs = {};
@@ -49852,7 +49853,7 @@ module.exports.createObservable = function(){
 	observableMixin(obs);
 	return obs;
 }
-},{"./ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/promise-runner.js":[function(require,module,exports){
+},{"./ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\promise-runner.js":[function(require,module,exports){
 const arrayUtils = require("./array");
 const { OpenDSUSafeCallback, createOpenDSUErrorWrapper } = require('./../error')
 
@@ -50011,7 +50012,7 @@ module.exports = {
   runEnoughForMajority,
 };
 
-},{"./../error":"/home/runner/work/privatesky/privatesky/modules/opendsu/error/index.js","./array":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/array.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkills.js":[function(require,module,exports){
+},{"./../error":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\error\\index.js","./array":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\array.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkills.js":[function(require,module,exports){
 const cryptoSkillsRegistry = {};
 const methodsNames = require("../didMethodsNames");
 const KeyDID_CryptographicSkills = require("./KeyDID_CryptographicSkills");
@@ -50040,7 +50041,7 @@ module.exports = {
     NAMES: require("./cryptographicSkillsNames"),
     CryptographicSkillsMixin: require("./CryptographicSkillsMixin")
 };
-},{"../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./CryptographicSkillsMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkillsMixin.js","./GroupDID_CryptographicSkills":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/GroupDID_CryptographicSkills.js","./KeyDID_CryptographicSkills":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/KeyDID_CryptographicSkills.js","./NameDID_CryptographicSkills":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/NameDID_CryptographicSkills.js","./SReadDID_CryptographicSkills":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/SReadDID_CryptographicSkills.js","./SSI_KeyDID_CryptographicSkills":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/SSI_KeyDID_CryptographicSkills.js","./cryptographicSkillsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/cryptographicSkillsNames.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkillsMixin.js":[function(require,module,exports){
+},{"../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./CryptographicSkillsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkillsMixin.js","./GroupDID_CryptographicSkills":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\GroupDID_CryptographicSkills.js","./KeyDID_CryptographicSkills":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\KeyDID_CryptographicSkills.js","./NameDID_CryptographicSkills":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\NameDID_CryptographicSkills.js","./SReadDID_CryptographicSkills":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\SReadDID_CryptographicSkills.js","./SSI_KeyDID_CryptographicSkills":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\SSI_KeyDID_CryptographicSkills.js","./cryptographicSkillsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\cryptographicSkillsNames.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkillsMixin.js":[function(require,module,exports){
 function CryptographicSkillsMixin(target) {
     target = target || {};
     const crypto = require("pskcrypto");
@@ -50236,7 +50237,7 @@ function CryptographicSkillsMixin(target) {
 
 module.exports = CryptographicSkillsMixin;
 
-},{"opendsu":"opendsu","pskcrypto":"pskcrypto","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/GroupDID_CryptographicSkills.js":[function(require,module,exports){
+},{"opendsu":"opendsu","pskcrypto":"pskcrypto","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\GroupDID_CryptographicSkills.js":[function(require,module,exports){
 const didDocumentsFactory = require("../didDocumentsFactory");
 const didMethodsNames = require("../didMethodsNames");
 function GroupDID_CryptographicSkills() {
@@ -50249,7 +50250,7 @@ function GroupDID_CryptographicSkills() {
 }
 
 module.exports = GroupDID_CryptographicSkills;
-},{"../didDocumentsFactory":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didDocumentsFactory.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./CryptographicSkillsMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkillsMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/KeyDID_CryptographicSkills.js":[function(require,module,exports){
+},{"../didDocumentsFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didDocumentsFactory.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./CryptographicSkillsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkillsMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\KeyDID_CryptographicSkills.js":[function(require,module,exports){
 const didDocumentsFactory = require("../didDocumentsFactory");
 const didMethodsNames = require("../didMethodsNames");
 function KeyDID_CryptographicSkills() {
@@ -50262,7 +50263,7 @@ function KeyDID_CryptographicSkills() {
 }
 
 module.exports = KeyDID_CryptographicSkills;
-},{"../didDocumentsFactory":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didDocumentsFactory.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./CryptographicSkillsMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkillsMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/NameDID_CryptographicSkills.js":[function(require,module,exports){
+},{"../didDocumentsFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didDocumentsFactory.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./CryptographicSkillsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkillsMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\NameDID_CryptographicSkills.js":[function(require,module,exports){
 const didDocumentsFactory = require("../didDocumentsFactory");
 const didMethodsNames = require("../didMethodsNames");
 function NameDID_CryptographicSkills() {
@@ -50275,7 +50276,7 @@ function NameDID_CryptographicSkills() {
 }
 
 module.exports = NameDID_CryptographicSkills;
-},{"../didDocumentsFactory":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didDocumentsFactory.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./CryptographicSkillsMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkillsMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/SReadDID_CryptographicSkills.js":[function(require,module,exports){
+},{"../didDocumentsFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didDocumentsFactory.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./CryptographicSkillsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkillsMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\SReadDID_CryptographicSkills.js":[function(require,module,exports){
 const didDocumentsFactory = require("../didDocumentsFactory");
 const didMethodsNames = require("../didMethodsNames");
 function SReadDID_CryptographicSkills() {
@@ -50288,7 +50289,7 @@ function SReadDID_CryptographicSkills() {
 }
 
 module.exports = SReadDID_CryptographicSkills;
-},{"../didDocumentsFactory":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didDocumentsFactory.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./CryptographicSkillsMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkillsMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/SSI_KeyDID_CryptographicSkills.js":[function(require,module,exports){
+},{"../didDocumentsFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didDocumentsFactory.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./CryptographicSkillsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkillsMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\SSI_KeyDID_CryptographicSkills.js":[function(require,module,exports){
 const didDocumentsFactory = require("../didDocumentsFactory");
 const didMethodsNames = require("../didMethodsNames");
 function SSI_KeyDID_CryptographicSkills() {
@@ -50301,7 +50302,7 @@ function SSI_KeyDID_CryptographicSkills() {
 }
 
 module.exports = SSI_KeyDID_CryptographicSkills;
-},{"../didDocumentsFactory":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didDocumentsFactory.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./CryptographicSkillsMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkillsMixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/cryptographicSkillsNames.js":[function(require,module,exports){
+},{"../didDocumentsFactory":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didDocumentsFactory.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./CryptographicSkillsMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkillsMixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\cryptographicSkillsNames.js":[function(require,module,exports){
 module.exports = {
     CREATE_DID_DOCUMENT:"createDID_Document",
     SIGN: "sign",
@@ -50309,7 +50310,7 @@ module.exports = {
     ENCRYPT_MESSAGE: "encryptMessage",
     DECRYPT_MESSAGE: "decryptMessage"
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/W3CDID_Mixin.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\W3CDID_Mixin.js":[function(require,module,exports){
 /*
     W3CDID Minxin is abstracting the DID document for OpenDSU compatible DID methods
 
@@ -50516,7 +50517,7 @@ function W3CDID_Mixin(target, enclave) {
 
 module.exports = W3CDID_Mixin;
 
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/W3CVC_Mixin.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\W3CVC_Mixin.js":[function(require,module,exports){
 
 /*
     W3CVC Mixin is abstracting a JWT based credential
@@ -50543,7 +50544,7 @@ function W3CVC_Mixin(){
 
 module.exports = W3CVC_Mixin;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didDocumentsFactory.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didDocumentsFactory.js":[function(require,module,exports){
 const methodsNames = require("./didMethodsNames");
 const createNameDIDDocument = require("./didssi/NameDID_Document").initiateDIDDocument;
 const createGroupDID_Document = require("./didssi/GroupDID_Document").initiateDIDDocument;
@@ -50571,7 +50572,7 @@ module.exports = {
     registerDID_Document_Constructor,
     createDID_Document
 }
-},{"./didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./didssi/GroupDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/GroupDID_Document.js","./didssi/KeyDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/KeyDID_Document.js","./didssi/NameDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/NameDID_Document.js","./didssi/SReadDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/SReadDID_Document.js","./w3cdids/KeyDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/w3cdids/KeyDID_Document.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js":[function(require,module,exports){
+},{"./didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./didssi/GroupDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\GroupDID_Document.js","./didssi/KeyDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\KeyDID_Document.js","./didssi/NameDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\NameDID_Document.js","./didssi/SReadDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\SReadDID_Document.js","./w3cdids/KeyDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\w3cdids\\KeyDID_Document.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js":[function(require,module,exports){
 module.exports = {
     OPENDSU_METHOD_NAME: "ssi",
     KEY_SUBTYPE: "key",
@@ -50581,7 +50582,7 @@ module.exports = {
     GROUP_METHOD_NAME: "ssi:group",
     DEMO_METHOD_NAME: "demo"
 }
-},{}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/ConstDID_Document_Mixin.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\ConstDID_Document_Mixin.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const {createOpenDSUErrorWrapper} = require("../../error");
 
@@ -50733,7 +50734,7 @@ module.exports = ConstDID_Document_Mixin;
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../error":"/home/runner/work/privatesky/privatesky/modules/opendsu/error/index.js","../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","../W3CDID_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/W3CDID_Mixin.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/GroupDID_Document.js":[function(require,module,exports){
+},{"../../error":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\error\\index.js","../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","../W3CDID_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\W3CDID_Mixin.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\GroupDID_Document.js":[function(require,module,exports){
 const methodsNames = require("../didMethodsNames");
 
 function GroupDID_Document(enclave, domain, groupName, isInitialisation) {
@@ -50946,7 +50947,7 @@ module.exports = {
     }
 };
 
-},{"../../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./ConstDID_Document_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/ConstDID_Document_Mixin.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/KeyDID_Document.js":[function(require,module,exports){
+},{"../../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./ConstDID_Document_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\ConstDID_Document_Mixin.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\KeyDID_Document.js":[function(require,module,exports){
 const methodsNames = require("../didMethodsNames");
 const {bindAutoPendingFunctions} = require("../../utils/BindAutoPendingFunctions");
 
@@ -51036,7 +51037,7 @@ module.exports = {
     }
 };
 
-},{"../../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","../W3CDID_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/W3CDID_Mixin.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/NameDID_Document.js":[function(require,module,exports){
+},{"../../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","../W3CDID_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\W3CDID_Mixin.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\NameDID_Document.js":[function(require,module,exports){
 const methodsNames = require("../didMethodsNames");
 
 function NameDID_Document(enclave, domain, name, isInitialisation) {
@@ -51080,7 +51081,7 @@ module.exports = {
     }
 };
 
-},{"../../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./ConstDID_Document_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/ConstDID_Document_Mixin.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/SReadDID_Document.js":[function(require,module,exports){
+},{"../../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./ConstDID_Document_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\ConstDID_Document_Mixin.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\SReadDID_Document.js":[function(require,module,exports){
 const methodsNames = require("../didMethodsNames");
 
 function SReadDID_Document(enclave, isInitialisation, seedSSI) {
@@ -51191,7 +51192,7 @@ module.exports = {
     }
 };
 
-},{"../../utils/BindAutoPendingFunctions":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/BindAutoPendingFunctions.js","../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./ConstDID_Document_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/ConstDID_Document_Mixin.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/ssiMethods.js":[function(require,module,exports){
+},{"../../utils/BindAutoPendingFunctions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\BindAutoPendingFunctions.js","../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./ConstDID_Document_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\ConstDID_Document_Mixin.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\ssiMethods.js":[function(require,module,exports){
 function storeDIDInSC(didDocument, callback) {
     const securityContext = require("opendsu").loadAPI("sc").getSecurityContext();
     const __registerDID = () => {
@@ -51345,7 +51346,7 @@ module.exports = {
     create_GroupDID_Method
 }
 
-},{"./GroupDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/GroupDID_Document.js","./KeyDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/KeyDID_Document.js","./NameDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/NameDID_Document.js","./SReadDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/SReadDID_Document.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/index.js":[function(require,module,exports){
+},{"./GroupDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\GroupDID_Document.js","./KeyDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\KeyDID_Document.js","./NameDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\NameDID_Document.js","./SReadDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\SReadDID_Document.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\index.js":[function(require,module,exports){
 /*
     OpenDSU W3C compatible  ID pluginisable resolver  that can resolve arbitrary DID methods.
 
@@ -51475,7 +51476,7 @@ module.exports = {
     W3CCVCMixin: require('./W3CVC_Mixin')
 }
 
-},{"./CryptographicSkills/CryptographicSkills":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/CryptographicSkills/CryptographicSkills.js","./W3CDID_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/W3CDID_Mixin.js","./W3CVC_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/W3CVC_Mixin.js","./didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","./didssi/ssiMethods":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didssi/ssiMethods.js","./w3cdids/didMethods":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/w3cdids/didMethods.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/w3cdids/KeyDID_Document.js":[function(require,module,exports){
+},{"./CryptographicSkills/CryptographicSkills":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\CryptographicSkills\\CryptographicSkills.js","./W3CDID_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\W3CDID_Mixin.js","./W3CVC_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\W3CVC_Mixin.js","./didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","./didssi/ssiMethods":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didssi\\ssiMethods.js","./w3cdids/didMethods":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\w3cdids\\didMethods.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\w3cdids\\KeyDID_Document.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const methodsNames = require("../didMethodsNames");
 
@@ -51568,7 +51569,7 @@ module.exports = {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../utils/ObservableMixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/ObservableMixin.js","../W3CDID_Mixin":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/W3CDID_Mixin.js","../didMethodsNames":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/didMethodsNames.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/w3cdids/didMethods.js":[function(require,module,exports){
+},{"../../utils/ObservableMixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\ObservableMixin.js","../W3CDID_Mixin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\W3CDID_Mixin.js","../didMethodsNames":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\didMethodsNames.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\w3cdids\\didMethods.js":[function(require,module,exports){
 function KeyDID_Method() {
     let KeyDIDDocument = require("./KeyDID_Document");
     this.create = function (enclave, publicKey, privateKey, callback) {
@@ -51598,7 +51599,7 @@ module.exports = {
         return new KeyDID_Method();
     }
 }
-},{"./KeyDID_Document":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/w3cdids/KeyDID_Document.js"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/bootScript/node.js":[function(require,module,exports){
+},{"./KeyDID_Document":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\w3cdids\\KeyDID_Document.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\bootScript\\node.js":[function(require,module,exports){
 (function (process){(function (){
 module.exports = () => {
     const worker_threads = "worker_threads";
@@ -51625,7 +51626,7 @@ module.exports = () => {
 }
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/bootScript/web.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\bootScript\\web.js":[function(require,module,exports){
 module.exports = () => {
     addEventListener('message', (event) => {
         const { functionName, payload } = event.data;
@@ -51646,7 +51647,7 @@ module.exports = () => {
         console.error("[workers] web worker error", error);
     });
 }
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/functions.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\functions.js":[function(require,module,exports){
 function runSyncFunction({ apiSpaceName, functionName, params }) {
     const openDSU = require("opendsu");
     const api = openDSU.loadAPI(apiSpaceName);
@@ -51666,7 +51667,7 @@ module.exports = {
     runSyncFunction,
     runSyncFunctionOnlyFromWorker
 }
-},{"opendsu":"opendsu"}],"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/index.js":[function(require,module,exports){
+},{"opendsu":"opendsu"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\index.js":[function(require,module,exports){
 (function (global){(function (){
 function getWebWorkerBootScript() {
     const scriptLocation = document.currentScript
@@ -51845,7 +51846,7 @@ module.exports = {
 }
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../moduleConstants.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./bootScript/node":"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/bootScript/node.js","./bootScript/web":"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/bootScript/web.js","./functions":"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/functions.js","opendsu":"opendsu","syndicate":"/home/runner/work/privatesky/privatesky/modules/syndicate/index.js"}],"/home/runner/work/privatesky/privatesky/modules/overwrite-require/Logger.js":[function(require,module,exports){
+},{"../moduleConstants.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./bootScript/node":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\bootScript\\node.js","./bootScript/web":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\bootScript\\web.js","./functions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\functions.js","opendsu":"opendsu","syndicate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\Logger.js":[function(require,module,exports){
 function Logger(className, moduleName, logFile) {
     if (typeof className === "undefined" || typeof moduleName === "undefined") {
         throw Error(`Arguments className and moduleName are mandatory.`);
@@ -51980,7 +51981,7 @@ module.exports = {
     getLogger
 }
 
-},{"./moduleConstants":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/moduleConstants.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","os":"/home/runner/work/privatesky/privatesky/node_modules/os-browserify/browser.js","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js":[function(require,module,exports){
+},{"./moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\moduleConstants.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","os":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\os-browserify\\browser.js","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js":[function(require,module,exports){
 (function (process,global){(function (){
 /*
  require and $$.require are overwriting the node.js defaults in loading modules for increasing security, speed and making it work to the privatesky runtime build with browserify.
@@ -52395,7 +52396,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./Logger":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/Logger.js","./moduleConstants":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/moduleConstants.js","./standardGlobalSymbols.js":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/standardGlobalSymbols.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/overwrite-require/moduleConstants.js":[function(require,module,exports){
+},{"./Logger":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\Logger.js","./moduleConstants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\moduleConstants.js","./standardGlobalSymbols.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\standardGlobalSymbols.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\moduleConstants.js":[function(require,module,exports){
 module.exports = {
   BROWSER_ENVIRONMENT_TYPE: 'browser',
   MOBILE_BROWSER_ENVIRONMENT_TYPE: 'mobile-browser',
@@ -52406,7 +52407,7 @@ module.exports = {
   NODEJS_ENVIRONMENT_TYPE: 'nodejs'
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/overwrite-require/standardGlobalSymbols.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\standardGlobalSymbols.js":[function(require,module,exports){
 (function (process,global){(function (){
 let logger = console;
 
@@ -52729,7 +52730,7 @@ $$.registerGlobalSymbol("throttlingEvent", function (...args) {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","psklogger":false,"swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/psk-cache/index.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","psklogger":false,"swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-cache\\index.js":[function(require,module,exports){
 const Cache = require("./lib/Cache")
 let cacheInstance;
 
@@ -52766,7 +52767,7 @@ module.exports = {
     }
 };
 
-},{"./lib/Cache":"/home/runner/work/privatesky/privatesky/modules/psk-cache/lib/Cache.js"}],"/home/runner/work/privatesky/privatesky/modules/psk-cache/lib/Cache.js":[function(require,module,exports){
+},{"./lib/Cache":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-cache\\lib\\Cache.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-cache\\lib\\Cache.js":[function(require,module,exports){
 const DEFAULT_ITEMS_LIMIT = 1000;
 const DEFAULT_STORAGE_LEVELS = 3;
 
@@ -52885,11 +52886,11 @@ function Cache(options) {
 
 module.exports = Cache;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/psk-dbf/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\index.js":[function(require,module,exports){
 const BloomFilter = require("./src/bloom-filter");
 module.exports = BloomFilter;
 
-},{"./src/bloom-filter":"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/bloom-filter.js"}],"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/bloom-filter.js":[function(require,module,exports){
+},{"./src/bloom-filter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\bloom-filter.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\bloom-filter.js":[function(require,module,exports){
 const sha2 = require("./crypto-hash-functions/sha2");
 const linearFowlerNollVoJenkinsHashFunction = require("./hash-functions/linear-fowler–noll–vo-jenkins-hash-function");
 const InMemoryBitCollectionStrategy = require("./in-memory-bit-collection-strategy");
@@ -53020,7 +53021,7 @@ BloomFilter.prototype.test = function (data) {
 
 module.exports = BloomFilter;
 
-},{"./crypto-hash-functions/sha2":"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/crypto-hash-functions/sha2.js","./hash-functions/linear-fowler–noll–vo-jenkins-hash-function":"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/hash-functions/linear-fowler–noll–vo-jenkins-hash-function.js","./in-memory-bit-collection-strategy":"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/in-memory-bit-collection-strategy.js"}],"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/crypto-hash-functions/sha2.js":[function(require,module,exports){
+},{"./crypto-hash-functions/sha2":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\crypto-hash-functions\\sha2.js","./hash-functions/linear-fowler–noll–vo-jenkins-hash-function":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\hash-functions\\linear-fowler–noll–vo-jenkins-hash-function.js","./in-memory-bit-collection-strategy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\in-memory-bit-collection-strategy.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\crypto-hash-functions\\sha2.js":[function(require,module,exports){
 const crypto = require("crypto");
 
 function linearFowlerNollVoJenkinsHashFunction(data, index, options) {
@@ -53032,7 +53033,7 @@ function linearFowlerNollVoJenkinsHashFunction(data, index, options) {
 
 module.exports = linearFowlerNollVoJenkinsHashFunction;
 
-},{"crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/hash-functions/fowler–noll–vo-1a.js":[function(require,module,exports){
+},{"crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\hash-functions\\fowler–noll–vo-1a.js":[function(require,module,exports){
 /**
  * Fowler–Noll–Vo hash function - FNV-1a hash variant
  * https://en.wikipedia.org/wiki/Fowler%E2%80%93Noll%E2%80%93Vo_hash_function#FNV-1a_hash
@@ -53072,7 +53073,7 @@ function fnv_multiply(hash) {
 
 module.exports = fowlerNollVo1a;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/hash-functions/jenkins.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\hash-functions\\jenkins.js":[function(require,module,exports){
 /**
  * Jenkins hash function - one at a time hash function
  * https://en.wikipedia.org/wiki/Jenkins_hash_function
@@ -53094,7 +53095,7 @@ function jenkins(key) {
 
 module.exports = jenkins;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/hash-functions/linear-fowler–noll–vo-jenkins-hash-function.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\hash-functions\\linear-fowler–noll–vo-jenkins-hash-function.js":[function(require,module,exports){
 const fowlerNollVo1a = require("./fowler–noll–vo-1a");
 const jenkins = require("./jenkins");
 
@@ -53105,7 +53106,7 @@ function linearFowlerNollVoJenkinsHashFunction(data, index, options) {
 
 module.exports = linearFowlerNollVoJenkinsHashFunction;
 
-},{"./fowler–noll–vo-1a":"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/hash-functions/fowler–noll–vo-1a.js","./jenkins":"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/hash-functions/jenkins.js"}],"/home/runner/work/privatesky/privatesky/modules/psk-dbf/src/in-memory-bit-collection-strategy.js":[function(require,module,exports){
+},{"./fowler–noll–vo-1a":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\hash-functions\\fowler–noll–vo-1a.js","./jenkins":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\hash-functions\\jenkins.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-dbf\\src\\in-memory-bit-collection-strategy.js":[function(require,module,exports){
 function InMemoryBitCollectionStrategy(options) {
     let { byteCount, data } = options;
 
@@ -53160,7 +53161,7 @@ InMemoryBitCollectionStrategy.prototype.length = function () {
 
 module.exports = InMemoryBitCollectionStrategy;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/psk-http-client/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\index.js":[function(require,module,exports){
 //to look nice the requireModule on Node
 require("./lib/psk-abstract-client");
 const or = require('overwrite-require');
@@ -53169,7 +53170,7 @@ if ($$.environmentType === or.constants.BROWSER_ENVIRONMENT_TYPE) {
 } else {
 	require("./lib/psk-node-client");
 }
-},{"./lib/psk-abstract-client":"/home/runner/work/privatesky/privatesky/modules/psk-http-client/lib/psk-abstract-client.js","./lib/psk-browser-client":"/home/runner/work/privatesky/privatesky/modules/psk-http-client/lib/psk-browser-client.js","./lib/psk-node-client":"/home/runner/work/privatesky/privatesky/modules/psk-http-client/lib/psk-node-client.js","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js"}],"/home/runner/work/privatesky/privatesky/modules/psk-http-client/lib/psk-abstract-client.js":[function(require,module,exports){
+},{"./lib/psk-abstract-client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\lib\\psk-abstract-client.js","./lib/psk-browser-client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\lib\\psk-browser-client.js","./lib/psk-node-client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\lib\\psk-node-client.js","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\lib\\psk-abstract-client.js":[function(require,module,exports){
 /**********************  utility class **********************************/
 function RequestManager(pollingTimeOut) {
     if (!pollingTimeOut) {
@@ -53646,7 +53647,7 @@ $$.apihub.createConnection = function(alias, url, ssi){
     return $$.apihub.connections[alias];
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/psk-http-client/lib/psk-browser-client.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\lib\\psk-browser-client.js":[function(require,module,exports){
 function generateMethodForRequestWithData(httpMethod) {
     return function (url, data, callback) {
         const xhr = new XMLHttpRequest();
@@ -53785,7 +53786,7 @@ $$.remote.base64Decode = function base64Decode(encodedString){
     return window.atob(encodedString);
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/psk-http-client/lib/psk-node-client.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\lib\\psk-node-client.js":[function(require,module,exports){
 (function (process){(function (){
 require("./psk-abstract-client");
 
@@ -53973,7 +53974,7 @@ $$.remote.base64Decode = function base64Decode(encodedString){
 
 }).call(this)}).call(this,require('_process'))
 
-},{"./psk-abstract-client":"/home/runner/work/privatesky/privatesky/modules/psk-http-client/lib/psk-abstract-client.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","https":"/home/runner/work/privatesky/privatesky/node_modules/https-browserify/index.js","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js":[function(require,module,exports){
+},{"./psk-abstract-client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\lib\\psk-abstract-client.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","https":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\https-browserify\\index.js","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../crypto')
@@ -54078,7 +54079,7 @@ module.exports = {
     convertKeysToKeyObjects
 }
 
-},{"../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js":[function(require,module,exports){
+},{"../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js":[function(require,module,exports){
 module.exports = {
     curveName: 'secp256k1',
     encodingFormat: 'base64',
@@ -54094,7 +54095,7 @@ module.exports = {
     publicKeyType: 'spki'
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/cipher.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\cipher.js":[function(require,module,exports){
 'use strict';
 
 const crypto = require('crypto');
@@ -54132,7 +54133,7 @@ module.exports = {
     symmetricDecrypt
 }
 
-},{"../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/digitalsig.js":[function(require,module,exports){
+},{"../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\digitalsig.js":[function(require,module,exports){
 'use strict';
 
 const crypto = require('crypto');
@@ -54169,7 +54170,7 @@ module.exports = {
     verifyDigitalSignature
 }
 
-},{"../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/ecephka.js":[function(require,module,exports){
+},{"../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\ecephka.js":[function(require,module,exports){
 'use strict';
 
 const crypto = require('crypto');
@@ -54207,7 +54208,7 @@ class ECEphemeralKeyAgreement {
 
 module.exports = ECEphemeralKeyAgreement
 
-},{"../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js":[function(require,module,exports){
+},{"../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js":[function(require,module,exports){
 'use strict';
 
 const cipher = require('./cipher')
@@ -54237,7 +54238,7 @@ module.exports = {
     PublicKeyDeserializer: require('./pkdeserializer')
 }
 
-},{"./cipher":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/cipher.js","./digitalsig":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/digitalsig.js","./ecephka":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/ecephka.js","./kdf":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/kdf.js","./kmac":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/kmac.js","./pkdeserializer":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/pkdeserializer.js","./pkserializer":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/pkserializer.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/kdf.js":[function(require,module,exports){
+},{"./cipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\cipher.js","./digitalsig":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\digitalsig.js","./ecephka":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\ecephka.js","./kdf":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\kdf.js","./kmac":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\kmac.js","./pkdeserializer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\pkdeserializer.js","./pkserializer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\pkserializer.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\kdf.js":[function(require,module,exports){
 'use strict';
 
 const crypto = require('crypto');
@@ -54268,7 +54269,7 @@ module.exports = {
     KDF2
 }
 
-},{"../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/kmac.js":[function(require,module,exports){
+},{"../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\kmac.js":[function(require,module,exports){
 'use strict';
 
 const crypto = require('crypto');
@@ -54295,7 +54296,7 @@ module.exports = {
     verifyKMAC
 }
 
-},{"../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","./index":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/pkdeserializer.js":[function(require,module,exports){
+},{"../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","./index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\pkdeserializer.js":[function(require,module,exports){
 'use strict';
 
 const crypto = require('crypto')
@@ -54329,7 +54330,7 @@ function PublicKeyDeserializer() {
 
 module.exports = new PublicKeyDeserializer()
 
-},{"../../lib/ECKeyGenerator":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/ECKeyGenerator.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/pkserializer.js":[function(require,module,exports){
+},{"../../lib/ECKeyGenerator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\ECKeyGenerator.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\pkserializer.js":[function(require,module,exports){
 const config = require('../config');
 
 function PublicKeySerializer() {
@@ -54358,7 +54359,7 @@ function PublicKeySerializer() {
 
 module.exports = new PublicKeySerializer()
 
-},{"../../lib/ECKeyGenerator":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/ECKeyGenerator.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/decrypt.js":[function(require,module,exports){
+},{"../../lib/ECKeyGenerator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\ECKeyGenerator.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\decrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../crypto')
@@ -54427,7 +54428,7 @@ module.exports.decrypt = function (receiverECDHPrivateKey, encEnvelope, options)
     };
 }
 
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/encrypt.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\encrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../crypto')
@@ -54487,7 +54488,7 @@ module.exports.encrypt = function (senderECSigningKeyPair, receiverECDHPublicKey
     return common.createEncryptedEnvelopeObject(receiverECDHPublicKey, ephemeralPublicKey, ciphertext, iv, tag, options)
 };
 
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/index.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\index.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -54495,7 +54496,7 @@ module.exports = {
   decrypt: require('./decrypt').decrypt,
   getDecodedECDHPublicKeyFromEncEnvelope: require('../common').getDecodedECDHPublicKeyFromEncEnvelope
 }
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","./decrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/decrypt.js","./encrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/encrypt.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-kmac/decrypt.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","./decrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\decrypt.js","./encrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\encrypt.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-kmac\\decrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../crypto');
@@ -54560,7 +54561,7 @@ module.exports.decrypt = function (receiverECDHPrivateKey, encEnvelope, options)
     };
 }
 
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-kmac/encrypt.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-kmac\\encrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../crypto');
@@ -54615,9 +54616,9 @@ module.exports.encrypt = function (senderECDHKeyPair, receiverECDHPublicKey, mes
     return common.createEncryptedEnvelopeObject(receiverECDHPublicKey, ephemeralPublicKey, ciphertext, iv, tag, options)
 };
 
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-kmac/index.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/index.js"][0].apply(exports,arguments)
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","./decrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-kmac/decrypt.js","./encrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-kmac/encrypt.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/decrypt.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-kmac\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\index.js"][0].apply(exports,arguments)
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","./decrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-kmac\\decrypt.js","./encrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-kmac\\encrypt.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\decrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../../crypto')
@@ -54669,7 +54670,7 @@ module.exports.decrypt = function (receiverECDHKeyPair, encEnvelope, options) {
     return mycrypto.symmetricDecrypt(symmetricCipherKey, ciphertext, iv, options)
 }
 
-},{"../../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","../utils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/encrypt.js":[function(require,module,exports){
+},{"../../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\encrypt.js":[function(require,module,exports){
 'use strict';
 
 const utils = require('../utils')
@@ -54730,7 +54731,7 @@ module.exports.encrypt = function (message, ...receiverECDHPublicKeys) {
     }
 }
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","../utils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/index.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\index.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -54739,7 +54740,7 @@ module.exports = {
   getRecipientECDHPublicKeysFromEncEnvelope: require('../utils').getRecipientECDHPublicKeysFromEncEnvelope
 }
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/index.js","./decrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/decrypt.js","./encrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/encrypt.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-doa/decrypt.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\index.js","./decrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\decrypt.js","./encrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\encrypt.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-doa\\decrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../../crypto')
@@ -54790,7 +54791,7 @@ module.exports.decrypt = function (receiverECDHKeyPair, encEnvelope, options) {
     }
 }
 
-},{"../../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","../ecies-ge-anon":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-doa/encrypt.js":[function(require,module,exports){
+},{"../../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","../ecies-ge-anon":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-doa\\encrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../../crypto')
@@ -54839,9 +54840,9 @@ module.exports.encrypt = function (senderECSigningKeyPair, message, ...receiverE
     return eciesGEEnvelope;
 }
 
-},{"../../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","../ecies-ge-anon":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-doa/index.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/index.js"][0].apply(exports,arguments)
-},{"../utils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/index.js","./decrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-doa/decrypt.js","./encrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-doa/encrypt.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/index.js":[function(require,module,exports){
+},{"../../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","../ecies-ge-anon":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-doa\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\index.js"][0].apply(exports,arguments)
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\index.js","./decrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-doa\\decrypt.js","./encrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-doa\\encrypt.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\index.js":[function(require,module,exports){
 'use strict';
 
 const sender = require('./sender')
@@ -54857,7 +54858,7 @@ module.exports = {
 
 
 
-},{"./recipient":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/recipient.js","./sender":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/sender.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/recipient.js":[function(require,module,exports){
+},{"./recipient":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\recipient.js","./sender":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\sender.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\recipient.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../../crypto')
@@ -54941,7 +54942,7 @@ module.exports.parseKeyBuffer = function (keyBuffer, options) {
     }
 }
 
-},{"../../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","../../ecies":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/utils/sender.js":[function(require,module,exports){
+},{"../../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","../../ecies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\utils\\sender.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../../crypto')
@@ -54979,7 +54980,7 @@ module.exports.senderMultiRecipientECIESEncrypt = function(message, ...receiverE
     return $$.Buffer.from(JSON.stringify(eciesInstancesArray))
 }
 
-},{"../../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js","../../ecies":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/decrypt.js":[function(require,module,exports){
+},{"../../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js","../../ecies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\decrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../crypto')
@@ -55030,7 +55031,7 @@ module.exports.decrypt = function (receiverECDHPrivateKey, encEnvelope, options)
     return mycrypto.symmetricDecrypt(symmetricEncryptionKey, ciphertext, iv, options)
 }
 
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/encrypt.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\encrypt.js":[function(require,module,exports){
 'use strict';
 
 const mycrypto = require('../crypto')
@@ -55072,9 +55073,9 @@ module.exports.encrypt = function (receiverECDHPublicKey, message, options) {
     return common.createEncryptedEnvelopeObject(receiverECDHPublicKey, ephemeralPublicKey, ciphertext, iv, tag, options)
 }
 
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","../config":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/config.js","../crypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/crypto/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/index.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/index.js"][0].apply(exports,arguments)
-},{"../common":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/common/index.js","./decrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/decrypt.js","./encrypt":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/encrypt.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/index.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","../config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\config.js","../crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\crypto\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\index.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\index.js"][0].apply(exports,arguments)
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\common\\index.js","./decrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\decrypt.js","./encrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\encrypt.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\index.js":[function(require,module,exports){
 module.exports = {
     ecies_encrypt: require("./ecies").encrypt,
     ecies_decrypt: require("./ecies").decrypt,
@@ -55090,7 +55091,7 @@ module.exports = {
     ecies_group_getRecipientECDHPublicKeysFromEncEnvelope: require("./ecies-group-encryption/ecies-ge-doa").getRecipientECDHPublicKeysFromEncEnvelope
 }
 
-},{"./ecies":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/index.js","./ecies-doa-ds":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-ds/index.js","./ecies-doa-kmac":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-doa-kmac/index.js","./ecies-group-encryption/ecies-ge-anon":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-anon/index.js","./ecies-group-encryption/ecies-ge-doa":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies-group-encryption/ecies-ge-doa/index.js","./ecies/index":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/ecies/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/decode.js":[function(require,module,exports){
+},{"./ecies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\index.js","./ecies-doa-ds":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-ds\\index.js","./ecies-doa-kmac":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-doa-kmac\\index.js","./ecies-group-encryption/ecies-ge-anon":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-anon\\index.js","./ecies-group-encryption/ecies-ge-doa":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies-group-encryption\\ecies-ge-doa\\index.js","./ecies/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\ecies\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\decode.js":[function(require,module,exports){
 var jws = require('./jws');
 
 module.exports = function (jwt, options) {
@@ -55121,7 +55122,7 @@ module.exports = function (jwt, options) {
     }
     return payload;
 };
-},{"./jws":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/index.js":[function(require,module,exports){
+},{"./jws":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\index.js":[function(require,module,exports){
 module.exports = {
     verify: require('./verify'),
     sign: require('./sign'),
@@ -55132,7 +55133,7 @@ Object.defineProperty(module.exports, 'decode', {
     value: require('./decode'),
 });
 
-},{"./decode":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/decode.js","./sign":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/sign.js","./verify":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/verify.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwa/ecdsa-sig-formatter.js":[function(require,module,exports){
+},{"./decode":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\decode.js","./sign":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\sign.js","./verify":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\verify.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwa\\ecdsa-sig-formatter.js":[function(require,module,exports){
 var getParamBytesForAlg = require('./param-bytes-for-alg');
 
 var MAX_OCTET = 0x80,
@@ -55316,7 +55317,7 @@ module.exports = {
     derToJose: derToJose,
     joseToDer: joseToDer
 };
-},{"./param-bytes-for-alg":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwa/param-bytes-for-alg.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwa/index.js":[function(require,module,exports){
+},{"./param-bytes-for-alg":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwa\\param-bytes-for-alg.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwa\\index.js":[function(require,module,exports){
 var crypto = require('crypto');
 var formatEcdsa = require('./ecdsa-sig-formatter');
 var util = require('util');
@@ -55567,7 +55568,7 @@ module.exports = function jwa(algorithm) {
         verify: verifierFactories[algo](bits),
     }
 };
-},{"./ecdsa-sig-formatter":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwa/ecdsa-sig-formatter.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwa/param-bytes-for-alg.js":[function(require,module,exports){
+},{"./ecdsa-sig-formatter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwa\\ecdsa-sig-formatter.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwa\\param-bytes-for-alg.js":[function(require,module,exports){
 'use strict';
 
 function getParamSize(keySize) {
@@ -55591,7 +55592,7 @@ function getParamBytesForAlg(alg) {
 }
 
 module.exports = getParamBytesForAlg;
-},{}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwkToPemConverter/factor.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwkToPemConverter\\factor.js":[function(require,module,exports){
 var asn = require('../../lib/asn1/asn1');
 var crypto = require('crypto')
 var BN = asn.bignum
@@ -55644,7 +55645,7 @@ function factor(e, d, n) {
 }
 
 module.exports = factor
-},{"../../lib/asn1/asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwkToPemConverter/index.js":[function(require,module,exports){
+},{"../../lib/asn1/asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwkToPemConverter\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 var asn = require('../../lib/asn1/asn1')
 var factor = require('./factor')
@@ -55881,7 +55882,7 @@ module.exports = {
 }
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../../lib/asn1/asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","./factor":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwkToPemConverter/factor.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/data-stream.js":[function(require,module,exports){
+},{"../../lib/asn1/asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","./factor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwkToPemConverter\\factor.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\data-stream.js":[function(require,module,exports){
 (function (process){(function (){
 /*global module, process*/
 var Stream = require('stream');
@@ -55939,7 +55940,7 @@ DataStream.prototype.end = function end(data) {
 module.exports = DataStream;
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/index.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\index.js":[function(require,module,exports){
 /*global exports*/
 var SignStream = require('./sign-stream');
 var VerifyStream = require('./verify-stream');
@@ -55962,7 +55963,7 @@ exports.createSign = function createSign(opts) {
 exports.createVerify = function createVerify(opts) {
     return new VerifyStream(opts);
 };
-},{"./sign-stream":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/sign-stream.js","./verify-stream":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/verify-stream.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/sign-stream.js":[function(require,module,exports){
+},{"./sign-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\sign-stream.js","./verify-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\verify-stream.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\sign-stream.js":[function(require,module,exports){
 var DataStream = require('./data-stream');
 var jwa = require('../jwa');
 var Stream = require('stream');
@@ -56039,7 +56040,7 @@ SignStream.prototype.sign = function sign() {
 SignStream.sign = jwsSign;
 
 module.exports = SignStream;
-},{"../jwa":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwa/index.js","./data-stream":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/data-stream.js","./tostring":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/tostring.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/tostring.js":[function(require,module,exports){
+},{"../jwa":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwa\\index.js","./data-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\data-stream.js","./tostring":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\tostring.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\tostring.js":[function(require,module,exports){
 module.exports = function toString(obj) {
     if (typeof obj === 'string')
         return obj;
@@ -56047,7 +56048,7 @@ module.exports = function toString(obj) {
         return obj.toString();
     return JSON.stringify(obj);
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/verify-stream.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\verify-stream.js":[function(require,module,exports){
 /*global module*/
 var DataStream = require('./data-stream');
 var jwa = require('../jwa');
@@ -56167,7 +56168,7 @@ VerifyStream.isValid = isValidJws;
 VerifyStream.verify = jwsVerify;
 
 module.exports = VerifyStream;
-},{"../jwa":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwa/index.js","./data-stream":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/data-stream.js","./tostring":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/tostring.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/JsonWebTokenError.js":[function(require,module,exports){
+},{"../jwa":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwa\\index.js","./data-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\data-stream.js","./tostring":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\tostring.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\JsonWebTokenError.js":[function(require,module,exports){
 var JsonWebTokenError = function (message, error) {
     Error.call(this, message);
     if(Error.captureStackTrace) {
@@ -56182,7 +56183,7 @@ JsonWebTokenError.prototype = Object.create(Error.prototype);
 JsonWebTokenError.prototype.constructor = JsonWebTokenError;
 
 module.exports = JsonWebTokenError;
-},{}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/NotBeforeError.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\NotBeforeError.js":[function(require,module,exports){
 var JsonWebTokenError = require('./JsonWebTokenError');
 
 var NotBeforeError = function (message, date) {
@@ -56196,7 +56197,7 @@ NotBeforeError.prototype = Object.create(JsonWebTokenError.prototype);
 NotBeforeError.prototype.constructor = NotBeforeError;
 
 module.exports = NotBeforeError;
-},{"./JsonWebTokenError":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/JsonWebTokenError.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/TokenExpiredError.js":[function(require,module,exports){
+},{"./JsonWebTokenError":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\JsonWebTokenError.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\TokenExpiredError.js":[function(require,module,exports){
 var JsonWebTokenError = require('./JsonWebTokenError');
 
 var TokenExpiredError = function (message, expiredAt) {
@@ -56210,7 +56211,7 @@ TokenExpiredError.prototype = Object.create(JsonWebTokenError.prototype);
 TokenExpiredError.prototype.constructor = TokenExpiredError;
 
 module.exports = TokenExpiredError;
-},{"./JsonWebTokenError":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/JsonWebTokenError.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/timespan.js":[function(require,module,exports){
+},{"./JsonWebTokenError":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\JsonWebTokenError.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\timespan.js":[function(require,module,exports){
 module.exports = function (time, iat) {
     var timestamp = iat || Math.floor(Date.now() / 1000);
 
@@ -56221,7 +56222,7 @@ module.exports = function (time, iat) {
     }
 
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/sign.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\sign.js":[function(require,module,exports){
 (function (Buffer){(function (){
 var timespan = require('./lib/timespan');
 var jws = require('./jws');
@@ -56355,7 +56356,7 @@ module.exports = function (payload, secretOrPrivateKey, options, callback) {
 };
 }).call(this)}).call(this,{"isBuffer":require("../../../node_modules/is-buffer/index.js")})
 
-},{"../../../node_modules/is-buffer/index.js":"/home/runner/work/privatesky/privatesky/node_modules/is-buffer/index.js","./jws":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/index.js","./lib/timespan":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/timespan.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/verify.js":[function(require,module,exports){
+},{"../../../node_modules/is-buffer/index.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\is-buffer\\index.js","./jws":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\index.js","./lib/timespan":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\timespan.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\verify.js":[function(require,module,exports){
 var JsonWebTokenError = require('./lib/JsonWebTokenError');
 var NotBeforeError = require('./lib/NotBeforeError');
 var TokenExpiredError = require('./lib/TokenExpiredError');
@@ -56581,7 +56582,7 @@ module.exports = function (jwtString, secretOrPublicKey, options, callback) {
         return done(null, payload);
     });
 };
-},{"./decode":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/decode.js","./jwkToPemConverter":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jwkToPemConverter/index.js","./jws":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/jws/index.js","./lib/JsonWebTokenError":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/JsonWebTokenError.js","./lib/NotBeforeError":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/NotBeforeError.js","./lib/TokenExpiredError":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/TokenExpiredError.js","./lib/timespan":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/lib/timespan.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/ECKeyGenerator.js":[function(require,module,exports){
+},{"./decode":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\decode.js","./jwkToPemConverter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jwkToPemConverter\\index.js","./jws":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\jws\\index.js","./lib/JsonWebTokenError":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\JsonWebTokenError.js","./lib/NotBeforeError":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\NotBeforeError.js","./lib/TokenExpiredError":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\TokenExpiredError.js","./lib/timespan":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\lib\\timespan.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\ECKeyGenerator.js":[function(require,module,exports){
 const utils = require("./utils/cryptoUtils");
 
 function ECKeyGenerator() {
@@ -56727,7 +56728,7 @@ exports.createECKeyGenerator = () => {
     return new ECKeyGenerator();
 };
 
-},{"./keyEncoder":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/keyEncoder.js","./utils/cryptoUtils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/cryptoUtils.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/PskCrypto.js":[function(require,module,exports){
+},{"./keyEncoder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\keyEncoder.js","./utils/cryptoUtils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\cryptoUtils.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\PskCrypto.js":[function(require,module,exports){
 function PskCrypto() {
     const crypto = require('crypto');
     const utils = require("./utils/cryptoUtils");
@@ -56947,7 +56948,7 @@ module.exports = new PskCrypto();
 
 
 
-},{"../js-mutual-auth-ecies/index":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/js-mutual-auth-ecies/index.js","../jsonWebToken":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/jsonWebToken/index.js","../signsensusDS/ssutil":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/signsensusDS/ssutil.js","./ECKeyGenerator":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/ECKeyGenerator.js","./PskEncryption":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/PskEncryption.js","./utils/cryptoUtils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/cryptoUtils.js","./utils/eth":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/eth.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/PskEncryption.js":[function(require,module,exports){
+},{"../js-mutual-auth-ecies/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\js-mutual-auth-ecies\\index.js","../jsonWebToken":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\jsonWebToken\\index.js","../signsensusDS/ssutil":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\signsensusDS\\ssutil.js","./ECKeyGenerator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\ECKeyGenerator.js","./PskEncryption":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\PskEncryption.js","./utils/cryptoUtils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\cryptoUtils.js","./utils/eth":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\eth.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\PskEncryption.js":[function(require,module,exports){
 function PskEncryption(algorithm) {
     const crypto = require("crypto");
     const utils = require("./utils/cryptoUtils");
@@ -57047,7 +57048,7 @@ function PskEncryption(algorithm) {
 
 module.exports = PskEncryption;
 
-},{"./utils/cryptoUtils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/cryptoUtils.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/api.js":[function(require,module,exports){
+},{"./utils/cryptoUtils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\cryptoUtils.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\api.js":[function(require,module,exports){
 var asn1 = require('./asn1');
 var inherits = require('util').inherits;
 
@@ -57108,7 +57109,7 @@ Entity.prototype.encode = function encode(data, enc, /* internal */ reporter) {
   return this._getEncoder(enc).encode(data, reporter);
 };
 
-},{"./asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js","vm":"/home/runner/work/privatesky/privatesky/node_modules/vm-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js":[function(require,module,exports){
+},{"./asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js","vm":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\vm-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js":[function(require,module,exports){
 var asn1 = exports;
 
 asn1.bignum = require('./bignum/bn');
@@ -57119,7 +57120,7 @@ asn1.constants = require('./constants/index');
 asn1.decoders = require('./decoders/index');
 asn1.encoders = require('./encoders/index');
 
-},{"./api":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/api.js","./base/index":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/index.js","./bignum/bn":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/bignum/bn.js","./constants/index":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/constants/index.js","./decoders/index":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/decoders/index.js","./encoders/index":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/encoders/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/buffer.js":[function(require,module,exports){
+},{"./api":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\api.js","./base/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\index.js","./bignum/bn":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\bignum\\bn.js","./constants/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\constants\\index.js","./decoders/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\decoders\\index.js","./encoders/index":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\encoders\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\buffer.js":[function(require,module,exports){
 const inherits = require('util').inherits;
 const Reporter = require('../base').Reporter;
 
@@ -57238,7 +57239,7 @@ EncoderBuffer.prototype.join = function join(out, offset) {
     return out;
 };
 
-},{"../base":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/index.js":[function(require,module,exports){
+},{"../base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\index.js":[function(require,module,exports){
 var base = exports;
 
 base.Reporter = require('./reporter').Reporter;
@@ -57246,7 +57247,7 @@ base.DecoderBuffer = require('./buffer').DecoderBuffer;
 base.EncoderBuffer = require('./buffer').EncoderBuffer;
 base.Node = require('./node');
 
-},{"./buffer":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/buffer.js","./node":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/node.js","./reporter":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/reporter.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/node.js":[function(require,module,exports){
+},{"./buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\buffer.js","./node":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\node.js","./reporter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\reporter.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\node.js":[function(require,module,exports){
 var Reporter = require('../base').Reporter;
 var EncoderBuffer = require('../base').EncoderBuffer;
 //var assert = require('double-check').assert;
@@ -57846,7 +57847,7 @@ Node.prototype._encodePrimitive = function encodePrimitive(tag, data) {
     throw new Error('Unsupported tag: ' + tag);
 };
 
-},{"../base":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/base/reporter.js":[function(require,module,exports){
+},{"../base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\base\\reporter.js":[function(require,module,exports){
 var inherits = require('util').inherits;
 
 function Reporter(options) {
@@ -57950,7 +57951,7 @@ ReporterError.prototype.rethrow = function rethrow(msg) {
   return this;
 };
 
-},{"util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/bignum/bn.js":[function(require,module,exports){
+},{"util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\bignum\\bn.js":[function(require,module,exports){
 (function (module, exports) {
 
 'use strict';
@@ -60393,7 +60394,7 @@ Mont.prototype.invm = function invm(a) {
 
 })(typeof module === 'undefined' || module, this);
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/constants/der.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\constants\\der.js":[function(require,module,exports){
 var constants = require('../constants');
 
 exports.tagClass = {
@@ -60437,7 +60438,7 @@ exports.tag = {
 };
 exports.tagByName = constants._reverse(exports.tag);
 
-},{"../constants":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/constants/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/constants/index.js":[function(require,module,exports){
+},{"../constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\constants\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\constants\\index.js":[function(require,module,exports){
 var constants = exports;
 
 // Helper
@@ -60458,7 +60459,7 @@ constants._reverse = function reverse(map) {
 
 constants.der = require('./der');
 
-},{"./der":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/constants/der.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/decoders/der.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\constants\\der.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\decoders\\der.js":[function(require,module,exports){
 var inherits = require('util').inherits;
 
 var asn1 = require('../asn1');
@@ -60751,13 +60752,13 @@ function derDecodeLen(buf, primitive, fail) {
   return len;
 }
 
-},{"../asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/decoders/index.js":[function(require,module,exports){
+},{"../asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\decoders\\index.js":[function(require,module,exports){
 var decoders = exports;
 
 decoders.der = require('./der');
 decoders.pem = require('./pem');
 
-},{"./der":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/decoders/der.js","./pem":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/decoders/pem.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/decoders/pem.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\decoders\\der.js","./pem":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\decoders\\pem.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\decoders\\pem.js":[function(require,module,exports){
 const inherits = require('util').inherits;
 
 const asn1 = require('../asn1');
@@ -60807,7 +60808,7 @@ PEMDecoder.prototype.decode = function decode(data, options) {
     return DERDecoder.prototype.decode.call(this, input, options);
 };
 
-},{"../asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","./der":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/decoders/der.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/encoders/der.js":[function(require,module,exports){
+},{"../asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\decoders\\der.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\encoders\\der.js":[function(require,module,exports){
 const inherits = require('util').inherits;
 const asn1 = require('../asn1');
 const base = asn1.base;
@@ -61077,13 +61078,13 @@ function encodeTag(tag, primitive, cls, reporter) {
     return res;
 }
 
-},{"../asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/encoders/index.js":[function(require,module,exports){
+},{"../asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\encoders\\index.js":[function(require,module,exports){
 var encoders = exports;
 
 encoders.der = require('./der');
 encoders.pem = require('./pem');
 
-},{"./der":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/encoders/der.js","./pem":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/encoders/pem.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/encoders/pem.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\encoders\\der.js","./pem":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\encoders\\pem.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\encoders\\pem.js":[function(require,module,exports){
 var inherits = require('util').inherits;
 
 var asn1 = require('../asn1');
@@ -61107,7 +61108,7 @@ PEMEncoder.prototype.encode = function encode(data, options) {
   return out.join('\n');
 };
 
-},{"../asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","./der":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/encoders/der.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/keyEncoder.js":[function(require,module,exports){
+},{"../asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\encoders\\der.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\keyEncoder.js":[function(require,module,exports){
 'use strict'
 
 const asn1 = require('./asn1/asn1');
@@ -61280,7 +61281,7 @@ KeyEncoder.prototype.encodePublic = function (publicKey, originalFormat, destina
 
 module.exports = KeyEncoder;
 
-},{"./asn1/asn1":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/asn1.js","./asn1/bignum/bn":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/bignum/bn.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/DuplexStream.js":[function(require,module,exports){
+},{"./asn1/asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\asn1.js","./asn1/bignum/bn":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\bignum\\bn.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\DuplexStream.js":[function(require,module,exports){
 const stream = require('stream');
 const util = require('util');
 
@@ -61305,7 +61306,7 @@ DuplexStream.prototype._read = function (n) {
 };
 
 module.exports = DuplexStream;
-},{"stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/base58.js":[function(require,module,exports){
+},{"stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\base58.js":[function(require,module,exports){
 const ALPHABET = "123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz";
 const BASE = ALPHABET.length;
 const LEADER = ALPHABET.charAt(0);
@@ -61440,7 +61441,7 @@ module.exports = {
     encode,
     decode
 };
-},{}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/base64.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\base64.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const ALPHABET = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/";
 const BASE_MAP = {};
@@ -61560,7 +61561,7 @@ module.exports = {
 }
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/cryptoUtils.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\cryptoUtils.js":[function(require,module,exports){
 const base58 = require('./base58');
 const base64 = require('./base64');
 const keyEncoder = require("../keyEncoder");
@@ -61699,7 +61700,7 @@ module.exports = {
 };
 
 
-},{"../keyEncoder":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/keyEncoder.js","./base58":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/base58.js","./base64":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/base64.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/eth.js":[function(require,module,exports){
+},{"../keyEncoder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\keyEncoder.js","./base58":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\base58.js","./base64":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\base64.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\eth.js":[function(require,module,exports){
 (function (Buffer){(function (){
 const keyEncoder = require("../keyEncoder");
 const BN = require('../asn1/bignum/bn');
@@ -61792,7 +61793,7 @@ module.exports = {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"../ECKeyGenerator":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/ECKeyGenerator.js","../PskCrypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/PskCrypto.js","../asn1/bignum/bn":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/asn1/bignum/bn.js","../keyEncoder":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/keyEncoder.js","../utils/cryptoUtils":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/cryptoUtils.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/isStream.js":[function(require,module,exports){
+},{"../ECKeyGenerator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\ECKeyGenerator.js","../PskCrypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\PskCrypto.js","../asn1/bignum/bn":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\asn1\\bignum\\bn.js","../keyEncoder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\keyEncoder.js","../utils/cryptoUtils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\cryptoUtils.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\isStream.js":[function(require,module,exports){
 const stream = require('stream');
 
 
@@ -61820,7 +61821,7 @@ module.exports            = isStream;
 module.exports.isReadable = isReadable;
 module.exports.isWritable = isWritable;
 module.exports.isDuplex   = isDuplex;
-},{"stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/pskcrypto/signsensusDS/ssutil.js":[function(require,module,exports){
+},{"stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\signsensusDS\\ssutil.js":[function(require,module,exports){
 /*
  SignSens helper functions
  */
@@ -62019,7 +62020,7 @@ exports.createSignature = function (agent,counter, nextPublic, arr, size){
 
     return agent + ":" + counter + ":" + nextPublic + ":" + result;
 }
-},{"crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/queue/index.js":[function(require,module,exports){
+},{"crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\queue\\index.js":[function(require,module,exports){
 function QueueElement(content) {
 	this.content = content;
 	this.next = null;
@@ -62088,11 +62089,11 @@ Queue.prototype.inspect = Queue.prototype.toString;
 
 module.exports = Queue;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/soundpubsub/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\soundpubsub\\index.js":[function(require,module,exports){
 module.exports = {
 					soundPubSub: require("./lib/soundPubSub").soundPubSub
 };
-},{"./lib/soundPubSub":"/home/runner/work/privatesky/privatesky/modules/soundpubsub/lib/soundPubSub.js"}],"/home/runner/work/privatesky/privatesky/modules/soundpubsub/lib/soundPubSub.js":[function(require,module,exports){
+},{"./lib/soundPubSub":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\soundpubsub\\lib\\soundPubSub.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\soundpubsub\\lib\\soundPubSub.js":[function(require,module,exports){
 /*
 Initial License: (c) Axiologic Research & Alboaie Sînică.
 Contributors: Axiologic Research , PrivateSky project
@@ -62517,7 +62518,7 @@ function SoundPubSub(){
 
 exports.soundPubSub = new SoundPubSub();
 
-},{"queue":"/home/runner/work/privatesky/privatesky/modules/queue/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/SwarmEngine.js":[function(require,module,exports){
+},{"queue":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\queue\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\SwarmEngine.js":[function(require,module,exports){
 function SwarmEngine(identity) {
     let myOwnIdentity = identity || SwarmEngine.prototype.ANONYMOUS_IDENTITY;
 
@@ -62790,7 +62791,7 @@ function makePluggable(powerCord) {
 
 module.exports = SwarmEngine;
 
-},{"./interactions":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/interactions/index.js","./swarms":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/swarms/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/BootEngine.js":[function(require,module,exports){
+},{"./interactions":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\interactions\\index.js","./swarms":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\swarms\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\BootEngine.js":[function(require,module,exports){
 (function (global){(function (){
 function BootEngine(getKeySSI, initializeSwarmEngine, runtimeBundles, constitutionBundles) {
 
@@ -62898,7 +62899,7 @@ module.exports = BootEngine;
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"opendsu":"opendsu","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/IsolateBootScript.js":[function(require,module,exports){
+},{"opendsu":"opendsu","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\IsolateBootScript.js":[function(require,module,exports){
 
 async function getIsolatesWorker({workerData: {constitutions}, externalApi}) {
     const swarmUtils = require('swarmutils');
@@ -62993,7 +62994,7 @@ async function getIsolatesWorker({workerData: {constitutions}, externalApi}) {
 
 module.exports = getIsolatesWorker;
 
-},{"events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js","fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/ThreadWorkerBootScript.js":[function(require,module,exports){
+},{"events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js","fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\ThreadWorkerBootScript.js":[function(require,module,exports){
 (function (process){(function (){
 function boot() {
     const worker_threads ='worker_threads';
@@ -63066,7 +63067,7 @@ boot();
 
 }).call(this)}).call(this,require('_process'))
 
-},{"./BootEngine.js":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/BootEngine.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","callflow":"/home/runner/work/privatesky/privatesky/modules/callflow/index.js","opendsu":"opendsu","swarm-engine":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/browser/host/HostBootScript.js":[function(require,module,exports){
+},{"./BootEngine.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\BootEngine.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","callflow":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\index.js","opendsu":"opendsu","swarm-engine":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\browser\\host\\HostBootScript.js":[function(require,module,exports){
 function HostBootScript(identity) {
     if (typeof $$.flows === "undefined") {
         require('callflow').initialise();
@@ -63090,7 +63091,7 @@ function HostBootScript(identity) {
 }
 
 module.exports = HostBootScript;
-},{"callflow":"/home/runner/work/privatesky/privatesky/modules/callflow/index.js","swarm-engine":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/domainBootScript.js":[function(require,module,exports){
+},{"callflow":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\index.js","swarm-engine":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\domainBootScript.js":[function(require,module,exports){
 (function (process){(function (){
 const path = require('path');
 //enabling life line to parent process
@@ -63233,7 +63234,7 @@ boot();
 
 }).call(this)}).call(this,require('_process'))
 
-},{"./BootEngine":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/BootEngine.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","dossier":"/home/runner/work/privatesky/privatesky/modules/dossier/index.js","opendsu":"opendsu","path":"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js","soundpubsub":"/home/runner/work/privatesky/privatesky/modules/soundpubsub/index.js","swarm-engine":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/index.js":[function(require,module,exports){
+},{"./BootEngine":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\BootEngine.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","dossier":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\dossier\\index.js","opendsu":"opendsu","path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js","soundpubsub":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\soundpubsub\\index.js","swarm-engine":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\index.js":[function(require,module,exports){
 module.exports = {
     getIsolatesBootScript: function() {
         return require('./IsolateBootScript');
@@ -63245,7 +63246,7 @@ module.exports = {
         return require('./domainBootScript');
     }
 };
-},{"./IsolateBootScript":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/IsolateBootScript.js","./ThreadWorkerBootScript":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/ThreadWorkerBootScript.js","./domainBootScript":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/domainBootScript.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/index.js":[function(require,module,exports){
+},{"./IsolateBootScript":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\IsolateBootScript.js","./ThreadWorkerBootScript":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\ThreadWorkerBootScript.js","./domainBootScript":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\domainBootScript.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\index.js":[function(require,module,exports){
 module.exports = {
     initialise:function(...args){
         if(typeof $$.swarmEngine === "undefined"){
@@ -63274,7 +63275,7 @@ module.exports = {
 };
 
 
-},{"./SwarmEngine":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/SwarmEngine.js","./bootScripts":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/index.js","./powerCords/InnerIsolatePowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/InnerIsolatePowerCord.js","./powerCords/InnerThreadPowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/InnerThreadPowerCord.js","./powerCords/OuterIsolatePowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/OuterIsolatePowerCord.js","./powerCords/OuterThreadPowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/OuterThreadPowerCord.js","./powerCords/RemoteChannelPairPowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/RemoteChannelPairPowerCord.js","./powerCords/RemoteChannelPowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/RemoteChannelPowerCord.js","./powerCords/SmartRemoteChannelPowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/SmartRemoteChannelPowerCord.js","./powerCords/browser/SSAppPowerCord":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/browser/SSAppPowerCord.js","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/interactions/InteractionSpace.js":[function(require,module,exports){
+},{"./SwarmEngine":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\SwarmEngine.js","./bootScripts":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\index.js","./powerCords/InnerIsolatePowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\InnerIsolatePowerCord.js","./powerCords/InnerThreadPowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\InnerThreadPowerCord.js","./powerCords/OuterIsolatePowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\OuterIsolatePowerCord.js","./powerCords/OuterThreadPowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\OuterThreadPowerCord.js","./powerCords/RemoteChannelPairPowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\RemoteChannelPairPowerCord.js","./powerCords/RemoteChannelPowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\RemoteChannelPowerCord.js","./powerCords/SmartRemoteChannelPowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\SmartRemoteChannelPowerCord.js","./powerCords/browser/SSAppPowerCord":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\browser\\SSAppPowerCord.js","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\interactions\\InteractionSpace.js":[function(require,module,exports){
 function InteractionSpace(swarmEngineApi) {
     const listeners = {};
     const interactionTemplate = require('./interaction_template').getTemplateHandler(swarmEngineApi);
@@ -63346,7 +63347,7 @@ function InteractionSpace(swarmEngineApi) {
 
 module.exports = InteractionSpace;
 
-},{"./interaction_template":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/interactions/interaction_template.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/interactions/index.js":[function(require,module,exports){
+},{"./interaction_template":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\interactions\\interaction_template.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\interactions\\index.js":[function(require,module,exports){
 module.exports = function (swarmEngineApi) {
     let cm = require("callflow");
     const InteractionSpace = require("./InteractionSpace");
@@ -63390,7 +63391,7 @@ module.exports = function (swarmEngineApi) {
     return is;
 };
 
-},{"./InteractionSpace":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/interactions/InteractionSpace.js","callflow":"/home/runner/work/privatesky/privatesky/modules/callflow/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/interactions/interaction_template.js":[function(require,module,exports){
+},{"./InteractionSpace":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\interactions\\InteractionSpace.js","callflow":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\interactions\\interaction_template.js":[function(require,module,exports){
 exports.getTemplateHandler = function (swarmEngineApi) {
 
     return {
@@ -63434,7 +63435,7 @@ exports.getTemplateHandler = function (swarmEngineApi) {
     }
 };
 
-},{"callflow":"/home/runner/work/privatesky/privatesky/modules/callflow/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/InnerIsolatePowerCord.js":[function(require,module,exports){
+},{"callflow":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\InnerIsolatePowerCord.js":[function(require,module,exports){
 (function (global){(function (){
 function InnerIsolatePowerCord() {
 
@@ -63484,7 +63485,7 @@ module.exports = InnerIsolatePowerCord;
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/InnerThreadPowerCord.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\InnerThreadPowerCord.js":[function(require,module,exports){
 function InnerThreadPowerCord() {
     const worker_threads = 'worker_threads';
     const {parentPort} = require(worker_threads);
@@ -63497,7 +63498,7 @@ function InnerThreadPowerCord() {
 
 module.exports = InnerThreadPowerCord;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/OuterIsolatePowerCord.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\OuterIsolatePowerCord.js":[function(require,module,exports){
 function OuterIsolatePowerCord(energySource, numberOfWires = 1, apis) { // seed or array of constitution bundle paths
     const syndicate = require('syndicate');
     const bootScripts = require('../bootScripts');
@@ -63559,7 +63560,7 @@ function OuterIsolatePowerCord(energySource, numberOfWires = 1, apis) { // seed 
 
 module.exports = OuterIsolatePowerCord;
 
-},{"../bootScripts":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/index.js","syndicate":"/home/runner/work/privatesky/privatesky/modules/syndicate/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/OuterThreadPowerCord.js":[function(require,module,exports){
+},{"../bootScripts":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\index.js","syndicate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\OuterThreadPowerCord.js":[function(require,module,exports){
 function OuterThreadPowerCord(threadBootScript, evaluate= false, energySourceSeed, numberOfWires = 1) { // seed or array of constitution bundle paths
     const syndicate = require('syndicate');
     let pool = null;
@@ -63608,7 +63609,7 @@ function OuterThreadPowerCord(threadBootScript, evaluate= false, energySourceSee
 
 module.exports = OuterThreadPowerCord;
 
-},{"syndicate":"/home/runner/work/privatesky/privatesky/modules/syndicate/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/RemoteChannelPairPowerCord.js":[function(require,module,exports){
+},{"syndicate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\RemoteChannelPairPowerCord.js":[function(require,module,exports){
 const outbound = "outbound";
 const inbound = "inbound";
 
@@ -63687,7 +63688,7 @@ function RemoteChannelPairPowerCord(host, channelName, receivingHost, receivingC
 }
 
 module.exports = RemoteChannelPairPowerCord;
-},{"../../psk-http-client":"/home/runner/work/privatesky/privatesky/modules/psk-http-client/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/RemoteChannelPowerCord.js":[function(require,module,exports){
+},{"../../psk-http-client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\RemoteChannelPowerCord.js":[function(require,module,exports){
 const inbound = "inbound";
 
 function RemoteChannelPowerCord(receivingHost, receivingChannelName){
@@ -63751,7 +63752,7 @@ function RemoteChannelPowerCord(receivingHost, receivingChannelName){
 }
 
 module.exports = RemoteChannelPowerCord;
-},{"../../psk-http-client":"/home/runner/work/privatesky/privatesky/modules/psk-http-client/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/SmartRemoteChannelPowerCord.js":[function(require,module,exports){
+},{"../../psk-http-client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\SmartRemoteChannelPowerCord.js":[function(require,module,exports){
 const inbound = "inbound";
 
 function SmartRemoteChannelPowerCord(communicationAddrs, receivingChannelName, zeroMQAddress) {
@@ -63952,7 +63953,7 @@ function SmartRemoteChannelPowerCord(communicationAddrs, receivingChannelName, z
 
 module.exports = SmartRemoteChannelPowerCord;
 
-},{"../../psk-http-client":"/home/runner/work/privatesky/privatesky/modules/psk-http-client/index.js","apihub":"/home/runner/work/privatesky/privatesky/modules/apihub/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/powerCords/browser/SSAppPowerCord.js":[function(require,module,exports){
+},{"../../psk-http-client":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\psk-http-client\\index.js","apihub":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\apihub\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\powerCords\\browser\\SSAppPowerCord.js":[function(require,module,exports){
 /*
 	This type of PowerCord can be used from outer and inner SSApp in order to facilitate the SWARM communication
 	@param reference can be the parent (SSApp or wallet environment) or the iframe in which the SSApp gets loaded
@@ -63999,7 +64000,7 @@ function SSAppPowerCord(reference){
 
 module.exports = SSAppPowerCord;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/swarms/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\swarms\\index.js":[function(require,module,exports){
 module.exports = function(swarmEngineApi){
     const cm = require("callflow");
     const swarmUtils = require("./swarm_template-se");
@@ -64011,7 +64012,7 @@ module.exports = function(swarmEngineApi){
         swarmEngineApi.startSwarmAs(identity, swarmName, ctor, ...params);
     };
 };
-},{"./swarm_template-se":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/swarms/swarm_template-se.js","callflow":"/home/runner/work/privatesky/privatesky/modules/callflow/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarm-engine/swarms/swarm_template-se.js":[function(require,module,exports){
+},{"./swarm_template-se":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\swarms\\swarm_template-se.js","callflow":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\swarms\\swarm_template-se.js":[function(require,module,exports){
 exports.getTemplateHandler = function (swarmEngine) {
     let cm = require("callflow");
 
@@ -64097,7 +64098,7 @@ exports.getTemplateHandler = function (swarmEngine) {
         }
     }
 };
-},{"callflow":"/home/runner/work/privatesky/privatesky/modules/callflow/index.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js":[function(require,module,exports){
+},{"callflow":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\callflow\\index.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js":[function(require,module,exports){
 
 let cachedUIDGenerator = undefined;
 let cachedSafeUid = undefined;
@@ -64152,7 +64153,7 @@ module.exports.ensureIsBuffer = function (data) {
 module.exports.removeDir = require("./lib/removeDir").removeDir;
 module.exports.removeDirSync = require("./lib/removeDir").removeDirSync;
 
-},{"./lib/Combos":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/Combos.js","./lib/OwM":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/OwM.js","./lib/Queue":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/Queue.js","./lib/SwarmPacker":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/SwarmPacker.js","./lib/TaskCounter":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/TaskCounter.js","./lib/beesHealer":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/beesHealer.js","./lib/path":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/path.js","./lib/pingpongFork":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/pingpongFork.js","./lib/pskconsole":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/pskconsole.js","./lib/removeDir":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/removeDir.js","./lib/safe-uuid":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/safe-uuid.js","./lib/uidGenerator":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/uidGenerator.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/Combos.js":[function(require,module,exports){
+},{"./lib/Combos":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\Combos.js","./lib/OwM":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\OwM.js","./lib/Queue":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\Queue.js","./lib/SwarmPacker":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\SwarmPacker.js","./lib/TaskCounter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\TaskCounter.js","./lib/beesHealer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\beesHealer.js","./lib/path":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\path.js","./lib/pingpongFork":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\pingpongFork.js","./lib/pskconsole":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\pskconsole.js","./lib/removeDir":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\removeDir.js","./lib/safe-uuid":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\safe-uuid.js","./lib/uidGenerator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\uidGenerator.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\Combos.js":[function(require,module,exports){
 function product(args) {
     if(!args.length){
         return [ [] ];
@@ -64178,7 +64179,7 @@ function objectProduct(obj) {
 }
 
 module.exports = objectProduct;
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/OwM.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\OwM.js":[function(require,module,exports){
 var meta = "meta";
 
 function OwM(serialized){
@@ -64269,7 +64270,7 @@ OwM.prototype.setMetaFor = function(obj, name, value){
 };
 
 module.exports = OwM;
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/Queue.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\Queue.js":[function(require,module,exports){
 function QueueElement(content) {
 	this.content = content;
 	this.next = null;
@@ -64370,7 +64371,7 @@ Queue.prototype.inspect = Queue.prototype.toString;
 
 module.exports = Queue;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/SwarmPacker.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\SwarmPacker.js":[function(require,module,exports){
 const HEADER_SIZE_RESEARVED = 4;
 
 function SwarmPacker(){
@@ -64519,7 +64520,7 @@ SwarmPacker.getHeader = function(pack){
     return header;
 };
 module.exports = SwarmPacker;
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/TaskCounter.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\TaskCounter.js":[function(require,module,exports){
 
 function TaskCounter(finalCallback) {
 	let results = [];
@@ -64569,7 +64570,7 @@ function TaskCounter(finalCallback) {
 }
 
 module.exports = TaskCounter;
-},{}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/beesHealer.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\beesHealer.js":[function(require,module,exports){
 const OwM = require("./OwM");
 
 /*
@@ -64625,7 +64626,7 @@ exports.jsonToNative = function(serialisedValues, result){
     };
 
 };
-},{"./OwM":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/OwM.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/path.js":[function(require,module,exports){
+},{"./OwM":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\OwM.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\path.js":[function(require,module,exports){
 (function (process){(function (){
 function replaceAll(str, search, replacement) {
     return str.split(search).join(replacement);
@@ -64815,7 +64816,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/pingpongFork.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\pingpongFork.js":[function(require,module,exports){
 (function (process){(function (){
 const PING = "PING";
 const PONG = "PONG";
@@ -64910,7 +64911,7 @@ module.exports.enableLifeLine = function(timeout){
 };
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","child_process":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/pskconsole.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","child_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\pskconsole.js":[function(require,module,exports){
 (function (process){(function (){
 var commands = {};
 var commands_help = {};
@@ -64984,7 +64985,7 @@ module.exports = {
 
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/removeDir.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\removeDir.js":[function(require,module,exports){
 const removeDir = (...args) => {
     const fs = require("fs");
     if (typeof fs.rm !== "function") {
@@ -65005,7 +65006,7 @@ module.exports = {
     removeDirSync,
     removeDir
 }
-},{"fs":"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/safe-uuid.js":[function(require,module,exports){
+},{"fs":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\safe-uuid.js":[function(require,module,exports){
 
 function encode(buffer) {
     return buffer.toString('base64')
@@ -65072,7 +65073,7 @@ exports.short_uuid = function(callback) {
         callback(null, encode(buf));
     });
 };
-},{"crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/uidGenerator.js":[function(require,module,exports){
+},{"crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\uidGenerator.js":[function(require,module,exports){
 function UidGenerator(minBuffers, buffersSize) {
     const Queue = require("./Queue");
     var PSKBuffer = typeof $$ !== "undefined" && $$.PSKBuffer ? $$.PSKBuffer : $$.Buffer;
@@ -65174,7 +65175,7 @@ module.exports.createUidGenerator = function (minBuffers, bufferSize) {
     return new UidGenerator(minBuffers, bufferSize);
 };
 
-},{"./Queue":"/home/runner/work/privatesky/privatesky/modules/swarmutils/lib/Queue.js","crypto":"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/index.js":[function(require,module,exports){
+},{"./Queue":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\lib\\Queue.js","crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\index.js":[function(require,module,exports){
 const PoolConfig = require('./lib/PoolConfig');
 const WorkerPool = require('./lib/WorkerPool');
 const WorkerStrategies = require('./lib/WorkerStrategies');
@@ -65230,7 +65231,7 @@ module.exports = {
     registerWorkerStrategy
 };
 
-},{"./lib/Pool-Isolates":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/Pool-Isolates.js","./lib/Pool-Threads":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/Pool-Threads.js","./lib/Pool-Web-Workers":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/Pool-Web-Workers.js","./lib/PoolConfig":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/PoolConfig.js","./lib/WorkerPool":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/WorkerPool.js","./lib/WorkerStrategies":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/WorkerStrategies.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/AbstractPool.js":[function(require,module,exports){
+},{"./lib/Pool-Isolates":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\Pool-Isolates.js","./lib/Pool-Threads":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\Pool-Threads.js","./lib/Pool-Web-Workers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\Pool-Web-Workers.js","./lib/PoolConfig":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\PoolConfig.js","./lib/WorkerPool":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\WorkerPool.js","./lib/WorkerStrategies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\WorkerStrategies.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\AbstractPool.js":[function(require,module,exports){
 (function (setImmediate){(function (){
 const {assert} = require('./utils');
 const util = require('util');
@@ -65342,7 +65343,7 @@ module.exports = AbstractPool;
 
 }).call(this)}).call(this,require("timers").setImmediate)
 
-},{"./utils":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/utils.js","events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js","timers":"/home/runner/work/privatesky/privatesky/node_modules/timers-browserify/main.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/Pool-Isolates.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\utils.js","events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js","timers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\timers-browserify\\main.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\Pool-Isolates.js":[function(require,module,exports){
 const AbstractPool = require('./AbstractPool');
 const util = require('util');
 /**
@@ -65378,7 +65379,7 @@ util.inherits(PoolIsolates, AbstractPool);
 
 module.exports = PoolIsolates;
 
-},{"./AbstractPool":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/AbstractPool.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/Pool-Threads.js":[function(require,module,exports){
+},{"./AbstractPool":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\AbstractPool.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\Pool-Threads.js":[function(require,module,exports){
 const AbstractPool = require('./AbstractPool');
 const util = require('util');
 
@@ -65431,7 +65432,7 @@ util.inherits(PoolThreads, AbstractPool);
 
 module.exports = PoolThreads;
 
-},{"./AbstractPool":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/AbstractPool.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/Pool-Web-Workers.js":[function(require,module,exports){
+},{"./AbstractPool":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\AbstractPool.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\Pool-Web-Workers.js":[function(require,module,exports){
 const AbstractPool = require('./AbstractPool');
 const util = require('util');
 
@@ -65485,7 +65486,7 @@ util.inherits(PoolWebWorkers, AbstractPool);
 
 module.exports = PoolWebWorkers;
 
-},{"./AbstractPool":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/AbstractPool.js","overwrite-require":"/home/runner/work/privatesky/privatesky/modules/overwrite-require/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/PoolConfig.js":[function(require,module,exports){
+},{"./AbstractPool":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\AbstractPool.js","overwrite-require":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\overwrite-require\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\PoolConfig.js":[function(require,module,exports){
 const os = require('os');
 const util = require('util');
 const WorkerStrategies = require('./WorkerStrategies');
@@ -65587,7 +65588,7 @@ PoolConfig.createByOverwritingDefaults = function (config = {}, options = {allow
 };
 
 module.exports = PoolConfig;
-},{"./WorkerStrategies":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/WorkerStrategies.js","os":"/home/runner/work/privatesky/privatesky/node_modules/os-browserify/browser.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/QueueShim.js":[function(require,module,exports){
+},{"./WorkerStrategies":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\WorkerStrategies.js","os":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\os-browserify\\browser.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\QueueShim.js":[function(require,module,exports){
 function Queue() {
     const backingStorage = [];
 
@@ -65649,7 +65650,7 @@ function Queue() {
 
 module.exports = Queue;
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/WorkerPool.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\WorkerPool.js":[function(require,module,exports){
 /** @param pool {AbstractPool} */
 function WorkerPool(pool) {
     const { assert } = require("./utils");
@@ -65783,7 +65784,7 @@ function WorkerPool(pool) {
 
 module.exports = WorkerPool;
 
-},{"./QueueShim.js":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/QueueShim.js","./utils":"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/utils.js","swarmutils":"/home/runner/work/privatesky/privatesky/modules/swarmutils/index.js"}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/WorkerStrategies.js":[function(require,module,exports){
+},{"./QueueShim.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\QueueShim.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\utils.js","swarmutils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarmutils\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\WorkerStrategies.js":[function(require,module,exports){
 const WorkerStrategies = {
     THREADS: 'threads',
     ISOLATES: 'isolates',
@@ -65792,7 +65793,7 @@ const WorkerStrategies = {
 
 module.exports = Object.freeze(WorkerStrategies);
 
-},{}],"/home/runner/work/privatesky/privatesky/modules/syndicate/lib/utils.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\syndicate\\lib\\utils.js":[function(require,module,exports){
 function assert(condition, {ifFails}) {
     if (condition === false) {
         console.error(ifFails);
@@ -65803,7 +65804,7 @@ module.exports = {
     assert
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/@msgpack/msgpack/dist/utils/prettyByte.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\@msgpack\\msgpack\\dist\\utils\\prettyByte.js":[function(require,module,exports){
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.prettyByte = void 0;
@@ -65812,7 +65813,7 @@ function prettyByte(byte) {
 }
 exports.prettyByte = prettyByte;
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1.js":[function(require,module,exports){
 'use strict';
 
 const asn1 = exports;
@@ -65825,7 +65826,7 @@ asn1.constants = require('./asn1/constants');
 asn1.decoders = require('./asn1/decoders');
 asn1.encoders = require('./asn1/encoders');
 
-},{"./asn1/api":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/api.js","./asn1/base":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/index.js","./asn1/constants":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/constants/index.js","./asn1/decoders":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/index.js","./asn1/encoders":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/index.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/api.js":[function(require,module,exports){
+},{"./asn1/api":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\api.js","./asn1/base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js","./asn1/constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js","./asn1/decoders":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\index.js","./asn1/encoders":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\index.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\api.js":[function(require,module,exports){
 'use strict';
 
 const encoders = require('./encoders');
@@ -65884,7 +65885,7 @@ Entity.prototype.encode = function encode(data, enc, /* internal */ reporter) {
   return this._getEncoder(enc).encode(data, reporter);
 };
 
-},{"./decoders":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/index.js","./encoders":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/buffer.js":[function(require,module,exports){
+},{"./decoders":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\index.js","./encoders":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js":[function(require,module,exports){
 'use strict';
 
 const inherits = require('inherits');
@@ -66039,7 +66040,7 @@ EncoderBuffer.prototype.join = function join(out, offset) {
   return out;
 };
 
-},{"../base/reporter":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/reporter.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safer-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safer-buffer/safer.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/index.js":[function(require,module,exports){
+},{"../base/reporter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safer-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safer-buffer\\safer.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\index.js":[function(require,module,exports){
 'use strict';
 
 const base = exports;
@@ -66049,7 +66050,7 @@ base.DecoderBuffer = require('./buffer').DecoderBuffer;
 base.EncoderBuffer = require('./buffer').EncoderBuffer;
 base.Node = require('./node');
 
-},{"./buffer":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/buffer.js","./node":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/node.js","./reporter":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/reporter.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/node.js":[function(require,module,exports){
+},{"./buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js","./node":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js","./reporter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js":[function(require,module,exports){
 'use strict';
 
 const Reporter = require('../base/reporter').Reporter;
@@ -66689,7 +66690,7 @@ Node.prototype._isPrintstr = function isPrintstr(str) {
   return /^[A-Za-z0-9 '()+,-./:=?]*$/.test(str);
 };
 
-},{"../base/buffer":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/buffer.js","../base/reporter":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/reporter.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/reporter.js":[function(require,module,exports){
+},{"../base/buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js","../base/reporter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\reporter.js":[function(require,module,exports){
 'use strict';
 
 const inherits = require('inherits');
@@ -66814,7 +66815,7 @@ ReporterError.prototype.rethrow = function rethrow(msg) {
   return this;
 };
 
-},{"inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/constants/der.js":[function(require,module,exports){
+},{"inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js":[function(require,module,exports){
 'use strict';
 
 // Helper
@@ -66874,7 +66875,7 @@ exports.tag = {
 };
 exports.tagByName = reverse(exports.tag);
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/constants/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\constants\\index.js":[function(require,module,exports){
 'use strict';
 
 const constants = exports;
@@ -66897,7 +66898,7 @@ constants._reverse = function reverse(map) {
 
 constants.der = require('./der');
 
-},{"./der":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/constants/der.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/der.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js":[function(require,module,exports){
 'use strict';
 
 const inherits = require('inherits');
@@ -67234,7 +67235,7 @@ function derDecodeLen(buf, primitive, fail) {
   return len;
 }
 
-},{"../base/buffer":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/buffer.js","../base/node":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/node.js","../constants/der":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/constants/der.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/index.js":[function(require,module,exports){
+},{"../base/buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\buffer.js","../base/node":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js","../constants/der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\index.js":[function(require,module,exports){
 'use strict';
 
 const decoders = exports;
@@ -67242,7 +67243,7 @@ const decoders = exports;
 decoders.der = require('./der');
 decoders.pem = require('./pem');
 
-},{"./der":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/der.js","./pem":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/pem.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/pem.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js","./pem":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\pem.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\pem.js":[function(require,module,exports){
 'use strict';
 
 const inherits = require('inherits');
@@ -67295,7 +67296,7 @@ PEMDecoder.prototype.decode = function decode(data, options) {
   return DERDecoder.prototype.decode.call(this, input, options);
 };
 
-},{"./der":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/decoders/der.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safer-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safer-buffer/safer.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/der.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\decoders\\der.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safer-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safer-buffer\\safer.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js":[function(require,module,exports){
 'use strict';
 
 const inherits = require('inherits');
@@ -67592,7 +67593,7 @@ function encodeTag(tag, primitive, cls, reporter) {
   return res;
 }
 
-},{"../base/node":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/base/node.js","../constants/der":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/constants/der.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safer-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safer-buffer/safer.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/index.js":[function(require,module,exports){
+},{"../base/node":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\base\\node.js","../constants/der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\constants\\der.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safer-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safer-buffer\\safer.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\index.js":[function(require,module,exports){
 'use strict';
 
 const encoders = exports;
@@ -67600,7 +67601,7 @@ const encoders = exports;
 encoders.der = require('./der');
 encoders.pem = require('./pem');
 
-},{"./der":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/der.js","./pem":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/pem.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/pem.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js","./pem":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\pem.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\pem.js":[function(require,module,exports){
 'use strict';
 
 const inherits = require('inherits');
@@ -67625,7 +67626,7 @@ PEMEncoder.prototype.encode = function encode(data, options) {
   return out.join('\n');
 };
 
-},{"./der":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1/encoders/der.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js":[function(require,module,exports){
+},{"./der":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1\\encoders\\der.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports){
 (function (module, exports) {
   'use strict';
 
@@ -71073,7 +71074,7 @@ PEMEncoder.prototype.encode = function encode(data, options) {
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/assert/assert.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\assert.js":[function(require,module,exports){
 (function (global){(function (){
 'use strict';
 
@@ -71584,7 +71585,7 @@ var objectKeys = Object.keys || function (obj) {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"object-assign":"/home/runner/work/privatesky/privatesky/node_modules/object-assign/index.js","util/":"/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/inherits/inherits_browser.js":[function(require,module,exports){
+},{"object-assign":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\object-assign\\index.js","util/":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\inherits\\inherits_browser.js":[function(require,module,exports){
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -71609,14 +71610,14 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/util/support/isBufferBrowser.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\util\\support\\isBufferBrowser.js":[function(require,module,exports){
 module.exports = function isBuffer(arg) {
   return arg && typeof arg === 'object'
     && typeof arg.copy === 'function'
     && typeof arg.fill === 'function'
     && typeof arg.readUInt8 === 'function';
 }
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/util/util.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\util\\util.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -72207,7 +72208,7 @@ function hasOwnProperty(obj, prop) {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./support/isBuffer":"/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/util/support/isBufferBrowser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/base64-js/index.js":[function(require,module,exports){
+},{"./support/isBuffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\util\\support\\isBufferBrowser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\base64-js\\index.js":[function(require,module,exports){
 'use strict'
 
 exports.byteLength = byteLength
@@ -72359,7 +72360,7 @@ function fromByteArray (uint8) {
   return parts.join('')
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/bn.js/lib/bn.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports){
 (function (module, exports) {
   'use strict';
 
@@ -75908,7 +75909,7 @@ function fromByteArray (uint8) {
   };
 })(typeof module === 'undefined' || module, this);
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/brorand/index.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\brorand\\index.js":[function(require,module,exports){
 var r;
 
 module.exports = function rand(len) {
@@ -75975,9 +75976,9 @@ if (typeof self === 'object') {
   }
 }
 
-},{"crypto":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js":[function(require,module,exports){
+},{"crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js":[function(require,module,exports){
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/aes.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\aes.js":[function(require,module,exports){
 // based on the aes implimentation in triple sec
 // https://github.com/keybase/triplesec
 // which is in turn based on the one from crypto-js
@@ -76207,7 +76208,7 @@ AES.prototype.scrub = function () {
 
 module.exports.AES = AES
 
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/authCipher.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\authCipher.js":[function(require,module,exports){
 var aes = require('./aes')
 var Buffer = require('safe-buffer').Buffer
 var Transform = require('cipher-base')
@@ -76326,7 +76327,7 @@ StreamCipher.prototype.setAAD = function setAAD (buf) {
 
 module.exports = StreamCipher
 
-},{"./aes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/aes.js","./ghash":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/ghash.js","./incr32":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/incr32.js","buffer-xor":"/home/runner/work/privatesky/privatesky/node_modules/buffer-xor/index.js","cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/browser.js":[function(require,module,exports){
+},{"./aes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\aes.js","./ghash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\ghash.js","./incr32":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\incr32.js","buffer-xor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer-xor\\index.js","cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\browser.js":[function(require,module,exports){
 var ciphers = require('./encrypter')
 var deciphers = require('./decrypter')
 var modes = require('./modes/list.json')
@@ -76341,7 +76342,7 @@ exports.createDecipher = exports.Decipher = deciphers.createDecipher
 exports.createDecipheriv = exports.Decipheriv = deciphers.createDecipheriv
 exports.listCiphers = exports.getCiphers = getCiphers
 
-},{"./decrypter":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/decrypter.js","./encrypter":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/encrypter.js","./modes/list.json":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/list.json"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/decrypter.js":[function(require,module,exports){
+},{"./decrypter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\decrypter.js","./encrypter":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\encrypter.js","./modes/list.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\list.json"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\decrypter.js":[function(require,module,exports){
 var AuthCipher = require('./authCipher')
 var Buffer = require('safe-buffer').Buffer
 var MODES = require('./modes')
@@ -76467,7 +76468,7 @@ function createDecipher (suite, password) {
 exports.createDecipher = createDecipher
 exports.createDecipheriv = createDecipheriv
 
-},{"./aes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/aes.js","./authCipher":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/authCipher.js","./modes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/index.js","./streamCipher":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/streamCipher.js","cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","evp_bytestokey":"/home/runner/work/privatesky/privatesky/node_modules/evp_bytestokey/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/encrypter.js":[function(require,module,exports){
+},{"./aes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\aes.js","./authCipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\authCipher.js","./modes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\index.js","./streamCipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\streamCipher.js","cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","evp_bytestokey":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\evp_bytestokey\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\encrypter.js":[function(require,module,exports){
 var MODES = require('./modes')
 var AuthCipher = require('./authCipher')
 var Buffer = require('safe-buffer').Buffer
@@ -76583,7 +76584,7 @@ function createCipher (suite, password) {
 exports.createCipheriv = createCipheriv
 exports.createCipher = createCipher
 
-},{"./aes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/aes.js","./authCipher":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/authCipher.js","./modes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/index.js","./streamCipher":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/streamCipher.js","cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","evp_bytestokey":"/home/runner/work/privatesky/privatesky/node_modules/evp_bytestokey/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/ghash.js":[function(require,module,exports){
+},{"./aes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\aes.js","./authCipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\authCipher.js","./modes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\index.js","./streamCipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\streamCipher.js","cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","evp_bytestokey":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\evp_bytestokey\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\ghash.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 var ZEROES = Buffer.alloc(16, 0)
 
@@ -76674,7 +76675,7 @@ GHASH.prototype.final = function (abl, bl) {
 
 module.exports = GHASH
 
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/incr32.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\incr32.js":[function(require,module,exports){
 function incr32 (iv) {
   var len = iv.length
   var item
@@ -76691,7 +76692,7 @@ function incr32 (iv) {
 }
 module.exports = incr32
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cbc.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cbc.js":[function(require,module,exports){
 var xor = require('buffer-xor')
 
 exports.encrypt = function (self, block) {
@@ -76710,7 +76711,7 @@ exports.decrypt = function (self, block) {
   return xor(out, pad)
 }
 
-},{"buffer-xor":"/home/runner/work/privatesky/privatesky/node_modules/buffer-xor/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cfb.js":[function(require,module,exports){
+},{"buffer-xor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer-xor\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cfb.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 var xor = require('buffer-xor')
 
@@ -76745,7 +76746,7 @@ exports.encrypt = function (self, data, decrypt) {
   return out
 }
 
-},{"buffer-xor":"/home/runner/work/privatesky/privatesky/node_modules/buffer-xor/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cfb1.js":[function(require,module,exports){
+},{"buffer-xor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer-xor\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cfb1.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 
 function encryptByte (self, byteParam, decrypt) {
@@ -76789,7 +76790,7 @@ exports.encrypt = function (self, chunk, decrypt) {
   return out
 }
 
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cfb8.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cfb8.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 
 function encryptByte (self, byteParam, decrypt) {
@@ -76816,7 +76817,7 @@ exports.encrypt = function (self, chunk, decrypt) {
   return out
 }
 
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/ctr.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\ctr.js":[function(require,module,exports){
 var xor = require('buffer-xor')
 var Buffer = require('safe-buffer').Buffer
 var incr32 = require('../incr32')
@@ -76848,7 +76849,7 @@ exports.encrypt = function (self, chunk) {
   return xor(chunk, pad)
 }
 
-},{"../incr32":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/incr32.js","buffer-xor":"/home/runner/work/privatesky/privatesky/node_modules/buffer-xor/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/ecb.js":[function(require,module,exports){
+},{"../incr32":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\incr32.js","buffer-xor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer-xor\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\ecb.js":[function(require,module,exports){
 exports.encrypt = function (self, block) {
   return self._cipher.encryptBlock(block)
 }
@@ -76857,7 +76858,7 @@ exports.decrypt = function (self, block) {
   return self._cipher.decryptBlock(block)
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\index.js":[function(require,module,exports){
 var modeModules = {
   ECB: require('./ecb'),
   CBC: require('./cbc'),
@@ -76877,7 +76878,7 @@ for (var key in modes) {
 
 module.exports = modes
 
-},{"./cbc":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cbc.js","./cfb":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cfb.js","./cfb1":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cfb1.js","./cfb8":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/cfb8.js","./ctr":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/ctr.js","./ecb":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/ecb.js","./list.json":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/list.json","./ofb":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/ofb.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/list.json":[function(require,module,exports){
+},{"./cbc":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cbc.js","./cfb":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cfb.js","./cfb1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cfb1.js","./cfb8":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\cfb8.js","./ctr":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\ctr.js","./ecb":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\ecb.js","./list.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\list.json","./ofb":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\ofb.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\list.json":[function(require,module,exports){
 module.exports={
   "aes-128-ecb": {
     "cipher": "AES",
@@ -77070,7 +77071,7 @@ module.exports={
   }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/ofb.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\ofb.js":[function(require,module,exports){
 (function (Buffer){(function (){
 var xor = require('buffer-xor')
 
@@ -77091,7 +77092,7 @@ exports.encrypt = function (self, chunk) {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","buffer-xor":"/home/runner/work/privatesky/privatesky/node_modules/buffer-xor/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/streamCipher.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","buffer-xor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer-xor\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\streamCipher.js":[function(require,module,exports){
 var aes = require('./aes')
 var Buffer = require('safe-buffer').Buffer
 var Transform = require('cipher-base')
@@ -77120,7 +77121,7 @@ StreamCipher.prototype._final = function () {
 
 module.exports = StreamCipher
 
-},{"./aes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/aes.js","cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-cipher/browser.js":[function(require,module,exports){
+},{"./aes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\aes.js","cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-cipher\\browser.js":[function(require,module,exports){
 var DES = require('browserify-des')
 var aes = require('browserify-aes/browser')
 var aesModes = require('browserify-aes/modes')
@@ -77189,7 +77190,7 @@ exports.createDecipher = exports.Decipher = createDecipher
 exports.createDecipheriv = exports.Decipheriv = createDecipheriv
 exports.listCiphers = exports.getCiphers = getCiphers
 
-},{"browserify-aes/browser":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/browser.js","browserify-aes/modes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/modes/index.js","browserify-des":"/home/runner/work/privatesky/privatesky/node_modules/browserify-des/index.js","browserify-des/modes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-des/modes.js","evp_bytestokey":"/home/runner/work/privatesky/privatesky/node_modules/evp_bytestokey/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-des/index.js":[function(require,module,exports){
+},{"browserify-aes/browser":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\browser.js","browserify-aes/modes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\modes\\index.js","browserify-des":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-des\\index.js","browserify-des/modes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-des\\modes.js","evp_bytestokey":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\evp_bytestokey\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-des\\index.js":[function(require,module,exports){
 var CipherBase = require('cipher-base')
 var des = require('des.js')
 var inherits = require('inherits')
@@ -77241,7 +77242,7 @@ DES.prototype._final = function () {
   return Buffer.from(this._des.final())
 }
 
-},{"cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","des.js":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-des/modes.js":[function(require,module,exports){
+},{"cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","des.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-des\\modes.js":[function(require,module,exports){
 exports['des-ecb'] = {
   key: 8,
   iv: 0
@@ -77267,7 +77268,7 @@ exports['des-ede'] = {
   iv: 0
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-rsa/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-rsa\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 var BN = require('bn.js')
 var randomBytes = require('randombytes')
@@ -77307,10 +77308,10 @@ module.exports = crt
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"bn.js":"/home/runner/work/privatesky/privatesky/node_modules/bn.js/lib/bn.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","randombytes":"/home/runner/work/privatesky/privatesky/node_modules/randombytes/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/algos.js":[function(require,module,exports){
+},{"bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\bn.js\\lib\\bn.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","randombytes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randombytes\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\algos.js":[function(require,module,exports){
 module.exports = require('./browser/algorithms.json')
 
-},{"./browser/algorithms.json":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/algorithms.json"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/algorithms.json":[function(require,module,exports){
+},{"./browser/algorithms.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\algorithms.json"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\algorithms.json":[function(require,module,exports){
 module.exports={
   "sha224WithRSAEncryption": {
     "sign": "rsa",
@@ -77464,7 +77465,7 @@ module.exports={
   }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/curves.json":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\curves.json":[function(require,module,exports){
 module.exports={
   "1.3.132.0.10": "secp256k1",
   "1.3.132.0.33": "p224",
@@ -77474,7 +77475,7 @@ module.exports={
   "1.3.132.0.35": "p521"
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\index.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 var createHash = require('create-hash')
 var stream = require('readable-stream')
@@ -77568,7 +77569,7 @@ module.exports = {
   createVerify: createVerify
 }
 
-},{"./algorithms.json":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/algorithms.json","./sign":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/sign.js","./verify":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/verify.js","create-hash":"/home/runner/work/privatesky/privatesky/node_modules/create-hash/browser.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","readable-stream":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/sign.js":[function(require,module,exports){
+},{"./algorithms.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\algorithms.json","./sign":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\sign.js","./verify":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\verify.js","create-hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\browser.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","readable-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\readable-browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\sign.js":[function(require,module,exports){
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var Buffer = require('safe-buffer').Buffer
 var createHmac = require('create-hmac')
@@ -77713,7 +77714,7 @@ module.exports = sign
 module.exports.getKey = getKey
 module.exports.makeKey = makeKey
 
-},{"./curves.json":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/curves.json","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/bn.js/lib/bn.js","browserify-rsa":"/home/runner/work/privatesky/privatesky/node_modules/browserify-rsa/index.js","create-hmac":"/home/runner/work/privatesky/privatesky/node_modules/create-hmac/browser.js","elliptic":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic.js","parse-asn1":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/verify.js":[function(require,module,exports){
+},{"./curves.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\curves.json","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\bn.js\\lib\\bn.js","browserify-rsa":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-rsa\\index.js","create-hmac":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hmac\\browser.js","elliptic":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic.js","parse-asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\verify.js":[function(require,module,exports){
 // much of this based on https://github.com/indutny/self-signed/blob/gh-pages/lib/rsa.js
 var Buffer = require('safe-buffer').Buffer
 var BN = require('bn.js')
@@ -77799,7 +77800,7 @@ function checkValue (b, q) {
 
 module.exports = verify
 
-},{"./curves.json":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/curves.json","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/bn.js/lib/bn.js","elliptic":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic.js","parse-asn1":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js":[function(require,module,exports){
+},{"./curves.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\curves.json","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\bn.js\\lib\\bn.js","elliptic":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic.js","parse-asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js":[function(require,module,exports){
 'use strict';
 
 function _inheritsLoose(subClass, superClass) { subClass.prototype = Object.create(superClass.prototype); subClass.prototype.constructor = subClass; subClass.__proto__ = superClass; }
@@ -77928,7 +77929,7 @@ createErrorType('ERR_UNKNOWN_ENCODING', function (arg) {
 createErrorType('ERR_STREAM_UNSHIFT_AFTER_END_EVENT', 'stream.unshift() after end event');
 module.exports.codes = codes;
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_duplex.js":[function(require,module,exports){
 (function (process){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -78071,7 +78072,7 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
 });
 }).call(this)}).call(this,require('_process'))
 
-},{"./_stream_readable":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports){
+},{"./_stream_readable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_readable.js","./_stream_writable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_writable.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_passthrough.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -78111,7 +78112,7 @@ function PassThrough(options) {
 PassThrough.prototype._transform = function (chunk, encoding, cb) {
   cb(null, chunk);
 };
-},{"./_stream_transform":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports){
+},{"./_stream_transform":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_transform.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_readable.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -79239,7 +79240,7 @@ function indexOf(xs, x) {
 }
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/async_iterator":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/async_iterator.js","./internal/streams/buffer_list":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/from":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js","./internal/streams/state":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","string_decoder/":"/home/runner/work/privatesky/privatesky/node_modules/string_decoder/lib/string_decoder.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports){
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/async_iterator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\async_iterator.js","./internal/streams/buffer_list":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/from":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js","./internal/streams/state":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","string_decoder/":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\string_decoder\\lib\\string_decoder.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_transform.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -79441,7 +79442,7 @@ function done(stream, er, data) {
   if (stream._transformState.transforming) throw new ERR_TRANSFORM_ALREADY_TRANSFORMING();
   return stream.push(null);
 }
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports){
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_duplex.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_writable.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -80142,7 +80143,7 @@ Writable.prototype._destroy = function (err, cb) {
 };
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","util-deprecate":"/home/runner/work/privatesky/privatesky/node_modules/util-deprecate/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/async_iterator.js":[function(require,module,exports){
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/state":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","util-deprecate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util-deprecate\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\async_iterator.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict';
 
@@ -80353,7 +80354,7 @@ var createReadableStreamAsyncIterator = function createReadableStreamAsyncIterat
 module.exports = createReadableStreamAsyncIterator;
 }).call(this)}).call(this,require('_process'))
 
-},{"./end-of-stream":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js":[function(require,module,exports){
+},{"./end-of-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js":[function(require,module,exports){
 'use strict';
 
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
@@ -80564,7 +80565,7 @@ function () {
 
   return BufferList;
 }();
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict'; // undocumented cb() API, needed for core, not for public API
 
@@ -80673,7 +80674,7 @@ module.exports = {
 };
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js":[function(require,module,exports){
 // Ported from https://github.com/mafintosh/end-of-stream with
 // permission from the author, Mathias Buus (@mafintosh).
 'use strict';
@@ -80778,12 +80779,12 @@ function eos(stream, opts, callback) {
 }
 
 module.exports = eos;
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js":[function(require,module,exports){
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js":[function(require,module,exports){
 module.exports = function () {
   throw new Error('Readable.from is not available in the browser')
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js":[function(require,module,exports){
 // Ported from https://github.com/mafintosh/pump with
 // permission from the author, Mathias Buus (@mafintosh).
 'use strict';
@@ -80881,7 +80882,7 @@ function pipeline() {
 }
 
 module.exports = pipeline;
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js","./end-of-stream":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js":[function(require,module,exports){
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js","./end-of-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js":[function(require,module,exports){
 'use strict';
 
 var ERR_INVALID_OPT_VALUE = require('../../../errors').codes.ERR_INVALID_OPT_VALUE;
@@ -80909,10 +80910,10 @@ function getHighWaterMark(state, options, duplexKey, isDuplex) {
 module.exports = {
   getHighWaterMark: getHighWaterMark
 };
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports){
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js":[function(require,module,exports){
 module.exports = require('events').EventEmitter;
 
-},{"events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js":[function(require,module,exports){
+},{"events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\readable-browser.js":[function(require,module,exports){
 exports = module.exports = require('./lib/_stream_readable.js');
 exports.Stream = exports;
 exports.Readable = exports;
@@ -80923,7 +80924,7 @@ exports.PassThrough = require('./lib/_stream_passthrough.js');
 exports.finished = require('./lib/internal/streams/end-of-stream.js');
 exports.pipeline = require('./lib/internal/streams/pipeline.js');
 
-},{"./lib/_stream_duplex.js":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_passthrough.js":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/_stream_readable.js":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_transform.js":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_writable.js":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_writable.js","./lib/internal/streams/end-of-stream.js":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","./lib/internal/streams/pipeline.js":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-zlib/lib/binding.js":[function(require,module,exports){
+},{"./lib/_stream_duplex.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./lib/_stream_passthrough.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_passthrough.js","./lib/_stream_readable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_readable.js","./lib/_stream_transform.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_transform.js","./lib/_stream_writable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_writable.js","./lib/internal/streams/end-of-stream.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js","./lib/internal/streams/pipeline.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-zlib\\lib\\binding.js":[function(require,module,exports){
 (function (process,Buffer){(function (){
 'use strict';
 /* eslint camelcase: "off" */
@@ -81336,7 +81337,7 @@ Zlib.prototype._reset = function () {
 exports.Zlib = Zlib;
 }).call(this)}).call(this,require('_process'),require("buffer").Buffer)
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","assert":"/home/runner/work/privatesky/privatesky/node_modules/assert/assert.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","pako/lib/zlib/constants":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/constants.js","pako/lib/zlib/deflate.js":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/deflate.js","pako/lib/zlib/inflate.js":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/inflate.js","pako/lib/zlib/zstream":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/zstream.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify-zlib/lib/index.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\assert.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","pako/lib/zlib/constants":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\constants.js","pako/lib/zlib/deflate.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\deflate.js","pako/lib/zlib/inflate.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\inflate.js","pako/lib/zlib/zstream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\zstream.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-zlib\\lib\\index.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict';
 
@@ -81949,9 +81950,9 @@ util.inherits(InflateRaw, Zlib);
 util.inherits(Unzip, Zlib);
 }).call(this)}).call(this,require('_process'))
 
-},{"./binding":"/home/runner/work/privatesky/privatesky/node_modules/browserify-zlib/lib/binding.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","assert":"/home/runner/work/privatesky/privatesky/node_modules/assert/assert.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/util/util.js"}],"/home/runner/work/privatesky/privatesky/node_modules/browserify/lib/_empty.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"][0].apply(exports,arguments)
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/buffer-xor/index.js":[function(require,module,exports){
+},{"./binding":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-zlib\\lib\\binding.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\assert.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify\\lib\\_empty.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer-xor\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 module.exports = function xor (a, b) {
   var length = Math.min(a.length, b.length)
@@ -81966,7 +81967,7 @@ module.exports = function xor (a, b) {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js":[function(require,module,exports){
 (function (Buffer){(function (){
 /*!
  * The buffer module from node.js, for the browser.
@@ -83748,7 +83749,7 @@ function numberIsNaN (obj) {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"base64-js":"/home/runner/work/privatesky/privatesky/node_modules/base64-js/index.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","ieee754":"/home/runner/work/privatesky/privatesky/node_modules/ieee754/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/builtin-status-codes/browser.js":[function(require,module,exports){
+},{"base64-js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\base64-js\\index.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","ieee754":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\ieee754\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\builtin-status-codes\\browser.js":[function(require,module,exports){
 module.exports = {
   "100": "Continue",
   "101": "Switching Protocols",
@@ -83814,7 +83815,7 @@ module.exports = {
   "511": "Network Authentication Required"
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 var Transform = require('stream').Transform
 var StringDecoder = require('string_decoder').StringDecoder
@@ -83915,7 +83916,7 @@ CipherBase.prototype._toString = function (value, enc, fin) {
 
 module.exports = CipherBase
 
-},{"inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js","stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js","string_decoder":"/home/runner/work/privatesky/privatesky/node_modules/string_decoder/lib/string_decoder.js"}],"/home/runner/work/privatesky/privatesky/node_modules/core-util-is/lib/util.js":[function(require,module,exports){
+},{"inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js","stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js","string_decoder":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\string_decoder\\lib\\string_decoder.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\core-util-is\\lib\\util.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -84024,7 +84025,7 @@ function objectToString(o) {
   return Object.prototype.toString.call(o);
 }
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/create-ecdh/browser.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-ecdh\\browser.js":[function(require,module,exports){
 (function (Buffer){(function (){
 var elliptic = require('elliptic')
 var BN = require('bn.js')
@@ -84153,9 +84154,9 @@ function formatReturnValue (bn, enc, len) {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"bn.js":"/home/runner/work/privatesky/privatesky/node_modules/create-ecdh/node_modules/bn.js/lib/bn.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","elliptic":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic.js"}],"/home/runner/work/privatesky/privatesky/node_modules/create-ecdh/node_modules/bn.js/lib/bn.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js"][0].apply(exports,arguments)
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/create-hash/browser.js":[function(require,module,exports){
+},{"bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-ecdh\\node_modules\\bn.js\\lib\\bn.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","elliptic":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-ecdh\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js"][0].apply(exports,arguments)
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\browser.js":[function(require,module,exports){
 'use strict'
 var inherits = require('inherits')
 var MD5 = require('md5.js')
@@ -84187,14 +84188,14 @@ module.exports = function createHash (alg) {
   return new Hash(sha(alg))
 }
 
-},{"cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","md5.js":"/home/runner/work/privatesky/privatesky/node_modules/md5.js/index.js","ripemd160":"/home/runner/work/privatesky/privatesky/node_modules/ripemd160/index.js","sha.js":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/create-hash/md5.js":[function(require,module,exports){
+},{"cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","md5.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\md5.js\\index.js","ripemd160":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\ripemd160\\index.js","sha.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\md5.js":[function(require,module,exports){
 var MD5 = require('md5.js')
 
 module.exports = function (buffer) {
   return new MD5().update(buffer).digest()
 }
 
-},{"md5.js":"/home/runner/work/privatesky/privatesky/node_modules/md5.js/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/create-hmac/browser.js":[function(require,module,exports){
+},{"md5.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\md5.js\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hmac\\browser.js":[function(require,module,exports){
 'use strict'
 var inherits = require('inherits')
 var Legacy = require('./legacy')
@@ -84258,7 +84259,7 @@ module.exports = function createHmac (alg, key) {
   return new Hmac(alg, key)
 }
 
-},{"./legacy":"/home/runner/work/privatesky/privatesky/node_modules/create-hmac/legacy.js","cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","create-hash/md5":"/home/runner/work/privatesky/privatesky/node_modules/create-hash/md5.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","ripemd160":"/home/runner/work/privatesky/privatesky/node_modules/ripemd160/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js","sha.js":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/create-hmac/legacy.js":[function(require,module,exports){
+},{"./legacy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hmac\\legacy.js","cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","create-hash/md5":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\md5.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","ripemd160":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\ripemd160\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js","sha.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hmac\\legacy.js":[function(require,module,exports){
 'use strict'
 var inherits = require('inherits')
 var Buffer = require('safe-buffer').Buffer
@@ -84306,7 +84307,7 @@ Hmac.prototype._final = function () {
 }
 module.exports = Hmac
 
-},{"cipher-base":"/home/runner/work/privatesky/privatesky/node_modules/cipher-base/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/crypto-browserify/index.js":[function(require,module,exports){
+},{"cipher-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\cipher-base\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\crypto-browserify\\index.js":[function(require,module,exports){
 'use strict'
 
 exports.randomBytes = exports.rng = exports.pseudoRandomBytes = exports.prng = require('randombytes')
@@ -84405,7 +84406,7 @@ exports.constants = {
   'POINT_CONVERSION_HYBRID': 6
 }
 
-},{"browserify-cipher":"/home/runner/work/privatesky/privatesky/node_modules/browserify-cipher/browser.js","browserify-sign":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/browser/index.js","browserify-sign/algos":"/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/algos.js","create-ecdh":"/home/runner/work/privatesky/privatesky/node_modules/create-ecdh/browser.js","create-hash":"/home/runner/work/privatesky/privatesky/node_modules/create-hash/browser.js","create-hmac":"/home/runner/work/privatesky/privatesky/node_modules/create-hmac/browser.js","diffie-hellman":"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/browser.js","pbkdf2":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/browser.js","public-encrypt":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/browser.js","randombytes":"/home/runner/work/privatesky/privatesky/node_modules/randombytes/browser.js","randomfill":"/home/runner/work/privatesky/privatesky/node_modules/randomfill/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des.js":[function(require,module,exports){
+},{"browserify-cipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-cipher\\browser.js","browserify-sign":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\browser\\index.js","browserify-sign/algos":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\algos.js","create-ecdh":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-ecdh\\browser.js","create-hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\browser.js","create-hmac":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hmac\\browser.js","diffie-hellman":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\browser.js","pbkdf2":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\browser.js","public-encrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\browser.js","randombytes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randombytes\\browser.js","randomfill":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randomfill\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des.js":[function(require,module,exports){
 'use strict';
 
 exports.utils = require('./des/utils');
@@ -84414,7 +84415,7 @@ exports.DES = require('./des/des');
 exports.CBC = require('./des/cbc');
 exports.EDE = require('./des/ede');
 
-},{"./des/cbc":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/cbc.js","./des/cipher":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/cipher.js","./des/des":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/des.js","./des/ede":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/ede.js","./des/utils":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/utils.js"}],"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/cbc.js":[function(require,module,exports){
+},{"./des/cbc":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\cbc.js","./des/cipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\cipher.js","./des/des":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\des.js","./des/ede":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\ede.js","./des/utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\cbc.js":[function(require,module,exports){
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -84481,7 +84482,7 @@ proto._update = function _update(inp, inOff, out, outOff) {
   }
 };
 
-},{"inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/cipher.js":[function(require,module,exports){
+},{"inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\cipher.js":[function(require,module,exports){
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -84624,7 +84625,7 @@ Cipher.prototype._finalDecrypt = function _finalDecrypt() {
   return this._unpad(out);
 };
 
-},{"minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/des.js":[function(require,module,exports){
+},{"minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\des.js":[function(require,module,exports){
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -84768,7 +84769,7 @@ DES.prototype._decrypt = function _decrypt(state, lStart, rStart, out, off) {
   utils.rip(l, r, out, off);
 };
 
-},{"./cipher":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/cipher.js","./utils":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/utils.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/ede.js":[function(require,module,exports){
+},{"./cipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\cipher.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\utils.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\ede.js":[function(require,module,exports){
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -84824,7 +84825,7 @@ EDE.prototype._update = function _update(inp, inOff, out, outOff) {
 EDE.prototype._pad = DES.prototype._pad;
 EDE.prototype._unpad = DES.prototype._unpad;
 
-},{"./cipher":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/cipher.js","./des":"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/des.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/des.js/lib/des/utils.js":[function(require,module,exports){
+},{"./cipher":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\cipher.js","./des":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\des.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\des.js\\lib\\des\\utils.js":[function(require,module,exports){
 'use strict';
 
 exports.readUInt32BE = function readUInt32BE(bytes, off) {
@@ -85082,7 +85083,7 @@ exports.padSplit = function padSplit(num, size, group) {
   return out.join(' ');
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/browser.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\browser.js":[function(require,module,exports){
 (function (Buffer){(function (){
 var generatePrime = require('./lib/generatePrime')
 var primes = require('./lib/primes.json')
@@ -85129,7 +85130,7 @@ exports.createDiffieHellman = exports.DiffieHellman = createDiffieHellman
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"./lib/dh":"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/lib/dh.js","./lib/generatePrime":"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/lib/generatePrime.js","./lib/primes.json":"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/lib/primes.json","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/lib/dh.js":[function(require,module,exports){
+},{"./lib/dh":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\lib\\dh.js","./lib/generatePrime":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\lib\\generatePrime.js","./lib/primes.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\lib\\primes.json","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\lib\\dh.js":[function(require,module,exports){
 (function (Buffer){(function (){
 var BN = require('bn.js');
 var MillerRabin = require('miller-rabin');
@@ -85298,7 +85299,7 @@ function formatReturnValue(bn, enc) {
 
 }).call(this)}).call(this,require("buffer").Buffer)
 
-},{"./generatePrime":"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/lib/generatePrime.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","miller-rabin":"/home/runner/work/privatesky/privatesky/node_modules/miller-rabin/lib/mr.js","randombytes":"/home/runner/work/privatesky/privatesky/node_modules/randombytes/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/lib/generatePrime.js":[function(require,module,exports){
+},{"./generatePrime":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\lib\\generatePrime.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\node_modules\\bn.js\\lib\\bn.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","miller-rabin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\miller-rabin\\lib\\mr.js","randombytes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randombytes\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\lib\\generatePrime.js":[function(require,module,exports){
 var randomBytes = require('randombytes');
 module.exports = findPrime;
 findPrime.simpleSieve = simpleSieve;
@@ -85405,7 +85406,7 @@ function findPrime(bits, gen) {
 
 }
 
-},{"bn.js":"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js","miller-rabin":"/home/runner/work/privatesky/privatesky/node_modules/miller-rabin/lib/mr.js","randombytes":"/home/runner/work/privatesky/privatesky/node_modules/randombytes/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/lib/primes.json":[function(require,module,exports){
+},{"bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\node_modules\\bn.js\\lib\\bn.js","miller-rabin":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\miller-rabin\\lib\\mr.js","randombytes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randombytes\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\lib\\primes.json":[function(require,module,exports){
 module.exports={
     "modp1": {
         "gen": "02",
@@ -85440,9 +85441,9 @@ module.exports={
         "prime": "ffffffffffffffffc90fdaa22168c234c4c6628b80dc1cd129024e088a67cc74020bbea63b139b22514a08798e3404ddef9519b3cd3a431b302b0a6df25f14374fe1356d6d51c245e485b576625e7ec6f44c42e9a637ed6b0bff5cb6f406b7edee386bfb5a899fa5ae9f24117c4b1fe649286651ece45b3dc2007cb8a163bf0598da48361c55d39a69163fa8fd24cf5f83655d23dca3ad961c62f356208552bb9ed529077096966d670c354e4abc9804f1746c08ca18217c32905e462e36ce3be39e772c180e86039b2783a2ec07a28fb5c55df06f4c52c9de2bcbf6955817183995497cea956ae515d2261898fa051015728e5a8aaac42dad33170d04507a33a85521abdf1cba64ecfb850458dbef0a8aea71575d060c7db3970f85a6e1e4c7abf5ae8cdb0933d71e8c94e04a25619dcee3d2261ad2ee6bf12ffa06d98a0864d87602733ec86a64521f2b18177b200cbbe117577a615d6c770988c0bad946e208e24fa074e5ab3143db5bfce0fd108e4b82d120a92108011a723c12a787e6d788719a10bdba5b2699c327186af4e23c1a946834b6150bda2583e9ca2ad44ce8dbbbc2db04de8ef92e8efc141fbecaa6287c59474e6bc05d99b2964fa090c3a2233ba186515be7ed1f612970cee2d7afb81bdd762170481cd0069127d5b05aa993b4ea988d8fddc186ffb7dc90a6c08f4df435c93402849236c3fab4d27c7026c1d4dcb2602646dec9751e763dba37bdf8ff9406ad9e530ee5db382f413001aeb06a53ed9027d831179727b0865a8918da3edbebcf9b14ed44ce6cbaced4bb1bdb7f1447e6cc254b332051512bd7af426fb8f401378cd2bf5983ca01c64b92ecf032ea15d1721d03f482d7ce6e74fef6d55e702f46980c82b5a84031900b1c9e59e7c97fbec7e8f323a97a7e36cc88be0f1d45b7ff585ac54bd407b22b4154aacc8f6d7ebf48e1d814cc5ed20f8037e0a79715eef29be32806a1d58bb7c5da76f550aa3d8a1fbff0eb19ccb1a313d55cda56c9ec2ef29632387fe8d76e3c0468043e8f663f4860ee12bf2d5b0b7474d6e694f91e6dbe115974a3926f12fee5e438777cb6a932df8cd8bec4d073b931ba3bc832b68d9dd300741fa7bf8afc47ed2576f6936ba424663aab639c5ae4f5683423b4742bf1c978238f16cbe39d652de3fdb8befc848ad922222e04a4037c0713eb57a81a23f0c73473fc646cea306b4bcbc8862f8385ddfa9d4b7fa2c087e879683303ed5bdd3a062b3cf5b3a278a66d2a13f83f44f82ddf310ee074ab6a364597e899a0255dc164f31cc50846851df9ab48195ded7ea1b1d510bd7ee74d73faf36bc31ecfa268359046f4eb879f924009438b481c6cd7889a002ed5ee382bc9190da6fc026e479558e4475677e9aa9e3050e2765694dfc81f56e880b96e7160c980dd98edd3dfffffffffffffffff"
     }
 }
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/diffie-hellman/node_modules/bn.js/lib/bn.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js"][0].apply(exports,arguments)
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\diffie-hellman\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js"][0].apply(exports,arguments)
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic.js":[function(require,module,exports){
 'use strict';
 
 var elliptic = exports;
@@ -85457,7 +85458,7 @@ elliptic.curves = require('./elliptic/curves');
 elliptic.ec = require('./elliptic/ec');
 elliptic.eddsa = require('./elliptic/eddsa');
 
-},{"../package.json":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/package.json","./elliptic/curve":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/index.js","./elliptic/curves":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curves.js","./elliptic/ec":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/ec/index.js","./elliptic/eddsa":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/eddsa/index.js","./elliptic/utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","brorand":"/home/runner/work/privatesky/privatesky/node_modules/brorand/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/base.js":[function(require,module,exports){
+},{"../package.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\package.json","./elliptic/curve":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","./elliptic/curves":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curves.js","./elliptic/ec":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\ec\\index.js","./elliptic/eddsa":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\index.js","./elliptic/utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","brorand":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\brorand\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js":[function(require,module,exports){
 'use strict';
 
 var BN = require('bn.js');
@@ -85840,7 +85841,7 @@ BasePoint.prototype.dblp = function dblp(k) {
   return r;
 };
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/edwards.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\edwards.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -86277,7 +86278,7 @@ Point.prototype.eqXToP = function eqXToP(x) {
 Point.prototype.toP = Point.prototype.normalize;
 Point.prototype.mixedAdd = Point.prototype.add;
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","./base":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/base.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/index.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","./base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js":[function(require,module,exports){
 'use strict';
 
 var curve = exports;
@@ -86287,7 +86288,7 @@ curve.short = require('./short');
 curve.mont = require('./mont');
 curve.edwards = require('./edwards');
 
-},{"./base":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/base.js","./edwards":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/edwards.js","./mont":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/mont.js","./short":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/short.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/mont.js":[function(require,module,exports){
+},{"./base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js","./edwards":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\edwards.js","./mont":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\mont.js","./short":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\short.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\mont.js":[function(require,module,exports){
 'use strict';
 
 var BN = require('bn.js');
@@ -86467,7 +86468,7 @@ Point.prototype.getX = function getX() {
   return this.x.fromRed();
 };
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","./base":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/base.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/short.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","./base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\short.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -87407,7 +87408,7 @@ JPoint.prototype.isInfinity = function isInfinity() {
   return this.z.cmpn(0) === 0;
 };
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","./base":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/base.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curves.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","./base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\base.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curves.js":[function(require,module,exports){
 'use strict';
 
 var curves = exports;
@@ -87615,7 +87616,7 @@ defineCurve('secp256k1', {
   ],
 });
 
-},{"./curve":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curve/index.js","./precomputed/secp256k1":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js","./utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","hash.js":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/ec/index.js":[function(require,module,exports){
+},{"./curve":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curve\\index.js","./precomputed/secp256k1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\precomputed\\secp256k1.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","hash.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\ec\\index.js":[function(require,module,exports){
 'use strict';
 
 var BN = require('bn.js');
@@ -87860,7 +87861,7 @@ EC.prototype.getKeyRecoveryParam = function(e, signature, Q, enc) {
   throw new Error('Unable to find valid recovery factor');
 };
 
-},{"../curves":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curves.js","../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","./key":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/ec/key.js","./signature":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/ec/signature.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js","brorand":"/home/runner/work/privatesky/privatesky/node_modules/brorand/index.js","hmac-drbg":"/home/runner/work/privatesky/privatesky/node_modules/hmac-drbg/lib/hmac-drbg.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/ec/key.js":[function(require,module,exports){
+},{"../curves":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curves.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","./key":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\ec\\key.js","./signature":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\ec\\signature.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js","brorand":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\brorand\\index.js","hmac-drbg":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hmac-drbg\\lib\\hmac-drbg.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\ec\\key.js":[function(require,module,exports){
 'use strict';
 
 var BN = require('bn.js');
@@ -87983,7 +87984,7 @@ KeyPair.prototype.inspect = function inspect() {
          ' pub: ' + (this.pub && this.pub.inspect()) + ' >';
 };
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/ec/signature.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\ec\\signature.js":[function(require,module,exports){
 'use strict';
 
 var BN = require('bn.js');
@@ -88151,7 +88152,7 @@ Signature.prototype.toDER = function toDER(enc) {
   return utils.encode(res, enc);
 };
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/eddsa/index.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\index.js":[function(require,module,exports){
 'use strict';
 
 var hash = require('hash.js');
@@ -88271,7 +88272,7 @@ EDDSA.prototype.isPoint = function isPoint(val) {
   return val instanceof this.pointClass;
 };
 
-},{"../curves":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/curves.js","../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","./key":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/eddsa/key.js","./signature":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/eddsa/signature.js","hash.js":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/eddsa/key.js":[function(require,module,exports){
+},{"../curves":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\curves.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","./key":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\key.js","./signature":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\signature.js","hash.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\key.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -88368,7 +88369,7 @@ KeyPair.prototype.getPublic = function getPublic(enc) {
 
 module.exports = KeyPair;
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/eddsa/signature.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\eddsa\\signature.js":[function(require,module,exports){
 'use strict';
 
 var BN = require('bn.js');
@@ -88435,7 +88436,7 @@ Signature.prototype.toHex = function toHex() {
 
 module.exports = Signature;
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/precomputed/secp256k1.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\precomputed\\secp256k1.js":[function(require,module,exports){
 module.exports = {
   doubles: {
     step: 4,
@@ -89217,7 +89218,7 @@ module.exports = {
   },
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/lib/elliptic/utils.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\lib\\elliptic\\utils.js":[function(require,module,exports){
 'use strict';
 
 var utils = exports;
@@ -89338,9 +89339,9 @@ function intFromLE(bytes) {
 utils.intFromLE = intFromLE;
 
 
-},{"bn.js":"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js","minimalistic-crypto-utils":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-crypto-utils/lib/utils.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/node_modules/bn.js/lib/bn.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js"][0].apply(exports,arguments)
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/elliptic/package.json":[function(require,module,exports){
+},{"bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js","minimalistic-crypto-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js"][0].apply(exports,arguments)
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\elliptic\\package.json":[function(require,module,exports){
 module.exports={
   "name": "elliptic",
   "version": "6.5.4",
@@ -89398,7 +89399,7 @@ module.exports={
   }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/events/events.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -89923,7 +89924,7 @@ function functionBindPolyfill(context) {
   };
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/evp_bytestokey/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\evp_bytestokey\\index.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 var MD5 = require('md5.js')
 
@@ -89970,7 +89971,7 @@ function EVP_BytesToKey (password, salt, keyBits, ivLen) {
 
 module.exports = EVP_BytesToKey
 
-},{"md5.js":"/home/runner/work/privatesky/privatesky/node_modules/md5.js/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/index.js":[function(require,module,exports){
+},{"md5.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\md5.js\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\index.js":[function(require,module,exports){
 'use strict'
 var Buffer = require('safe-buffer').Buffer
 var Transform = require('readable-stream').Transform
@@ -90067,9 +90068,9 @@ HashBase.prototype._digest = function () {
 
 module.exports = HashBase
 
-},{"inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","readable-stream":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/readable-browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/errors-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"][0].apply(exports,arguments)
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports){
+},{"inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","readable-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\readable-browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\errors-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_duplex.js":[function(require,module,exports){
 (function (process){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -90212,9 +90213,9 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
 });
 }).call(this)}).call(this,require('_process'))
 
-},{"./_stream_readable":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js"][0].apply(exports,arguments)
-},{"./_stream_transform":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports){
+},{"./_stream_readable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_readable.js","./_stream_writable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_writable.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_passthrough.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_passthrough.js"][0].apply(exports,arguments)
+},{"./_stream_transform":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_transform.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_readable.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -91342,9 +91343,9 @@ function indexOf(xs, x) {
 }
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/async_iterator":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/async_iterator.js","./internal/streams/buffer_list":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/buffer_list.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/from":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/from-browser.js","./internal/streams/state":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","string_decoder/":"/home/runner/work/privatesky/privatesky/node_modules/string_decoder/lib/string_decoder.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js"][0].apply(exports,arguments)
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports){
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/async_iterator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\async_iterator.js","./internal/streams/buffer_list":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/from":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js","./internal/streams/state":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","string_decoder/":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\string_decoder\\lib\\string_decoder.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_transform.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_transform.js"][0].apply(exports,arguments)
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_duplex.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_writable.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -92045,7 +92046,7 @@ Writable.prototype._destroy = function (err, cb) {
 };
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","util-deprecate":"/home/runner/work/privatesky/privatesky/node_modules/util-deprecate/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/async_iterator.js":[function(require,module,exports){
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/state":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","util-deprecate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util-deprecate\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\async_iterator.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict';
 
@@ -92256,9 +92257,9 @@ var createReadableStreamAsyncIterator = function createReadableStreamAsyncIterat
 module.exports = createReadableStreamAsyncIterator;
 }).call(this)}).call(this,require('_process'))
 
-},{"./end-of-stream":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/buffer_list.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js"][0].apply(exports,arguments)
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports){
+},{"./end-of-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js"][0].apply(exports,arguments)
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict'; // undocumented cb() API, needed for core, not for public API
 
@@ -92367,19 +92368,19 @@ module.exports = {
 };
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"][0].apply(exports,arguments)
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/errors-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/from-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js"][0].apply(exports,arguments)
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/pipeline.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js"][0].apply(exports,arguments)
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/errors-browser.js","./end-of-stream":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/state.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js"][0].apply(exports,arguments)
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/errors-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js"][0].apply(exports,arguments)
-},{"events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/readable-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js"][0].apply(exports,arguments)
-},{"./lib/_stream_duplex.js":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_passthrough.js":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/_stream_readable.js":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_transform.js":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_writable.js":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/_stream_writable.js","./lib/internal/streams/end-of-stream.js":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","./lib/internal/streams/pipeline.js":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/node_modules/readable-stream/lib/internal/streams/pipeline.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js"][0].apply(exports,arguments)
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\errors-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js"][0].apply(exports,arguments)
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\errors-browser.js","./end-of-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js"][0].apply(exports,arguments)
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\errors-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js"][0].apply(exports,arguments)
+},{"events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\readable-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\readable-browser.js"][0].apply(exports,arguments)
+},{"./lib/_stream_duplex.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./lib/_stream_passthrough.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_passthrough.js","./lib/_stream_readable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_readable.js","./lib/_stream_transform.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_transform.js","./lib/_stream_writable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\_stream_writable.js","./lib/internal/streams/end-of-stream.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js","./lib/internal/streams/pipeline.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash.js":[function(require,module,exports){
 var hash = exports;
 
 hash.utils = require('./hash/utils');
@@ -92396,7 +92397,7 @@ hash.sha384 = hash.sha.sha384;
 hash.sha512 = hash.sha.sha512;
 hash.ripemd160 = hash.ripemd.ripemd160;
 
-},{"./hash/common":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/common.js","./hash/hmac":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/hmac.js","./hash/ripemd":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/ripemd.js","./hash/sha":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha.js","./hash/utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/common.js":[function(require,module,exports){
+},{"./hash/common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\common.js","./hash/hmac":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\hmac.js","./hash/ripemd":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\ripemd.js","./hash/sha":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha.js","./hash/utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\common.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('./utils');
@@ -92490,7 +92491,7 @@ BlockHash.prototype._pad = function pad() {
   return res;
 };
 
-},{"./utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/hmac.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\hmac.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('./utils');
@@ -92539,7 +92540,7 @@ Hmac.prototype.digest = function digest(enc) {
   return this.outer.digest(enc);
 };
 
-},{"./utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/ripemd.js":[function(require,module,exports){
+},{"./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\ripemd.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('./utils');
@@ -92687,7 +92688,7 @@ var sh = [
   8, 5, 12, 9, 12, 5, 14, 6, 8, 13, 6, 5, 15, 13, 11, 11
 ];
 
-},{"./common":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/common.js","./utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha.js":[function(require,module,exports){
+},{"./common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\common.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha.js":[function(require,module,exports){
 'use strict';
 
 exports.sha1 = require('./sha/1');
@@ -92696,7 +92697,7 @@ exports.sha256 = require('./sha/256');
 exports.sha384 = require('./sha/384');
 exports.sha512 = require('./sha/512');
 
-},{"./sha/1":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/1.js","./sha/224":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/224.js","./sha/256":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/256.js","./sha/384":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/384.js","./sha/512":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/512.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/1.js":[function(require,module,exports){
+},{"./sha/1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\1.js","./sha/224":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\224.js","./sha/256":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\256.js","./sha/384":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\384.js","./sha/512":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\512.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\1.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -92772,7 +92773,7 @@ SHA1.prototype._digest = function digest(enc) {
     return utils.split32(this.h, 'big');
 };
 
-},{"../common":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/common.js","../utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js","./common":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/common.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/224.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\common.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js","./common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\common.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\224.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -92804,7 +92805,7 @@ SHA224.prototype._digest = function digest(enc) {
 };
 
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js","./256":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/256.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/256.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js","./256":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\256.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\256.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -92911,7 +92912,7 @@ SHA256.prototype._digest = function digest(enc) {
     return utils.split32(this.h, 'big');
 };
 
-},{"../common":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/common.js","../utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js","./common":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/common.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/384.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\common.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js","./common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\common.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\384.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -92948,7 +92949,7 @@ SHA384.prototype._digest = function digest(enc) {
     return utils.split32(this.h.slice(0, 12), 'big');
 };
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js","./512":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/512.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/512.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js","./512":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\512.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\512.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -93280,7 +93281,7 @@ function g1_512_lo(xh, xl) {
   return r;
 }
 
-},{"../common":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/common.js","../utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/sha/common.js":[function(require,module,exports){
+},{"../common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\common.js","../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\sha\\common.js":[function(require,module,exports){
 'use strict';
 
 var utils = require('../utils');
@@ -93331,7 +93332,7 @@ function g1_256(x) {
 }
 exports.g1_256 = g1_256;
 
-},{"../utils":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash/utils.js":[function(require,module,exports){
+},{"../utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash\\utils.js":[function(require,module,exports){
 'use strict';
 
 var assert = require('minimalistic-assert');
@@ -93611,7 +93612,7 @@ function shr64_lo(ah, al, num) {
 }
 exports.shr64_lo = shr64_lo;
 
-},{"inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/hmac-drbg/lib/hmac-drbg.js":[function(require,module,exports){
+},{"inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hmac-drbg\\lib\\hmac-drbg.js":[function(require,module,exports){
 'use strict';
 
 var hash = require('hash.js');
@@ -93726,7 +93727,7 @@ HmacDRBG.prototype.generate = function generate(len, enc, add, addEnc) {
   return utils.encode(res, enc);
 };
 
-},{"hash.js":"/home/runner/work/privatesky/privatesky/node_modules/hash.js/lib/hash.js","minimalistic-assert":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js","minimalistic-crypto-utils":"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-crypto-utils/lib/utils.js"}],"/home/runner/work/privatesky/privatesky/node_modules/https-browserify/index.js":[function(require,module,exports){
+},{"hash.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash.js\\lib\\hash.js","minimalistic-assert":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js","minimalistic-crypto-utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\https-browserify\\index.js":[function(require,module,exports){
 var http = require('http')
 var url = require('url')
 
@@ -93759,7 +93760,7 @@ function validateParams (params) {
   return params
 }
 
-},{"http":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js"}],"/home/runner/work/privatesky/privatesky/node_modules/ieee754/index.js":[function(require,module,exports){
+},{"http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\ieee754\\index.js":[function(require,module,exports){
 /*! ieee754. BSD-3-Clause License. Feross Aboukhadijeh <https://feross.org/opensource> */
 exports.read = function (buffer, offset, isLE, mLen, nBytes) {
   var e, m
@@ -93846,7 +93847,7 @@ exports.write = function (buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js":[function(require,module,exports){
 if (typeof Object.create === 'function') {
   // implementation from standard node.js 'util' module
   module.exports = function inherits(ctor, superCtor) {
@@ -93875,7 +93876,7 @@ if (typeof Object.create === 'function') {
   }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/is-buffer/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\is-buffer\\index.js":[function(require,module,exports){
 /*!
  * Determine if an object is a Buffer
  *
@@ -93898,14 +93899,14 @@ function isSlowBuffer (obj) {
   return typeof obj.readFloatLE === 'function' && typeof obj.slice === 'function' && isBuffer(obj.slice(0, 0))
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/isarray/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\isarray\\index.js":[function(require,module,exports){
 var toString = {}.toString;
 
 module.exports = Array.isArray || function (arr) {
   return toString.call(arr) == '[object Array]';
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/md5.js/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\md5.js\\index.js":[function(require,module,exports){
 'use strict'
 var inherits = require('inherits')
 var HashBase = require('hash-base')
@@ -94053,7 +94054,7 @@ function fnI (a, b, c, d, m, k, s) {
 
 module.exports = MD5
 
-},{"hash-base":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/miller-rabin/lib/mr.js":[function(require,module,exports){
+},{"hash-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\miller-rabin\\lib\\mr.js":[function(require,module,exports){
 var bn = require('bn.js');
 var brorand = require('brorand');
 
@@ -94170,9 +94171,9 @@ MillerRabin.prototype.getDivisor = function getDivisor(n, k) {
   return false;
 };
 
-},{"bn.js":"/home/runner/work/privatesky/privatesky/node_modules/miller-rabin/node_modules/bn.js/lib/bn.js","brorand":"/home/runner/work/privatesky/privatesky/node_modules/brorand/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/miller-rabin/node_modules/bn.js/lib/bn.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js"][0].apply(exports,arguments)
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-assert/index.js":[function(require,module,exports){
+},{"bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\miller-rabin\\node_modules\\bn.js\\lib\\bn.js","brorand":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\brorand\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\miller-rabin\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js"][0].apply(exports,arguments)
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-assert\\index.js":[function(require,module,exports){
 module.exports = assert;
 
 function assert(val, msg) {
@@ -94185,7 +94186,7 @@ assert.equal = function assertEqual(l, r, msg) {
     throw new Error(msg || ('Assertion failed: ' + l + ' != ' + r));
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/minimalistic-crypto-utils/lib/utils.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\minimalistic-crypto-utils\\lib\\utils.js":[function(require,module,exports){
 'use strict';
 
 var utils = exports;
@@ -94245,7 +94246,7 @@ utils.encode = function encode(arr, enc) {
     return arr;
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/object-assign/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\object-assign\\index.js":[function(require,module,exports){
 /*
 object-assign
 (c) Sindre Sorhus
@@ -94337,7 +94338,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 	return to;
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/os-browserify/browser.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\os-browserify\\browser.js":[function(require,module,exports){
 exports.endianness = function () { return 'LE' };
 
 exports.hostname = function () {
@@ -94388,7 +94389,7 @@ exports.homedir = function () {
 	return '/'
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/utils/common.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\utils\\common.js":[function(require,module,exports){
 'use strict';
 
 
@@ -94495,7 +94496,7 @@ exports.setTyped = function (on) {
 
 exports.setTyped(TYPED_OK);
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/adler32.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\adler32.js":[function(require,module,exports){
 'use strict';
 
 // Note: adler32 takes 12% for level 0 and 2% for level 6.
@@ -94548,7 +94549,7 @@ function adler32(adler, buf, len, pos) {
 
 module.exports = adler32;
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/constants.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\constants.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -94618,7 +94619,7 @@ module.exports = {
   //Z_NULL:                 null // Use -1 or null inline, depending on var type
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/crc32.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\crc32.js":[function(require,module,exports){
 'use strict';
 
 // Note: we can't get significant speed boost here.
@@ -94679,7 +94680,7 @@ function crc32(crc, buf, len, pos) {
 
 module.exports = crc32;
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/deflate.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\deflate.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -96555,7 +96556,7 @@ exports.deflatePrime = deflatePrime;
 exports.deflateTune = deflateTune;
 */
 
-},{"../utils/common":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/utils/common.js","./adler32":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/adler32.js","./crc32":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/crc32.js","./messages":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/messages.js","./trees":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/trees.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/inffast.js":[function(require,module,exports){
+},{"../utils/common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\utils\\common.js","./adler32":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\adler32.js","./crc32":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\crc32.js","./messages":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\messages.js","./trees":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\trees.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\inffast.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -96902,7 +96903,7 @@ module.exports = function inflate_fast(strm, start) {
   return;
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/inflate.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\inflate.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -98460,7 +98461,7 @@ exports.inflateSyncPoint = inflateSyncPoint;
 exports.inflateUndermine = inflateUndermine;
 */
 
-},{"../utils/common":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/utils/common.js","./adler32":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/adler32.js","./crc32":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/crc32.js","./inffast":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/inffast.js","./inftrees":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/inftrees.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/inftrees.js":[function(require,module,exports){
+},{"../utils/common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\utils\\common.js","./adler32":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\adler32.js","./crc32":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\crc32.js","./inffast":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\inffast.js","./inftrees":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\inftrees.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\inftrees.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -98805,7 +98806,7 @@ module.exports = function inflate_table(type, lens, lens_index, codes, table, ta
   return 0;
 };
 
-},{"../utils/common":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/utils/common.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/messages.js":[function(require,module,exports){
+},{"../utils/common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\utils\\common.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\messages.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -98839,7 +98840,7 @@ module.exports = {
   '-6':   'incompatible version' /* Z_VERSION_ERROR (-6) */
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/trees.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\trees.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -100063,7 +100064,7 @@ exports._tr_flush_block  = _tr_flush_block;
 exports._tr_tally = _tr_tally;
 exports._tr_align = _tr_align;
 
-},{"../utils/common":"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/utils/common.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pako/lib/zlib/zstream.js":[function(require,module,exports){
+},{"../utils/common":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\utils\\common.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pako\\lib\\zlib\\zstream.js":[function(require,module,exports){
 'use strict';
 
 // (C) 1995-2013 Jean-loup Gailly and Mark Adler
@@ -100112,7 +100113,7 @@ function ZStream() {
 
 module.exports = ZStream;
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/aesid.json":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\aesid.json":[function(require,module,exports){
 module.exports={"2.16.840.1.101.3.4.1.1": "aes-128-ecb",
 "2.16.840.1.101.3.4.1.2": "aes-128-cbc",
 "2.16.840.1.101.3.4.1.3": "aes-128-ofb",
@@ -100126,7 +100127,7 @@ module.exports={"2.16.840.1.101.3.4.1.1": "aes-128-ecb",
 "2.16.840.1.101.3.4.1.43": "aes-256-ofb",
 "2.16.840.1.101.3.4.1.44": "aes-256-cfb"
 }
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/asn1.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\asn1.js":[function(require,module,exports){
 // from https://github.com/indutny/self-signed/blob/gh-pages/lib/asn1.js
 // Fedor, you are amazing.
 'use strict'
@@ -100250,7 +100251,7 @@ exports.signature = asn1.define('signature', function () {
   )
 })
 
-},{"./certificate":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/certificate.js","asn1.js":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1.js"}],"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/certificate.js":[function(require,module,exports){
+},{"./certificate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\certificate.js","asn1.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\certificate.js":[function(require,module,exports){
 // from https://github.com/Rantanen/node-dtls/blob/25a7dc861bda38cfeac93a723500eea4f0ac2e86/Certificate.js
 // thanks to @Rantanen
 
@@ -100341,7 +100342,7 @@ var X509Certificate = asn.define('X509Certificate', function () {
 
 module.exports = X509Certificate
 
-},{"asn1.js":"/home/runner/work/privatesky/privatesky/node_modules/asn1.js/lib/asn1.js"}],"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/fixProc.js":[function(require,module,exports){
+},{"asn1.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\lib\\asn1.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\fixProc.js":[function(require,module,exports){
 // adapted from https://github.com/apatil/pemstrip
 var findProc = /Proc-Type: 4,ENCRYPTED[\n\r]+DEK-Info: AES-((?:128)|(?:192)|(?:256))-CBC,([0-9A-H]+)[\n\r]+([0-9A-z\n\r+/=]+)[\n\r]+/m
 var startRegex = /^-----BEGIN ((?:.*? KEY)|CERTIFICATE)-----/m
@@ -100374,7 +100375,7 @@ module.exports = function (okey, password) {
   }
 }
 
-},{"browserify-aes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/browser.js","evp_bytestokey":"/home/runner/work/privatesky/privatesky/node_modules/evp_bytestokey/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/index.js":[function(require,module,exports){
+},{"browserify-aes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\browser.js","evp_bytestokey":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\evp_bytestokey\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\index.js":[function(require,module,exports){
 var asn1 = require('./asn1')
 var aesid = require('./aesid.json')
 var fixProc = require('./fixProc')
@@ -100483,7 +100484,7 @@ function decrypt (data, password) {
   return Buffer.concat(out)
 }
 
-},{"./aesid.json":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/aesid.json","./asn1":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/asn1.js","./fixProc":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/fixProc.js","browserify-aes":"/home/runner/work/privatesky/privatesky/node_modules/browserify-aes/browser.js","pbkdf2":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/path-browserify/index.js":[function(require,module,exports){
+},{"./aesid.json":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\aesid.json","./asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\asn1.js","./fixProc":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\fixProc.js","browserify-aes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-aes\\browser.js","pbkdf2":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\path-browserify\\index.js":[function(require,module,exports){
 (function (process){(function (){
 // .dirname, .basename, and .extname methods are extracted from Node.js v8.11.1,
 // backported and transplited with Babel, with backwards-compat fixes
@@ -100790,11 +100791,11 @@ var substr = 'ab'.substr(-1) === 'b'
 
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/browser.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\browser.js":[function(require,module,exports){
 exports.pbkdf2 = require('./lib/async')
 exports.pbkdf2Sync = require('./lib/sync')
 
-},{"./lib/async":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/async.js","./lib/sync":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/sync-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/async.js":[function(require,module,exports){
+},{"./lib/async":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\async.js","./lib/sync":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\sync-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\async.js":[function(require,module,exports){
 (function (global){(function (){
 var Buffer = require('safe-buffer').Buffer
 
@@ -100917,7 +100918,7 @@ module.exports = function (password, salt, iterations, keylen, digest, callback)
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./default-encoding":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/default-encoding.js","./precondition":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/precondition.js","./sync":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/sync-browser.js","./to-buffer":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/to-buffer.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/default-encoding.js":[function(require,module,exports){
+},{"./default-encoding":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\default-encoding.js","./precondition":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\precondition.js","./sync":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\sync-browser.js","./to-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\to-buffer.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\default-encoding.js":[function(require,module,exports){
 (function (process,global){(function (){
 var defaultEncoding
 /* istanbul ignore next */
@@ -100934,7 +100935,7 @@ module.exports = defaultEncoding
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/precondition.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\precondition.js":[function(require,module,exports){
 var MAX_ALLOC = Math.pow(2, 30) - 1 // default in iojs
 
 module.exports = function (iterations, keylen) {
@@ -100955,7 +100956,7 @@ module.exports = function (iterations, keylen) {
   }
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/sync-browser.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\sync-browser.js":[function(require,module,exports){
 var md5 = require('create-hash/md5')
 var RIPEMD160 = require('ripemd160')
 var sha = require('sha.js')
@@ -101062,7 +101063,7 @@ function pbkdf2 (password, salt, iterations, keylen, digest) {
 
 module.exports = pbkdf2
 
-},{"./default-encoding":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/default-encoding.js","./precondition":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/precondition.js","./to-buffer":"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/to-buffer.js","create-hash/md5":"/home/runner/work/privatesky/privatesky/node_modules/create-hash/md5.js","ripemd160":"/home/runner/work/privatesky/privatesky/node_modules/ripemd160/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js","sha.js":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/pbkdf2/lib/to-buffer.js":[function(require,module,exports){
+},{"./default-encoding":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\default-encoding.js","./precondition":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\precondition.js","./to-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\to-buffer.js","create-hash/md5":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\md5.js","ripemd160":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\ripemd160\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js","sha.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\pbkdf2\\lib\\to-buffer.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 
 module.exports = function (thing, encoding, name) {
@@ -101077,7 +101078,7 @@ module.exports = function (thing, encoding, name) {
   }
 }
 
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/process-nextick-args/index.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process-nextick-args\\index.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict';
 
@@ -101127,7 +101128,7 @@ function nextTick(fn, arg1, arg2, arg3) {
 
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js":[function(require,module,exports){
 // shim for using process in browser
 var process = module.exports = {};
 
@@ -101313,7 +101314,7 @@ process.chdir = function (dir) {
 };
 process.umask = function() { return 0; };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/browser.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\browser.js":[function(require,module,exports){
 exports.publicEncrypt = require('./publicEncrypt')
 exports.privateDecrypt = require('./privateDecrypt')
 
@@ -101325,7 +101326,7 @@ exports.publicDecrypt = function publicDecrypt (key, buf) {
   return exports.privateDecrypt(key, buf, true)
 }
 
-},{"./privateDecrypt":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/privateDecrypt.js","./publicEncrypt":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/publicEncrypt.js"}],"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/mgf.js":[function(require,module,exports){
+},{"./privateDecrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\privateDecrypt.js","./publicEncrypt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\publicEncrypt.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\mgf.js":[function(require,module,exports){
 var createHash = require('create-hash')
 var Buffer = require('safe-buffer').Buffer
 
@@ -101346,9 +101347,9 @@ function i2ops (c) {
   return out
 }
 
-},{"create-hash":"/home/runner/work/privatesky/privatesky/node_modules/create-hash/browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/asn1.js/node_modules/bn.js/lib/bn.js"][0].apply(exports,arguments)
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/privateDecrypt.js":[function(require,module,exports){
+},{"create-hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\node_modules\\bn.js\\lib\\bn.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\asn1.js\\node_modules\\bn.js\\lib\\bn.js"][0].apply(exports,arguments)
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\privateDecrypt.js":[function(require,module,exports){
 var parseKeys = require('parse-asn1')
 var mgf = require('./mgf')
 var xor = require('./xor')
@@ -101455,7 +101456,7 @@ function compare (a, b) {
   return dif
 }
 
-},{"./mgf":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/mgf.js","./withPublic":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/withPublic.js","./xor":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/xor.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","browserify-rsa":"/home/runner/work/privatesky/privatesky/node_modules/browserify-rsa/index.js","create-hash":"/home/runner/work/privatesky/privatesky/node_modules/create-hash/browser.js","parse-asn1":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/publicEncrypt.js":[function(require,module,exports){
+},{"./mgf":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\mgf.js","./withPublic":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\withPublic.js","./xor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\xor.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\node_modules\\bn.js\\lib\\bn.js","browserify-rsa":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-rsa\\index.js","create-hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\browser.js","parse-asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\publicEncrypt.js":[function(require,module,exports){
 var parseKeys = require('parse-asn1')
 var randomBytes = require('randombytes')
 var createHash = require('create-hash')
@@ -101545,7 +101546,7 @@ function nonZero (len) {
   return out
 }
 
-},{"./mgf":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/mgf.js","./withPublic":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/withPublic.js","./xor":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/xor.js","bn.js":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","browserify-rsa":"/home/runner/work/privatesky/privatesky/node_modules/browserify-rsa/index.js","create-hash":"/home/runner/work/privatesky/privatesky/node_modules/create-hash/browser.js","parse-asn1":"/home/runner/work/privatesky/privatesky/node_modules/parse-asn1/index.js","randombytes":"/home/runner/work/privatesky/privatesky/node_modules/randombytes/browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/withPublic.js":[function(require,module,exports){
+},{"./mgf":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\mgf.js","./withPublic":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\withPublic.js","./xor":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\xor.js","bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\node_modules\\bn.js\\lib\\bn.js","browserify-rsa":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-rsa\\index.js","create-hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\create-hash\\browser.js","parse-asn1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\parse-asn1\\index.js","randombytes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randombytes\\browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\withPublic.js":[function(require,module,exports){
 var BN = require('bn.js')
 var Buffer = require('safe-buffer').Buffer
 
@@ -101559,7 +101560,7 @@ function withPublic (paddedMsg, key) {
 
 module.exports = withPublic
 
-},{"bn.js":"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/node_modules/bn.js/lib/bn.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/public-encrypt/xor.js":[function(require,module,exports){
+},{"bn.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\node_modules\\bn.js\\lib\\bn.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\public-encrypt\\xor.js":[function(require,module,exports){
 module.exports = function xor (a, b) {
   var len = a.length
   var i = -1
@@ -101569,7 +101570,7 @@ module.exports = function xor (a, b) {
   return a
 }
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/punycode/punycode.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\punycode\\punycode.js":[function(require,module,exports){
 (function (global){(function (){
 /*! https://mths.be/punycode v1.4.1 by @mathias */
 ;(function(root) {
@@ -102107,7 +102108,7 @@ module.exports = function xor (a, b) {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/querystring-es3/decode.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\querystring-es3\\decode.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -102193,7 +102194,7 @@ var isArray = Array.isArray || function (xs) {
   return Object.prototype.toString.call(xs) === '[object Array]';
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/querystring-es3/encode.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\querystring-es3\\encode.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -102280,13 +102281,13 @@ var objectKeys = Object.keys || function (obj) {
   return res;
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/querystring-es3/index.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\querystring-es3\\index.js":[function(require,module,exports){
 'use strict';
 
 exports.decode = exports.parse = require('./decode');
 exports.encode = exports.stringify = require('./encode');
 
-},{"./decode":"/home/runner/work/privatesky/privatesky/node_modules/querystring-es3/decode.js","./encode":"/home/runner/work/privatesky/privatesky/node_modules/querystring-es3/encode.js"}],"/home/runner/work/privatesky/privatesky/node_modules/randombytes/browser.js":[function(require,module,exports){
+},{"./decode":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\querystring-es3\\decode.js","./encode":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\querystring-es3\\encode.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randombytes\\browser.js":[function(require,module,exports){
 (function (process,global){(function (){
 'use strict'
 
@@ -102341,7 +102342,7 @@ function randomBytes (size, cb) {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/randomfill/browser.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randomfill\\browser.js":[function(require,module,exports){
 (function (process,global){(function (){
 'use strict'
 
@@ -102454,10 +102455,10 @@ function randomFillSync (buf, offset, size) {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","randombytes":"/home/runner/work/privatesky/privatesky/node_modules/randombytes/browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/duplex-browser.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","randombytes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\randombytes\\browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\duplex-browser.js":[function(require,module,exports){
 module.exports = require('./lib/_stream_duplex.js');
 
-},{"./lib/_stream_duplex.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_duplex.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports){
+},{"./lib/_stream_duplex.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_duplex.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_duplex.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -102589,7 +102590,7 @@ Duplex.prototype._destroy = function (err, cb) {
 
   pna.nextTick(cb, err);
 };
-},{"./_stream_readable":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_writable.js","core-util-is":"/home/runner/work/privatesky/privatesky/node_modules/core-util-is/lib/util.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","process-nextick-args":"/home/runner/work/privatesky/privatesky/node_modules/process-nextick-args/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports){
+},{"./_stream_readable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_readable.js","./_stream_writable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_writable.js","core-util-is":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","process-nextick-args":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process-nextick-args\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_passthrough.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -102637,7 +102638,7 @@ function PassThrough(options) {
 PassThrough.prototype._transform = function (chunk, encoding, cb) {
   cb(null, chunk);
 };
-},{"./_stream_transform":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_transform.js","core-util-is":"/home/runner/work/privatesky/privatesky/node_modules/core-util-is/lib/util.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports){
+},{"./_stream_transform":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_transform.js","core-util-is":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_readable.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -103660,7 +103661,7 @@ function indexOf(xs, x) {
 }
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/BufferList":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/BufferList.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","core-util-is":"/home/runner/work/privatesky/privatesky/node_modules/core-util-is/lib/util.js","events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","isarray":"/home/runner/work/privatesky/privatesky/node_modules/isarray/index.js","process-nextick-args":"/home/runner/work/privatesky/privatesky/node_modules/process-nextick-args/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/safe-buffer/index.js","string_decoder/":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/string_decoder/lib/string_decoder.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports){
+},{"./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/BufferList":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","core-util-is":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\core-util-is\\lib\\util.js","events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","isarray":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\isarray\\index.js","process-nextick-args":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process-nextick-args\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\safe-buffer\\index.js","string_decoder/":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\string_decoder\\lib\\string_decoder.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_transform.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -103875,7 +103876,7 @@ function done(stream, er, data) {
 
   return stream.push(null);
 }
-},{"./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_duplex.js","core-util-is":"/home/runner/work/privatesky/privatesky/node_modules/core-util-is/lib/util.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports){
+},{"./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_duplex.js","core-util-is":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_writable.js":[function(require,module,exports){
 (function (process,global,setImmediate){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -104566,7 +104567,7 @@ Writable.prototype._destroy = function (err, cb) {
 };
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("timers").setImmediate)
 
-},{"./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","core-util-is":"/home/runner/work/privatesky/privatesky/node_modules/core-util-is/lib/util.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","process-nextick-args":"/home/runner/work/privatesky/privatesky/node_modules/process-nextick-args/index.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/safe-buffer/index.js","timers":"/home/runner/work/privatesky/privatesky/node_modules/timers-browserify/main.js","util-deprecate":"/home/runner/work/privatesky/privatesky/node_modules/util-deprecate/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/BufferList.js":[function(require,module,exports){
+},{"./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","core-util-is":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\core-util-is\\lib\\util.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","process-nextick-args":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process-nextick-args\\index.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\safe-buffer\\index.js","timers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\timers-browserify\\main.js","util-deprecate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util-deprecate\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\BufferList.js":[function(require,module,exports){
 'use strict';
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
@@ -104646,7 +104647,7 @@ if (util && util.inspect && util.inspect.custom) {
     return this.constructor.name + ' ' + obj;
   };
 }
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/safe-buffer/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\safe-buffer\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js":[function(require,module,exports){
 'use strict';
 
 /*<replacement>*/
@@ -104721,9 +104722,9 @@ module.exports = {
   destroy: destroy,
   undestroy: undestroy
 };
-},{"process-nextick-args":"/home/runner/work/privatesky/privatesky/node_modules/process-nextick-args/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js"][0].apply(exports,arguments)
-},{"events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/safe-buffer/index.js":[function(require,module,exports){
+},{"process-nextick-args":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process-nextick-args\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js"][0].apply(exports,arguments)
+},{"events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\safe-buffer\\index.js":[function(require,module,exports){
 /* eslint-disable node/no-deprecated-api */
 var buffer = require('buffer')
 var Buffer = buffer.Buffer
@@ -104787,7 +104788,7 @@ SafeBuffer.allocUnsafeSlow = function (size) {
   return buffer.SlowBuffer(size)
 }
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/string_decoder/lib/string_decoder.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\string_decoder\\lib\\string_decoder.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -105084,10 +105085,10 @@ function simpleWrite(buf) {
 function simpleEnd(buf) {
   return buf && buf.length ? this.write(buf) : '';
 }
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/passthrough.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\passthrough.js":[function(require,module,exports){
 module.exports = require('./readable').PassThrough
 
-},{"./readable":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/readable-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/readable-browser.js":[function(require,module,exports){
+},{"./readable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\readable-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\readable-browser.js":[function(require,module,exports){
 exports = module.exports = require('./lib/_stream_readable.js');
 exports.Stream = exports;
 exports.Readable = exports;
@@ -105096,13 +105097,13 @@ exports.Duplex = require('./lib/_stream_duplex.js');
 exports.Transform = require('./lib/_stream_transform.js');
 exports.PassThrough = require('./lib/_stream_passthrough.js');
 
-},{"./lib/_stream_duplex.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_passthrough.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/_stream_readable.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_transform.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_writable.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_writable.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/transform.js":[function(require,module,exports){
+},{"./lib/_stream_duplex.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./lib/_stream_passthrough.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_passthrough.js","./lib/_stream_readable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_readable.js","./lib/_stream_transform.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_transform.js","./lib/_stream_writable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_writable.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\transform.js":[function(require,module,exports){
 module.exports = require('./readable').Transform
 
-},{"./readable":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/readable-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/writable-browser.js":[function(require,module,exports){
+},{"./readable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\readable-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\writable-browser.js":[function(require,module,exports){
 module.exports = require('./lib/_stream_writable.js');
 
-},{"./lib/_stream_writable.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/lib/_stream_writable.js"}],"/home/runner/work/privatesky/privatesky/node_modules/ripemd160/index.js":[function(require,module,exports){
+},{"./lib/_stream_writable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\lib\\_stream_writable.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\ripemd160\\index.js":[function(require,module,exports){
 'use strict'
 var Buffer = require('buffer').Buffer
 var inherits = require('inherits')
@@ -105267,7 +105268,7 @@ function fn5 (a, b, c, d, e, m, k, s) {
 
 module.exports = RIPEMD160
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","hash-base":"/home/runner/work/privatesky/privatesky/node_modules/hash-base/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","hash-base":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\hash-base\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js":[function(require,module,exports){
 /*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
 /* eslint-disable node/no-deprecated-api */
 var buffer = require('buffer')
@@ -105334,7 +105335,7 @@ SafeBuffer.allocUnsafeSlow = function (size) {
   return buffer.SlowBuffer(size)
 }
 
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/safer-buffer/safer.js":[function(require,module,exports){
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safer-buffer\\safer.js":[function(require,module,exports){
 (function (process){(function (){
 /* eslint-disable node/no-deprecated-api */
 
@@ -105416,7 +105417,7 @@ module.exports = safer
 
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/hash.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\hash.js":[function(require,module,exports){
 var Buffer = require('safe-buffer').Buffer
 
 // prototype class for hash functions
@@ -105499,7 +105500,7 @@ Hash.prototype._update = function () {
 
 module.exports = Hash
 
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/index.js":[function(require,module,exports){
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\index.js":[function(require,module,exports){
 var exports = module.exports = function SHA (algorithm) {
   algorithm = algorithm.toLowerCase()
 
@@ -105516,7 +105517,7 @@ exports.sha256 = require('./sha256')
 exports.sha384 = require('./sha384')
 exports.sha512 = require('./sha512')
 
-},{"./sha":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha.js","./sha1":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha1.js","./sha224":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha224.js","./sha256":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha256.js","./sha384":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha384.js","./sha512":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha512.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha.js":[function(require,module,exports){
+},{"./sha":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha.js","./sha1":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha1.js","./sha224":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha224.js","./sha256":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha256.js","./sha384":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha384.js","./sha512":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha512.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha.js":[function(require,module,exports){
 /*
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-0, as defined
  * in FIPS PUB 180-1
@@ -105612,7 +105613,7 @@ Sha.prototype._hash = function () {
 
 module.exports = Sha
 
-},{"./hash":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/hash.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha1.js":[function(require,module,exports){
+},{"./hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\hash.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha1.js":[function(require,module,exports){
 /*
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-1, as defined
  * in FIPS PUB 180-1
@@ -105713,7 +105714,7 @@ Sha1.prototype._hash = function () {
 
 module.exports = Sha1
 
-},{"./hash":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/hash.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha224.js":[function(require,module,exports){
+},{"./hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\hash.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha224.js":[function(require,module,exports){
 /**
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
  * in FIPS 180-2
@@ -105768,7 +105769,7 @@ Sha224.prototype._hash = function () {
 
 module.exports = Sha224
 
-},{"./hash":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/hash.js","./sha256":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha256.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha256.js":[function(require,module,exports){
+},{"./hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\hash.js","./sha256":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha256.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha256.js":[function(require,module,exports){
 /**
  * A JavaScript implementation of the Secure Hash Algorithm, SHA-256, as defined
  * in FIPS 180-2
@@ -105905,7 +105906,7 @@ Sha256.prototype._hash = function () {
 
 module.exports = Sha256
 
-},{"./hash":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/hash.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha384.js":[function(require,module,exports){
+},{"./hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\hash.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha384.js":[function(require,module,exports){
 var inherits = require('inherits')
 var SHA512 = require('./sha512')
 var Hash = require('./hash')
@@ -105964,7 +105965,7 @@ Sha384.prototype._hash = function () {
 
 module.exports = Sha384
 
-},{"./hash":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/hash.js","./sha512":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha512.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/sha.js/sha512.js":[function(require,module,exports){
+},{"./hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\hash.js","./sha512":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha512.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\sha512.js":[function(require,module,exports){
 var inherits = require('inherits')
 var Hash = require('./hash')
 var Buffer = require('safe-buffer').Buffer
@@ -106226,7 +106227,7 @@ Sha512.prototype._hash = function () {
 
 module.exports = Sha512
 
-},{"./hash":"/home/runner/work/privatesky/privatesky/node_modules/sha.js/hash.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-browserify/index.js":[function(require,module,exports){
+},{"./hash":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\sha.js\\hash.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-browserify\\index.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -106355,7 +106356,7 @@ Stream.prototype.pipe = function(dest, options) {
   return dest;
 };
 
-},{"events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","readable-stream/duplex.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/duplex-browser.js","readable-stream/passthrough.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/passthrough.js","readable-stream/readable.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/readable-browser.js","readable-stream/transform.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/transform.js","readable-stream/writable.js":"/home/runner/work/privatesky/privatesky/node_modules/readable-stream/writable-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/index.js":[function(require,module,exports){
+},{"events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","readable-stream/duplex.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\duplex-browser.js","readable-stream/passthrough.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\passthrough.js","readable-stream/readable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\readable-browser.js","readable-stream/transform.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\transform.js","readable-stream/writable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\writable-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\index.js":[function(require,module,exports){
 (function (global){(function (){
 var ClientRequest = require('./lib/request')
 var response = require('./lib/response')
@@ -106444,7 +106445,7 @@ http.METHODS = [
 ]
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./lib/request":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/request.js","./lib/response":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/response.js","builtin-status-codes":"/home/runner/work/privatesky/privatesky/node_modules/builtin-status-codes/browser.js","url":"/home/runner/work/privatesky/privatesky/node_modules/url/url.js","xtend":"/home/runner/work/privatesky/privatesky/node_modules/xtend/immutable.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/capability.js":[function(require,module,exports){
+},{"./lib/request":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\request.js","./lib/response":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\response.js","builtin-status-codes":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\builtin-status-codes\\browser.js","url":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js","xtend":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\xtend\\immutable.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\capability.js":[function(require,module,exports){
 (function (global){(function (){
 exports.fetch = isFunction(global.fetch) && isFunction(global.ReadableStream)
 
@@ -106508,7 +106509,7 @@ xhr = null // Help gc
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/request.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\request.js":[function(require,module,exports){
 (function (process,global,Buffer){(function (){
 var capability = require('./capability')
 var inherits = require('inherits')
@@ -106865,7 +106866,7 @@ var unsafeHeaders = [
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
 
-},{"./capability":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/capability.js","./response":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/response.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","readable-stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/readable-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/response.js":[function(require,module,exports){
+},{"./capability":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\capability.js","./response":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\response.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","readable-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\readable-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\response.js":[function(require,module,exports){
 (function (process,global,Buffer){(function (){
 var capability = require('./capability')
 var inherits = require('inherits')
@@ -107081,9 +107082,9 @@ IncomingMessage.prototype._onXHRProgress = function (resetTimers) {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
 
-},{"./capability":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/lib/capability.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","readable-stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/readable-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/errors-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/errors-browser.js"][0].apply(exports,arguments)
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_duplex.js":[function(require,module,exports){
+},{"./capability":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\lib\\capability.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","readable-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\readable-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\errors-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\errors-browser.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_duplex.js":[function(require,module,exports){
 (function (process){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -107226,9 +107227,9 @@ Object.defineProperty(Duplex.prototype, 'destroyed', {
 });
 }).call(this)}).call(this,require('_process'))
 
-},{"./_stream_readable":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_readable.js","./_stream_writable":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_writable.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_passthrough.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_passthrough.js"][0].apply(exports,arguments)
-},{"./_stream_transform":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_transform.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_readable.js":[function(require,module,exports){
+},{"./_stream_readable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_readable.js","./_stream_writable":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_writable.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_passthrough.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_passthrough.js"][0].apply(exports,arguments)
+},{"./_stream_transform":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_transform.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_readable.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -108356,9 +108357,9 @@ function indexOf(xs, x) {
 }
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/async_iterator":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/async_iterator.js","./internal/streams/buffer_list":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/buffer_list.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/from":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/from-browser.js","./internal/streams/state":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/state.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","string_decoder/":"/home/runner/work/privatesky/privatesky/node_modules/string_decoder/lib/string_decoder.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_transform.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/_stream_transform.js"][0].apply(exports,arguments)
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_duplex.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_writable.js":[function(require,module,exports){
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/async_iterator":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\async_iterator.js","./internal/streams/buffer_list":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/from":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js","./internal/streams/state":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","string_decoder/":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\string_decoder\\lib\\string_decoder.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_transform.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\_stream_transform.js"][0].apply(exports,arguments)
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_duplex.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_writable.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -109059,7 +109060,7 @@ Writable.prototype._destroy = function (err, cb) {
 };
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"../errors":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/errors-browser.js","./_stream_duplex":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_duplex.js","./internal/streams/destroy":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/destroy.js","./internal/streams/state":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/state.js","./internal/streams/stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/stream-browser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/inherits/inherits_browser.js","util-deprecate":"/home/runner/work/privatesky/privatesky/node_modules/util-deprecate/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/async_iterator.js":[function(require,module,exports){
+},{"../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\errors-browser.js","./_stream_duplex":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./internal/streams/destroy":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js","./internal/streams/state":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js","./internal/streams/stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\inherits\\inherits_browser.js","util-deprecate":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util-deprecate\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\async_iterator.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict';
 
@@ -109270,9 +109271,9 @@ var createReadableStreamAsyncIterator = function createReadableStreamAsyncIterat
 module.exports = createReadableStreamAsyncIterator;
 }).call(this)}).call(this,require('_process'))
 
-},{"./end-of-stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/buffer_list.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/buffer_list.js"][0].apply(exports,arguments)
-},{"buffer":"/home/runner/work/privatesky/privatesky/node_modules/buffer/index.js","util":"/home/runner/work/privatesky/privatesky/node_modules/browser-resolve/empty.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/destroy.js":[function(require,module,exports){
+},{"./end-of-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\buffer_list.js"][0].apply(exports,arguments)
+},{"buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\buffer\\index.js","util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browser-resolve\\empty.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\destroy.js":[function(require,module,exports){
 (function (process){(function (){
 'use strict'; // undocumented cb() API, needed for core, not for public API
 
@@ -109381,21 +109382,21 @@ module.exports = {
 };
 }).call(this)}).call(this,require('_process'))
 
-},{"_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/end-of-stream.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"][0].apply(exports,arguments)
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/errors-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/from-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/from-browser.js"][0].apply(exports,arguments)
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/pipeline.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/pipeline.js"][0].apply(exports,arguments)
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/errors-browser.js","./end-of-stream":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/end-of-stream.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/state.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/state.js"][0].apply(exports,arguments)
-},{"../../../errors":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/errors-browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/stream-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/lib/internal/streams/stream-browser.js"][0].apply(exports,arguments)
-},{"events":"/home/runner/work/privatesky/privatesky/node_modules/events/events.js"}],"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/readable-browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/browserify-sign/node_modules/readable-stream/readable-browser.js"][0].apply(exports,arguments)
-},{"./lib/_stream_duplex.js":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_duplex.js","./lib/_stream_passthrough.js":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_passthrough.js","./lib/_stream_readable.js":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_readable.js","./lib/_stream_transform.js":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_transform.js","./lib/_stream_writable.js":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/_stream_writable.js","./lib/internal/streams/end-of-stream.js":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/end-of-stream.js","./lib/internal/streams/pipeline.js":"/home/runner/work/privatesky/privatesky/node_modules/stream-http/node_modules/readable-stream/lib/internal/streams/pipeline.js"}],"/home/runner/work/privatesky/privatesky/node_modules/string_decoder/lib/string_decoder.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/readable-stream/node_modules/string_decoder/lib/string_decoder.js"][0].apply(exports,arguments)
-},{"safe-buffer":"/home/runner/work/privatesky/privatesky/node_modules/safe-buffer/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/timers-browserify/main.js":[function(require,module,exports){
+},{"_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js"][0].apply(exports,arguments)
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\errors-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\from-browser.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js"][0].apply(exports,arguments)
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\errors-browser.js","./end-of-stream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\state.js"][0].apply(exports,arguments)
+},{"../../../errors":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\errors-browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\lib\\internal\\streams\\stream-browser.js"][0].apply(exports,arguments)
+},{"events":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\events\\events.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\readable-browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\browserify-sign\\node_modules\\readable-stream\\readable-browser.js"][0].apply(exports,arguments)
+},{"./lib/_stream_duplex.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_duplex.js","./lib/_stream_passthrough.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_passthrough.js","./lib/_stream_readable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_readable.js","./lib/_stream_transform.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_transform.js","./lib/_stream_writable.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\_stream_writable.js","./lib/internal/streams/end-of-stream.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\end-of-stream.js","./lib/internal/streams/pipeline.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\stream-http\\node_modules\\readable-stream\\lib\\internal\\streams\\pipeline.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\string_decoder\\lib\\string_decoder.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\readable-stream\\node_modules\\string_decoder\\lib\\string_decoder.js"][0].apply(exports,arguments)
+},{"safe-buffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\safe-buffer\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\timers-browserify\\main.js":[function(require,module,exports){
 (function (setImmediate,clearImmediate){(function (){
 var nextTick = require('process/browser.js').nextTick;
 var apply = Function.prototype.apply;
@@ -109475,7 +109476,7 @@ exports.clearImmediate = typeof clearImmediate === "function" ? clearImmediate :
 };
 }).call(this)}).call(this,require("timers").setImmediate,require("timers").clearImmediate)
 
-},{"process/browser.js":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","timers":"/home/runner/work/privatesky/privatesky/node_modules/timers-browserify/main.js"}],"/home/runner/work/privatesky/privatesky/node_modules/url/url.js":[function(require,module,exports){
+},{"process/browser.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","timers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\timers-browserify\\main.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\url.js":[function(require,module,exports){
 // Copyright Joyent, Inc. and other Node contributors.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a
@@ -110209,7 +110210,7 @@ Url.prototype.parseHost = function() {
   if (host) this.hostname = host;
 };
 
-},{"./util":"/home/runner/work/privatesky/privatesky/node_modules/url/util.js","punycode":"/home/runner/work/privatesky/privatesky/node_modules/punycode/punycode.js","querystring":"/home/runner/work/privatesky/privatesky/node_modules/querystring-es3/index.js"}],"/home/runner/work/privatesky/privatesky/node_modules/url/util.js":[function(require,module,exports){
+},{"./util":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\util.js","punycode":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\punycode\\punycode.js","querystring":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\querystring-es3\\index.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\url\\util.js":[function(require,module,exports){
 'use strict';
 
 module.exports = {
@@ -110227,7 +110228,7 @@ module.exports = {
   }
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/util-deprecate/browser.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util-deprecate\\browser.js":[function(require,module,exports){
 (function (global){(function (){
 
 /**
@@ -110299,11 +110300,11 @@ function config (name) {
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/util/node_modules/inherits/inherits_browser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/inherits/inherits_browser.js"][0].apply(exports,arguments)
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/util/support/isBufferBrowser.js":[function(require,module,exports){
-arguments[4]["/home/runner/work/privatesky/privatesky/node_modules/assert/node_modules/util/support/isBufferBrowser.js"][0].apply(exports,arguments)
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/util/util.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\node_modules\\inherits\\inherits_browser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\inherits\\inherits_browser.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\support\\isBufferBrowser.js":[function(require,module,exports){
+arguments[4]["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\assert\\node_modules\\util\\support\\isBufferBrowser.js"][0].apply(exports,arguments)
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\util.js":[function(require,module,exports){
 (function (process,global){(function (){
 // Copyright Joyent, Inc. and other Node contributors.
 //
@@ -110894,7 +110895,7 @@ function hasOwnProperty(obj, prop) {
 
 }).call(this)}).call(this,require('_process'),typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./support/isBuffer":"/home/runner/work/privatesky/privatesky/node_modules/util/support/isBufferBrowser.js","_process":"/home/runner/work/privatesky/privatesky/node_modules/process/browser.js","inherits":"/home/runner/work/privatesky/privatesky/node_modules/util/node_modules/inherits/inherits_browser.js"}],"/home/runner/work/privatesky/privatesky/node_modules/vm-browserify/index.js":[function(require,module,exports){
+},{"./support/isBuffer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\support\\isBufferBrowser.js","_process":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\process\\browser.js","inherits":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\util\\node_modules\\inherits\\inherits_browser.js"}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\vm-browserify\\index.js":[function(require,module,exports){
 var indexOf = function (xs, item) {
     if (xs.indexOf) return xs.indexOf(item);
     else for (var i = 0; i < xs.length; i++) {
@@ -111045,7 +111046,7 @@ exports.createContext = Script.createContext = function (context) {
     return copy;
 };
 
-},{}],"/home/runner/work/privatesky/privatesky/node_modules/xtend/immutable.js":[function(require,module,exports){
+},{}],"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\node_modules\\xtend\\immutable.js":[function(require,module,exports){
 module.exports = extend
 
 var hasOwnProperty = Object.prototype.hasOwnProperty;
@@ -111203,7 +111204,7 @@ module.exports = PREVENT_DOUBLE_LOADING_OF_OPENDSU;
 
 }).call(this)}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 
-},{"./anchoring":"/home/runner/work/privatesky/privatesky/modules/opendsu/anchoring/index.js","./bdns":"/home/runner/work/privatesky/privatesky/modules/opendsu/bdns/index.js","./boot":"/home/runner/work/privatesky/privatesky/modules/opendsu/boot/index.js","./bricking":"/home/runner/work/privatesky/privatesky/modules/opendsu/bricking/index.js","./cache":"/home/runner/work/privatesky/privatesky/modules/opendsu/cache/index.js","./config":"/home/runner/work/privatesky/privatesky/modules/opendsu/config/index.js","./config/autoConfig":"/home/runner/work/privatesky/privatesky/modules/opendsu/config/autoConfig.js","./contracts":"/home/runner/work/privatesky/privatesky/modules/opendsu/contracts/index.js","./credentials":"/home/runner/work/privatesky/privatesky/modules/opendsu/credentials/index.js","./crypto":"/home/runner/work/privatesky/privatesky/modules/opendsu/crypto/index.js","./db":"/home/runner/work/privatesky/privatesky/modules/opendsu/db/index.js","./dc":"/home/runner/work/privatesky/privatesky/modules/opendsu/dc/index.js","./dt":"/home/runner/work/privatesky/privatesky/modules/opendsu/dt/index.js","./enclave":"/home/runner/work/privatesky/privatesky/modules/opendsu/enclave/index.js","./error":"/home/runner/work/privatesky/privatesky/modules/opendsu/error/index.js","./http":"/home/runner/work/privatesky/privatesky/modules/opendsu/http/index.js","./keyssi":"/home/runner/work/privatesky/privatesky/modules/opendsu/keyssi/index.js","./m2dsu":"/home/runner/work/privatesky/privatesky/modules/opendsu/m2dsu/index.js","./moduleConstants.js":"/home/runner/work/privatesky/privatesky/modules/opendsu/moduleConstants.js","./mq/mqClient":"/home/runner/work/privatesky/privatesky/modules/opendsu/mq/mqClient.js","./notifications":"/home/runner/work/privatesky/privatesky/modules/opendsu/notifications/index.js","./oauth":"/home/runner/work/privatesky/privatesky/modules/opendsu/oauth/index.js","./resolver":"/home/runner/work/privatesky/privatesky/modules/opendsu/resolver/index.js","./sc":"/home/runner/work/privatesky/privatesky/modules/opendsu/sc/index.js","./storage":"/home/runner/work/privatesky/privatesky/modules/opendsu/storage/index.js","./system":"/home/runner/work/privatesky/privatesky/modules/opendsu/system/index.js","./utils":"/home/runner/work/privatesky/privatesky/modules/opendsu/utils/index.js","./w3cdid":"/home/runner/work/privatesky/privatesky/modules/opendsu/w3cdid/index.js","./workers":"/home/runner/work/privatesky/privatesky/modules/opendsu/workers/index.js"}],"pskcrypto":[function(require,module,exports){
+},{"./anchoring":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\anchoring\\index.js","./bdns":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bdns\\index.js","./boot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\boot\\index.js","./bricking":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\bricking\\index.js","./cache":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\cache\\index.js","./config":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\index.js","./config/autoConfig":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\config\\autoConfig.js","./contracts":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\contracts\\index.js","./credentials":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\credentials\\index.js","./crypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\crypto\\index.js","./db":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\db\\index.js","./dc":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dc\\index.js","./dt":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\dt\\index.js","./enclave":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\enclave\\index.js","./error":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\error\\index.js","./http":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\http\\index.js","./keyssi":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\keyssi\\index.js","./m2dsu":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\m2dsu\\index.js","./moduleConstants.js":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\moduleConstants.js","./mq/mqClient":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\mq\\mqClient.js","./notifications":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\notifications\\index.js","./oauth":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\oauth\\index.js","./resolver":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\resolver\\index.js","./sc":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\sc\\index.js","./storage":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\storage\\index.js","./system":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\system\\index.js","./utils":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\utils\\index.js","./w3cdid":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\w3cdid\\index.js","./workers":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\opendsu\\workers\\index.js"}],"pskcrypto":[function(require,module,exports){
 const PskCrypto = require("./lib/PskCrypto");
 const ssutil = require("./signsensusDS/ssutil");
 
@@ -111214,7 +111215,7 @@ module.exports.hashValues = ssutil.hashValues;
 module.exports.DuplexStream = require("./lib/utils/DuplexStream");
 
 module.exports.isStream = require("./lib/utils/isStream");
-},{"./lib/PskCrypto":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/PskCrypto.js","./lib/utils/DuplexStream":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/DuplexStream.js","./lib/utils/isStream":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/lib/utils/isStream.js","./signsensusDS/ssutil":"/home/runner/work/privatesky/privatesky/modules/pskcrypto/signsensusDS/ssutil.js"}],"swarm-engine/bootScripts/browser/host":[function(require,module,exports){
+},{"./lib/PskCrypto":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\PskCrypto.js","./lib/utils/DuplexStream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\DuplexStream.js","./lib/utils/isStream":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\lib\\utils\\isStream.js","./signsensusDS/ssutil":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\pskcrypto\\signsensusDS\\ssutil.js"}],"swarm-engine/bootScripts/browser/host":[function(require,module,exports){
 function setSSAppContext() {
     const baseUrl = typeof document !== "undefined" ? (document.getElementsByTagName("base")[0] || {}).href : undefined;
     let seed;
@@ -111246,8 +111247,8 @@ module.exports = {
     HostBootScript: require("./HostBootScript"),
 };
 
-},{"./HostBootScript":"/home/runner/work/privatesky/privatesky/modules/swarm-engine/bootScripts/browser/host/HostBootScript.js","pskcrypto":"pskcrypto"}]},{},["/home/runner/work/privatesky/privatesky/builds/tmp/iframeBoot.js"])
+},{"./HostBootScript":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\modules\\swarm-engine\\bootScripts\\browser\\host\\HostBootScript.js","pskcrypto":"pskcrypto"}]},{},["C:\\Users\\RAF\\WebstormProjects\\privatesky2\\builds\\tmp\\iframeBoot.js"])
                     ;(function(global) {
-                        global.bundlePaths = {"webshims":"/home/runner/work/privatesky/privatesky/psknode/bundles/webshims.js","pskruntime":"/home/runner/work/privatesky/privatesky/psknode/bundles/pskruntime.js","pskWebServer":"/home/runner/work/privatesky/privatesky/psknode/bundles/pskWebServer.js","consoleTools":"/home/runner/work/privatesky/privatesky/psknode/bundles/consoleTools.js","blockchain":"/home/runner/work/privatesky/privatesky/psknode/bundles/blockchain.js","openDSU":"/home/runner/work/privatesky/privatesky/psknode/bundles/openDSU.js","nodeBoot":"/home/runner/work/privatesky/privatesky/psknode/bundles/nodeBoot.js","testsRuntime":"/home/runner/work/privatesky/privatesky/psknode/bundles/testsRuntime.js","bindableModel":"/home/runner/work/privatesky/privatesky/psknode/bundles/bindableModel.js","loaderBoot":"/home/runner/work/privatesky/privatesky/psknode/bundles/loaderBoot.js","swBoot":"/home/runner/work/privatesky/privatesky/psknode/bundles/swBoot.js","iframeBoot":"/home/runner/work/privatesky/privatesky/psknode/bundles/iframeBoot.js","launcherBoot":"/home/runner/work/privatesky/privatesky/psknode/bundles/launcherBoot.js","testRunnerBoot":"/home/runner/work/privatesky/privatesky/psknode/bundles/testRunnerBoot.js"};
+                        global.bundlePaths = {"webshims":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\webshims.js","pskruntime":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\pskruntime.js","pskWebServer":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\pskWebServer.js","consoleTools":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\consoleTools.js","blockchain":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\blockchain.js","openDSU":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\openDSU.js","nodeBoot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\nodeBoot.js","testsRuntime":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\testsRuntime.js","bindableModel":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\bindableModel.js","loaderBoot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\loaderBoot.js","swBoot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\swBoot.js","iframeBoot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\iframeBoot.js","launcherBoot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\launcherBoot.js","testRunnerBoot":"C:\\Users\\RAF\\WebstormProjects\\privatesky2\\psknode\\bundles\\testRunnerBoot.js"};
                     })(typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {});
                 
